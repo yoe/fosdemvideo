@@ -1,0 +1,31 @@
+#! /bin/sh
+
+# copyright Thomas Lange 2001-2005, lange@debian.org
+
+error=0 ; trap "error=$((error|1))" ERR
+
+# remove backup files from cfeninge
+dirs="root etc var"
+for path in $dirs; do
+    find $path -maxdepth 20 -name \*.cfedited -o -name \*.cfsaved | xargs -r rm
+done
+
+
+# set bios clock
+if [ $DO_INIT_TASKS -eq 1 ] ; then
+    case "$UTC" in
+       no|"") hwopt="--localtime" ;;
+       yes)   hwopt="--utc"       ;;
+    esac
+    hwclock $hwopt --systohc
+fi
+
+# Make sure everything is configured properly
+echo "Running \"apt-get -f install\" for the last time."
+apt-get -f install
+
+# the system is now configured
+rm -f /sbin/unconfigured.sh
+
+exit $error
+

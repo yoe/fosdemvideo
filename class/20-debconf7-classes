@@ -1,0 +1,21 @@
+#! /bin/sh
+
+#
+# this is more or less a dummy commit to see if commit mails work
+# 
+
+
+# assign classes for hosts at debconf6
+
+case 'hostname -f' in
+   *.dc7.debconf.org)
+		echo "DEBCONF7" ;;
+esac
+
+case $HOSTNAME in
+   mickey|daffy|donald) 
+   		echo "ENCODING";;
+   selma|mrwhite) 
+   		echo "BRIDGE";;
+esac
+

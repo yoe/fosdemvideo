@@ -1,0 +1,30 @@
+#! /usr/bin/cfengine
+
+control:
+   OutputPrefix = ("cfengine")
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+directories:
+   any::
+	/tmp mode=1777 owner=0 group=0
+
+editfiles:
+   any::
+	{ /etc/mailname
+	  AutoCreate
+          AppendIfNoSuchLine "${HOSTNAME}"
+	}
+
+	{ /etc/default/rcS
+	  ReplaceAll "^UTC=.*" With "UTC=${UTC}"
+	}
+
+
+	{ /etc/hosts
+	  AppendIfNoSuchLine "127.0.0.1       localhost"
+	}
+

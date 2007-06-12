@@ -1,0 +1,13 @@
+#
+# some packages for the video machines
+#
+PACKAGES install
+debconf-video dvgrab kino ffmpeg sox
+x-window-system konsole kde-core elinks
+
+
+PACKAGES install I386
+ffmpeg2theora oggfwd icecast2
+
+PACKAGES install BRIDGE
+bridge-utils

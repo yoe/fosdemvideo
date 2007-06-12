@@ -1,0 +1,21 @@
+PACKAGES aptitude
+cfengine
+cron
+debconf-utils
+discover
+file
+hdparm
+jove
+less
+linuxlogo
+nfs-common
+nscd
+rdate
+rsync
+rsh-client
+ssh
+strace
+sysutils
+tcsh
+time
+exim4

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#fcopy -M /etc/nsswitch.conf
+#fcopy -m root,root,440 /etc/sudoers
+
+ud-replicate

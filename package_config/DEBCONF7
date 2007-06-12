@@ -1,0 +1,10 @@
+#
+# some packages for _all_ hosts
+#
+PACKAGES install
+vim joe emacs21
+sl
+zsh mc tree screen 
+
+
+
