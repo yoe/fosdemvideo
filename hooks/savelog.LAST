@@ -88,7 +88,7 @@ cdrom: open failed."
 # Here you can define your own patterns. Put one pattern in a line,
 # do not create empty lines.
 myerrorpatterns="XXXXX"
-myignorepatterns="XXXXX"
+myignorepatterns="ACPI Warning.*"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # The main routine
 errorpatterns="$globalerrorpatterns

@@ -56,7 +56,7 @@ read
 
 aptitude update
 
-DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive aptitude install ssh vim fai-client subversion userdir-ldap
+DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive aptitude install ssh vim fai-client subversion userdir-ldap sudo
 
 aptitude upgrade
 
