@@ -3,7 +3,7 @@
 #
 PACKAGES install
 vim joe emacs21
-sl
+sl psmisc
 zsh mc tree screen 
 
 
