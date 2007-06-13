@@ -95,7 +95,8 @@ task_error=0"
 errorpatterns="$globalerrorpatterns
 $myerrorpatterns"
 ignorepatterns="$globalignorepatterns
-$myignorepatterns"
+$myignorepatterns
+...trying to set up timer.*"
 
 cd $LOGDIR || exit 3
 if [ -s $errfile ]; then

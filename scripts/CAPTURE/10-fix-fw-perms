@@ -1,0 +1,3 @@
+#!/bin/sh
+
+chgrp 1008 /dev/raw1394

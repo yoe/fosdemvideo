@@ -5,6 +5,8 @@ PACKAGES install
 vim joe emacs21
 sl psmisc
 zsh mc tree screen 
+ethtool sudo
 
+#ethtool because mii-tool doesnt support gigabit
 
 

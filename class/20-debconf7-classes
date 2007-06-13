@@ -9,7 +9,7 @@
 
 case 'hostname -f' in
    *.dc7.debconf.org)
-		echo "DEBCONF7" ;;
+		echo "FAIBASE DEBCONF7 VIDEO" ;;
 esac
 
 case $HOSTNAME in
@@ -17,5 +17,10 @@ case $HOSTNAME in
    		echo "ENCODING";;
    selma|mrwhite) 
    		echo "BRIDGE";;
+esac
+
+case $HOSTNAME in
+   selma|shadow|hashbaz|patty|mrwhite|itchy|scratchy) 
+   		echo "CAPTURE";;
 esac
 
