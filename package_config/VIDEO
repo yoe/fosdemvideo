@@ -2,7 +2,6 @@
 # some packages for the video machines
 #
 PACKAGES install DVSWITCH
-kino ffmpeg sox
 x-window-system konsole kde-core elinks
 icewm xserver-xorg xterm
 dvswitch
@@ -14,6 +13,7 @@ PACKAGES install CAPTURE
 dvgrab dvsource
 
 PACKAGES install ENCODING
+ffmpeg
 dvsink
 debconf-video-encode
 oggshout
