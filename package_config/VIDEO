@@ -1,13 +1,30 @@
 #
 # some packages for the video machines
 #
-PACKAGES install
-debconf-video dvgrab kino ffmpeg sox
+PACKAGES install DVSWITCH
+kino ffmpeg sox
 x-window-system konsole kde-core elinks
-
-
-PACKAGES install I386
+icewm xserver-xorg xterm
+dvswitch
+debconf-video-common
+debconf-video-switch
 ffmpeg2theora oggfwd icecast2
+
+PACKAGES install CAPTURE
+dvgrab dvsource
+
+PACKAGES install ENCODING
+dvsink
+debconf-video-encode
+oggshout
+
+PACKAGES install barney
+dvsink
+debconf-video-common
+debconf-video-store
+
+PACKAGES install lisa
+icecast2
 
 PACKAGES install BRIDGE
 bridge-utils

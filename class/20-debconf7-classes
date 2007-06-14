@@ -18,9 +18,12 @@ case $HOSTNAME in
    selma|mrwhite) 
    		echo "BRIDGE";;
 esac
-
 case $HOSTNAME in
    selma|shadow|hashbaz|patty|mrwhite|itchy|scratchy) 
    		echo "CAPTURE";;
+esac
+case $HOSTNAME in
+   selma|mrwhite|itchy|scratchy) 
+   		echo "DVSWITCH";;
 esac
 
