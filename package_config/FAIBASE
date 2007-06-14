@@ -1,4 +1,5 @@
 PACKAGES aptitude
+cfengine2
 cron
 debconf-utils
 discover
