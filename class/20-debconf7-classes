@@ -7,7 +7,7 @@
 
 # assign classes for hosts at debconf6
 
-case 'hostname -f' in
+case `hostname -f` in
    *.dc7.debconf.org)
 		echo "FAIBASE DEBCONF7 VIDEO" ;;
 esac
