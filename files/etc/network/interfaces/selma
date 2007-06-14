@@ -7,7 +7,7 @@ iface lo inet loopback
 
 auto br0 
 iface br0 inet static
-	bridge_ports eth1 eth2 eth3
+	bridge_ports eth2 eth3 eth4
 	address 10.9.0.6
 	netmask 255.255.0.0
 	gateway 10.9.0.1
