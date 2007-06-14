@@ -1,0 +1,10 @@
+#! /bin/sh
+
+#
+#        (c) 2006 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+/etc/init.d/munin-node restart
+
+

@@ -1,6 +1,9 @@
 #
 # some packages for the video machines
 #
+PACKAGES install VIDEO
+munin-node
+
 PACKAGES install DVSWITCH
 x-window-system konsole kde-core elinks
 icewm xserver-xorg xterm xdm
