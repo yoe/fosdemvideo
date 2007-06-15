@@ -13,7 +13,7 @@ directories:
 editfiles:
    any::
 	{ /etc/udev/permissions.rules
-		ReplaceAll ".*raw1394.*GROUP=\"disk.*" with 'KERNEL=="raw1394",                              GROUP="1008"'
+		ReplaceAll ".*raw1394.*GROUP=\"disk.*" With 'KERNEL=="raw1394",                              GROUP="1008"'
 	}
 
 
