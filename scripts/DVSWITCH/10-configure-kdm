@@ -1,3 +1,0 @@
-#!/bin/sh
-
-fcopy -M /etc/kde3/kdm/kdmrc
