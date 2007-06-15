@@ -15,5 +15,8 @@ editfiles:
 	{ /etc/udev/permissions.rules
 		ReplaceAll ".*raw1394.*GROUP=\"disk.*" With 'KERNEL=="raw1394",                              GROUP="1008"'
 	}
-
+	{ /etc/modprobe.d/blacklist
+		AppendIfNoSuchLine "blacklist dv1394"
+		AppendIfNoSuchLine "blacklist eth1394"
+	}
 

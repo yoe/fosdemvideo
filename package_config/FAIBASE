@@ -12,3 +12,4 @@ ssh
 strace
 sysutils
 time
+ntp
