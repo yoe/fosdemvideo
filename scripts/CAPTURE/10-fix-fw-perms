@@ -1,3 +1,19 @@
-#!/bin/sh
+#! /usr/sbin/cfagent -f
 
-chgrp 1008 /dev/raw1394
+control:
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+directories:
+   any::
+
+editfiles:
+   any::
+	{ /etc/udev/permissions.rules
+		ReplaceAll ".*raw1394.*GROUP=\"disk.*" with 'KERNEL=="raw1394",                              GROUP="1008"'
+	}
+
+
