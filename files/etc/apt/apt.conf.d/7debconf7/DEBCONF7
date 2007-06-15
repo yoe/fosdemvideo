@@ -1,5 +1,1 @@
- Get 
-   {
-		       Assume-Yes "true";
-             		Force-Yes "true";
-   } ;
+APT::Get::AllowUnauthenticated "true";
