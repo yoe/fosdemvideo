@@ -1,7 +1,6 @@
 #! /usr/sbin/cfagent -f
 
 control:
-   OutputPrefix = ("cfengine")
    actionsequence = ( files directories editfiles )
    EditFileSize = ( 30000 )
 
