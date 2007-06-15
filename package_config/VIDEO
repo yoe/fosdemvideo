@@ -6,7 +6,7 @@ munin-node
 
 PACKAGES install DVSWITCH
 x-window-system konsole kde-core elinks
-icewm xserver-xorg xterm xdm
+icewm xserver-xorg xterm kdm
 dvswitch
 debconf-video-common
 debconf-video-switch
