@@ -5,7 +5,7 @@
 # 
 
 # some classes for all hosts
-echo "FAIBASE VIDEO" 
+echo "FAIBASE DEBCONF VIDEO" 
 
 # assign classes for hosts at debconf7
 case `hostname -f` in
