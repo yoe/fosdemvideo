@@ -1,3 +1,6 @@
+#
+# some packages for _all_ hosts
+#
 PACKAGES aptitude
 cfengine2
 cron
@@ -13,3 +16,11 @@ strace
 sysutils
 time
 ntp
+vim joe emacs21
+sl psmisc
+zsh mc tree screen 
+ethtool sudo
+
+#ethtool because mii-tool doesnt support gigabit
+
+

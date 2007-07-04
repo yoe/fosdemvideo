@@ -4,12 +4,13 @@
 # this is more or less a dummy commit to see if commit mails work
 # 
 
+# some classes for all hosts
+echo "FAIBASE VIDEO" ;;
 
-# assign classes for hosts at debconf6
-
+# assign classes for hosts at debconf7
 case `hostname -f` in
    *.dc7.debconf.org)
-		echo "FAIBASE DEBCONF7 VIDEO" ;;
+		echo "DEBCONF7" ;;
 esac
 
 case $HOSTNAME in
@@ -25,5 +26,12 @@ esac
 case $HOSTNAME in
    selma|mrwhite|itchy|scratchy) 
    		echo "DVSWITCH";;
+esac
+
+
+# temp. fileserver
+case $HOSTNAME in
+   abe) 
+   		echo "ENCODING";;
 esac
 

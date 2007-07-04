@@ -1,0 +1,16 @@
+#! /usr/sbin/cfagent -f
+
+control:
+   any::
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+editfiles:
+   any::
+	{ /etc/munin/munin-node.conf
+	  AppendIfNoSuchLine 'allow ^80\.68\.86\.241$'
+	}
+
