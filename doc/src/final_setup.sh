@@ -7,7 +7,7 @@
 
 DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive apt-get install vim fai-client subversion 
 
-echo 'FAI_CONFIG_SRC="svn//svn.debian.org/srv//fai-config-dir/trunk"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
+echo 'FAI_CONFIG_SRC="svn//svn.debian.org/srv/debconf-video/fai-config"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
 
 fai -N softupdate
 
