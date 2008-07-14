@@ -8,3 +8,5 @@
 - cleanup+adopt fai config space from dc7 to dc8
 -- design host setup first
 - move README from wiki to here and link this version in the wiki
+- upload fixed ffmpeg2theora package to cmburns (our apt repo), #429937
+
