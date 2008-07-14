@@ -1,0 +1,10 @@
+- test if hostname is really asked as it should
+-- maybe do that fully automatic in .ar? (by relying on dhcp)
+- put the ud ldap configiguration from dc7 in fai classes
+- change to use debconfs apt repo not holgers
+- huh? test if apt key really is fetched via http
+- in .ar: ask for root-pw?!
+- in .ar: choose a proper mirror 
+- cleanup+adopt fai config space from dc7 to dc8
+-- design host setup first
+- move README from wiki to here and link this version in the wiki
