@@ -9,4 +9,4 @@
 -- design host setup first
 - move README from wiki to here and link this version in the wiki
 - upload fixed ffmpeg2theora package to cmburns (our apt repo), #429937
-
+- use fai to copy conf/dc8/blubb to /etc/debconf-video/default and replace passwords after copying
