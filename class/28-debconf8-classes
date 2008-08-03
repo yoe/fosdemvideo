@@ -3,9 +3,10 @@
 # some classes for all hosts
 echo "FAIBASE DEBCONF VIDEO" 
 
-# assign classes for hosts at debconf7
-case `hostname -f` in
-   *.dc8.debconf.org)
+# assign classes for hosts at debconf8
+# `hostname -f` doesnt return proper results
+case $HOSTNAME in
+   selma|patty|itchy|scratchy|daffy|barney|mrwhite)
 		echo "DEBCONF8" ;;
 esac
 
