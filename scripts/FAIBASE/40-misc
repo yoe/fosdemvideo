@@ -6,7 +6,7 @@ control:
 
 files:
    any::
-	/etc/mailname mode=0644
+	/etc/mailname mode=0644 owner=root group=root   action=fixall
 
 directories:
    any::
