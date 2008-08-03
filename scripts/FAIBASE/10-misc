@@ -7,6 +7,6 @@ error=0 ; trap "error=$((error|1))" ERR
 echo $time_zone    > /etc/timezone
 ln -fs /usr/share/zoneinfo/${time_zone} /etc/localtime
 
-fcopy -iM /etc/motd /etc/network/interfaces /etc/ntp.conf
+fcopy -iM /etc/motd /etc/ntp.conf
 
 exit $error

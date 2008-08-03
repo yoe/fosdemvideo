@@ -1,8 +1,6 @@
 #! /bin/sh
 
-#
-# this is more or less a dummy commit to see if commit mails work
-# 
+exit 0
 
 # some classes for all hosts
 echo "FAIBASE DEBCONF VIDEO" 

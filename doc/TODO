@@ -1,12 +1,20 @@
+todo for softupdates
+--------------------
+
+- move README from wiki to here and link this version in the wiki
+- use fai to copy conf/dc8/blubb to /etc/debconf-video/default and replace passwords after copying
+
+todo for usbsticks
+------------------
+(not needed for .ar anymore)
+
 - test if hostname is really asked as it should
 -- maybe do that fully automatic in .ar? (by relying on dhcp)
-- put the ud ldap configiguration from dc7 in fai classes
 - change to use debconfs apt repo not holgers
 - huh? test if apt key really is fetched via http
-- in .ar: ask for root-pw?!
-- in .ar: choose a proper mirror 
-- cleanup+adopt fai config space from dc7 to dc8
--- design host setup first
-- move README from wiki to here and link this version in the wiki
-- upload fixed ffmpeg2theora package to cmburns (our apt repo), #429937
-- use fai to copy conf/dc8/blubb to /etc/debconf-video/default and replace passwords after copying
+- in .ar: ask for root-pw?! set one and mail it
+
+todo for dc9
+------------
+- put the ud ldap configiguration from dc7 in fai classes (now done manually by mhy)
+

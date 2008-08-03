@@ -1,0 +1,27 @@
+#! /bin/sh
+
+# some classes for all hosts
+echo "FAIBASE DEBCONF VIDEO" 
+
+# assign classes for hosts at debconf7
+case `hostname -f` in
+   *.dc8.debconf.org)
+		echo "DEBCONF8" ;;
+esac
+
+case $HOSTNAME in
+   daffy) 
+   		echo "ENCODING";;
+   selma|patty|itchy|scratchy) 
+   		echo "CAPTURE";;
+   mrwhite)
+   		echo "REVIEW";;
+esac
+
+case $HOSTNAME in
+   selma|scratchy) 
+   		echo "DVSWITCH";;
+esac
+
+
+
