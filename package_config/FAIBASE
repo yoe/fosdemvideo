@@ -20,6 +20,7 @@ vim joe emacs21
 sl psmisc
 zsh mc tree screen 
 ethtool sudo
+mailutils
 
 #ethtool because mii-tool doesnt support gigabit
 
