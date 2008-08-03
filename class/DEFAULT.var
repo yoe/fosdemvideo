@@ -1,2 +1,4 @@
+FAI_ALLOW_UNSIGNED="unfortunatly true"
+
 hosterrorpatterns="XXXXX"
 hostignorepatterns="XXXXX"
