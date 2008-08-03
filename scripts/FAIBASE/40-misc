@@ -6,11 +6,11 @@ control:
 
 files:
    any::
+	/etc/mailname mode=0644
 
 directories:
    any::
 	/tmp mode=1777 owner=0 group=0
-	/etc/mailname mode=0644
 
 editfiles:
    any::
