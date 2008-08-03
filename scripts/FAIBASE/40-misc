@@ -3,7 +3,6 @@
 control:
    actionsequence = ( files directories editfiles )
    EditFileSize = ( 30000 )
-   myhostname = ( "$(HOSTNAME)" )
 
 files:
    any::
@@ -16,7 +15,7 @@ editfiles:
    any::
 	{ /etc/mailname
 	  AutoCreate
-          AppendIfNoSuchLine "$(myhostname)"
+          AppendIfNoSuchLine "${HOSTNAME}"
 	}
 
 	{ /etc/default/rcS
