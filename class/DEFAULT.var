@@ -3,3 +3,5 @@ FAI_ALLOW_UNSIGNED="true"
 
 hosterrorpatterns="XXXXX"
 hostignorepatterns="XXXXX"
+
+HOSTNAME=$(hostname)
