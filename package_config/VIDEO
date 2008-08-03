@@ -17,7 +17,7 @@ PACKAGES install REVIEW
 x-window-system elinks
 icewm xserver-xorg xterm kdm
 xscreensaver iceweasel
-totem mplayer xine vlc
+totem mplayer xine-ui vlc
 
 PACKAGES install CAPTURE
 dvgrab dvsource
