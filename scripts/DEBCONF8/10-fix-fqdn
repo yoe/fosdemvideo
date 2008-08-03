@@ -4,6 +4,8 @@ control:
    any::
    actionsequence = ( files directories editfiles )
    EditFileSize = ( 30000 )
+   myhostname = ( "$(HOSTNAME)" )
+   myipaddress = ( "$(IPADDRESS)" )
 
 files:
    any::
@@ -13,6 +15,6 @@ editfiles:
 	{ /etc/hosts
 	  DeleteLinesStarting '127.0'
 	  AppendIfNoSuchLine '127.0.0.1       localhost'
-	  AppendIfNoSuchLine "$(IPADDRESS)    $(HOSTNAME) $(HOSTNAME).dc8.debconf.org"
+	  AppendIfNoSuchLine "$(myipaddress)    $(myhostname) $(myhostname).dc8.debconf.org"
 	}
 
