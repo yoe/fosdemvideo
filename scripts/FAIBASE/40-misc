@@ -22,8 +22,3 @@ editfiles:
 	  ReplaceAll "^UTC=.*" With "UTC=${UTC}"
 	}
 
-
-	{ /etc/hosts
-	  AppendIfNoSuchLine "127.0.0.1       localhost"
-	}
-
