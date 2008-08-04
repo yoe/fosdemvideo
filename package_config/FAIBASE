@@ -1,7 +1,7 @@
 #
 # some packages for _all_ hosts
 #
-PACKAGES aptitude
+PACKAGES install
 cfengine2
 cron
 debconf-utils
