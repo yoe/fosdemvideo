@@ -3,6 +3,7 @@
 #
 PACKAGES install VIDEO
 munin-node
+mailutils postfix logcheck
 
 PACKAGES install DVSWITCH
 x-window-system elinks
@@ -44,4 +45,5 @@ icecast2
 
 PACKAGES install BRIDGE
 bridge-utils
+
 
