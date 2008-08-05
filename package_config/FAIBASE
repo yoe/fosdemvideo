@@ -8,5 +8,5 @@ vim joe emacs21 jove less linuxlogo
 ssh strace
 sysutils time ntp sl psmisc
 zsh mc tree screen 
-lspci ethtool sudo
+pciutils ethtool sudo
 
