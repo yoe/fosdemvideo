@@ -5,6 +5,8 @@
 #        GPL2 licenced
 #
 
+HOSTNAME=`hostname`
+
 # TODO: this is DEBCONF8 specific
 [ -f /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME ] || exit 0
 
