@@ -11,6 +11,12 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
+   selma|scratchy|mrwhite) 
+   		echo "XORG";;
+esac
+
+
+case $HOSTNAME in
    daffy) 
    		echo "ENCODING";;
    selma|patty|itchy|scratchy) 

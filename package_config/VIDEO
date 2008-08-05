@@ -5,19 +5,20 @@ PACKAGES install VIDEO
 munin-node
 mailutils postfix logcheck
 
-PACKAGES install DVSWITCH
+PACKAGES install XORG
 x-window-system elinks
 icewm xserver-xorg xterm kdm
+xserver-xorg-video-intel
+xscreensaver iceweasel
+irssi xchat
+
+PACKAGES install DVSWITCH
 dvswitch
 debconf-video-common
 debconf-video-switch
 ffmpeg2theora oggfwd icecast2
-xscreensaver iceweasel
 
 PACKAGES install REVIEW
-x-window-system elinks
-icewm xserver-xorg xterm kdm
-xscreensaver iceweasel
 totem mplayer xine-ui vlc
 
 PACKAGES install CAPTURE
