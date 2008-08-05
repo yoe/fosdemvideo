@@ -1,8 +1,0 @@
-#! /bin/bash
-
-# Copyright 2008 Holger Levsen 
-# released under the GPLv=2
-#
-
-$ROOTCMD apt-get update
-
