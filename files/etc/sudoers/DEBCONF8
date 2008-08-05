@@ -24,4 +24,4 @@ nagios          ALL=(ALL) NOPASSWD: /usr/bin/apt-get --simulate upgrade
 nagios          ALL=(ALL) NOPASSWD: /usr/sbin/chroot /chroot-ia32 /usr/bin/apt-get update
 nagios          ALL=(ALL) NOPASSWD: /usr/sbin/chroot /chroot-ia32 /usr/bin/apt-get --simulate upgrade
 
-
+%dc-video ALL= NOPASSWD: /sbin/reboot, /sbin/shutdown, /sbin/halt, /sbin/poweroff
