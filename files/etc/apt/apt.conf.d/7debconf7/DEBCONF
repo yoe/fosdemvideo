@@ -1,2 +1,2 @@
 APT::Get::AllowUnauthenticated "true";
-aptitude::Cmdline::ignore-trust-violationsi "yes";
+Aptitude::CmdLine::Ignore-Trust-Violations "true";
