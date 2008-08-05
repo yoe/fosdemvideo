@@ -1,0 +1,5 @@
+
+hosterrorpatterns="XXXXX"
+hostignorepatterns="$hostignorepatterns
+Error attaching device data
+ACPI Warning (tbutils-0217): Incorrect checksum in table"

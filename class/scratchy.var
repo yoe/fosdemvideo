@@ -1,0 +1,5 @@
+
+hosterrorpatterns="XXXXX"
+hostignorepatterns="$hostignorepatterns
+intel_rng: Firmware space is locked read-only"
+

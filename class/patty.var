@@ -1,0 +1,4 @@
+
+hosterrorpatterns="XXXXX"
+hostignorepatterns="$hostignorepatterns
+VIA 82xx Modem"
