@@ -1,20 +1,19 @@
 #! /bin/sh
 
-# some classes for all hosts
-echo "FAIBASE DEBCONF VIDEO" 
-
 # assign classes for hosts at debconf8
 # `hostname -f` doesnt return proper results
 case $HOSTNAME in
-   selma|patty|itchy|scratchy|daffy|barney|mrwhite)
-		echo "DEBCONF8" ;;
+   selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa)
+		echo "FAIBASE DEBCONF DEBCONF8 VIDEO" ;;
+   # lisa just has icecast, see below
+   lisa)
+   		echo "FAIBASE DEBCONF DEBCONF8"
 esac
 
 case $HOSTNAME in
    selma|scratchy|mrwhite) 
    		echo "XORG";;
 esac
-
 
 case $HOSTNAME in
    daffy) 
@@ -23,12 +22,13 @@ case $HOSTNAME in
    		echo "CAPTURE";;
    mrwhite)
    		echo "REVIEW";;
+   lisa)
+   		echo "ICECAST";;
 esac
+# "barney" is its own class
 
 case $HOSTNAME in
    selma|scratchy) 
    		echo "DVSWITCH";;
 esac
-
-
 

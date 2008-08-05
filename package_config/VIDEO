@@ -4,6 +4,7 @@
 PACKAGES install VIDEO
 munin-node
 mailutils postfix logcheck
+debconf-video-common
 
 PACKAGES install XORG
 x-window-system elinks
@@ -14,9 +15,7 @@ irssi xchat
 
 PACKAGES install DVSWITCH
 dvswitch
-debconf-video-common
 debconf-video-switch
-ffmpeg2theora oggfwd icecast2
 
 PACKAGES install REVIEW
 totem mplayer xine-ui vlc
@@ -25,26 +24,23 @@ PACKAGES install CAPTURE
 dvgrab dvsource
 
 PACKAGES install ENCODING
-ffmpeg
+ffmpeg ffmpeg2theora oggfwd 
 dvsink
 debconf-video-encode
 oggshout
 
 PACKAGES install barney
 dvsink
-debconf-video-common
 debconf-video-store
 nfs-kernel-server
 debian-keyring apache2
+ezstream
 
-PACKAGES install lisa
+PACKAGES install ICECAST
 icecast2
 
-PACKAGES install krabappel
-icecast2
-
-
-PACKAGES install BRIDGE
-bridge-utils
+#unused:
+#PACKAGES install BRIDGE
+#bridge-utils
 
 
