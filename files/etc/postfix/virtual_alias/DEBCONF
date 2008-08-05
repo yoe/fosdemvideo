@@ -1,1 +1,3 @@
-@localhost		#HOSTNAME#@layer-acht.org
+@localhost		#FQDN#@layer-acht.org
+@#HOSTNAME#		#FQDN#@layer-acht.org
+@#FQDN#			#FQDN#@layer-acht.org
