@@ -20,7 +20,8 @@ vim joe emacs21
 sl psmisc
 zsh mc tree screen 
 ethtool sudo
-mailutils
+mailutils postfix
+molly-guard
 
 #ethtool because mii-tool doesnt support gigabit
 

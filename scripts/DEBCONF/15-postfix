@@ -1,0 +1,14 @@
+#! /bin/sh
+
+#
+#        (c) 2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+# don't restart postfix twice for the MAILSERVER
+ifclass MAILSERVER && exit 0
+
+fcopy -r -M /etc/postfix
+$ROOTCMD postmap /etc/postfix/virtual_alias
+$ROOTCMD /etc/init.d/postfix restart
+
