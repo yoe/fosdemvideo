@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#
+#        (c) 2006,2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+HOSTNAME=`hostname`
+
+# TODO: this is DEBCONF8 specific
+[ -f /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME ] || exit 0
+
+cp /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME /etc/dvswitchrc
+
