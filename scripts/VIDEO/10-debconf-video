@@ -6,16 +6,17 @@
 #
 
 HOSTNAME=`hostname`
-echo $HOSTNAME
+
 # TODO: this is DEBCONF8 specific
-[ -f /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME ] || exit 0
-echo fu
+[ -f /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME ] || [ -f /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME ] || exit 0
+
 source /etc/default/debconf-video.passwd || exit 1
-echo bar
-cp /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME /etc/default/debconf-video
-echo blub
+
+cp /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME /etc/default/debconf-video 
+cp /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME /etc/dvswitchrc
+
 # #HOSTNAME# gets replaced by $HOSTNAME and so on...
-echo bra
-sed -i "s/#ICECASS_PASS#/$ICECASS_PASS/" /etc/default/debconf-video
+sed -i "s/#ICECAST_PASS#/$ICECAST_PASS/" /etc/default/debconf-video
 sed -i "s/#DATABASE_PASSWORD#/$DATABASE_PASSWORD/" /etc/default/debconf-video
+
 
