@@ -3,24 +3,11 @@
 #
 PACKAGES install
 cfengine2
-cron
-debconf-utils
-discover
-file
-hdparm
-jove
-less
-linuxlogo
-ssh
-strace
-sysutils
-time
-ntp
-vim joe emacs21
-sl psmisc
+cron debconf-utils discover file hdparm
+vim joe emacs21 jove less linuxlogo
+ssh strace
+sysutils time ntp sl psmisc
 zsh mc tree screen 
 ethtool sudo
 mailutils postfix
-
-
 
