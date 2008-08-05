@@ -1,4 +1,2 @@
 APT::Get::AllowUnauthenticated "true";
 Aptitude::CmdLine::Ignore-Trust-Violations "true";
-Acquire::http::Proxy "http://homer:3128";
-Acquire::ftp::Proxy "http://homer:3128";
