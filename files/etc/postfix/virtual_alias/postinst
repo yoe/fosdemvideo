@@ -12,5 +12,5 @@ export FQDN=`hostname -f`
 # #HOSTNAME# gets replaced by $HOSTNAME and so on...
 
 sed -i "s/#HOSTNAME#/$HOSTNAME/" $2
-sed -i "s/#FQDN#/$FQDN/" $2
+sed -i "s/#FQDN#/$FQDN/g" $2
 
