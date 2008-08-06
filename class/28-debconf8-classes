@@ -32,3 +32,8 @@ case $HOSTNAME in
    		echo "DVSWITCH";;
 esac
 
+case $HOSTNAME in 
+   selma|patty|itchy|scratchy|daffy|barney)
+   		echo "DVSWITCHUSER";;
+esac
+
