@@ -3,7 +3,7 @@
 #
 PACKAGES install VIDEO
 munin-node
-mailutils postfix logcheck
+mailutils postfix logcheck logcheck-database
 debconf-video-common
 telnet
 
