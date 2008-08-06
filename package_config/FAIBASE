@@ -9,4 +9,4 @@ ssh strace
 sysutils time ntp sl psmisc
 zsh mc tree screen 
 pciutils ethtool sudo
-molly-guard
+molly-guard dnsutils

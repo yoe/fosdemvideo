@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # fix /etc/mailname
-echo "$HOSTNAME.dc8.debconf.org" >> /etc/mailname
+echo "$HOSTNAME.dc8.debconf.org" > /etc/mailname
 
 # fix /etc/hosts
 
