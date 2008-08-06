@@ -5,6 +5,7 @@ PACKAGES install VIDEO
 munin-node
 mailutils postfix logcheck
 debconf-video-common
+telnet
 
 PACKAGES install XORG
 x-window-system elinks
