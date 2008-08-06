@@ -1,18 +1,13 @@
-#! /usr/sbin/cfagent -f
+#!/bin/sh
 
-control:
-   any::
-   actionsequence = ( files directories editfiles )
-   EditFileSize = ( 30000 )
+# fix /etc/mailname
+echo "$HOSTNAME.dc8.debconf.org" >> /etc/mailname
 
-files:
-   any::
+# fix /etc/hosts
 
-editfiles:
-   any::
-	{ /etc/hosts
-	  DeleteLinesStarting '127.0'
-	  AppendIfNoSuchLine '127.0.0.1       localhost'
-	  AppendIfNoSuchLine "${IPADDRESS}  ${HOSTNAME}.dc8.debconf.org ${HOSTNAME}"
-	}
+IPADDRESS=`host $HOSTNAME | awk '{print $4}'|head -1`
+cat /etc/hosts |grep -v "127.0"|grep -v $HOSTNAME > /etc/hosts.tmp
+echo "127.0.0.1       localhost" >> /etc/hosts.tmp
+echo "$IPADDRESS	$HOSTNAME.dc8.debconf.org $HOSTNAME" >> /etc/hosts.tmp
+mv /etc/hosts.tmp /etc/hosts
 
