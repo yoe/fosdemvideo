@@ -1,0 +1,16 @@
+#! /bin/sh
+
+#
+#        (c) 2006, 2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+#
+# smart munin plugins
+#
+for i in hda hdb hdc sda sdb sdc sdd sde sdf ; do 
+	[ -b /dev/$i ] && ln -sf /usr/share/munin/plugins/smart_ /etc/munin/plugins/smart_$i
+}
+
+$ROOTCMD ln -sf /usr/share/munin/plugins/hddtemp_smartctl /etc/munin/plugins/hddtemp_smartctl
+$ROOTCMD /etc/init.d/munin-node restart
