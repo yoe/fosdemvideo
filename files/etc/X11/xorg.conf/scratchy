@@ -34,7 +34,6 @@ Section "Files"
 EndSection
 
 Section "Module"
-	Load	"i2c"
 	Load	"bitmap"
 	Load	"ddc"
 	Load	"dri"
@@ -65,14 +64,14 @@ EndSection
 
 Section "Device"
 	Identifier	"Generic Video Card"
-	Driver		"intel"
+	Driver		"nv"
+		BusID		"PCI:1:0:0"
+#BusID		"PCI:0:2:0"
 EndSection
 
 Section "Monitor"
 	Identifier	"Generic Monitor"
 	Option		"DPMS"
-	HorizSync	28-51
-	VertRefresh	43-80
 EndSection
 
 Section "Screen"
