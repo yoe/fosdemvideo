@@ -10,3 +10,4 @@ sysutils time ntp sl psmisc
 zsh mc tree screen 
 pciutils ethtool sudo
 molly-guard dnsutils
+apt-listchanges cron-apt
