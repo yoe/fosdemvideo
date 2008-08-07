@@ -40,6 +40,10 @@ ezstream
 PACKAGES install ICECAST
 icecast2
 
+# accessable from the outside
+PACKAGES install lisa
+fail2ban
+
 #unused:
 #PACKAGES install BRIDGE
 #bridge-utils
