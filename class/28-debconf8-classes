@@ -5,9 +5,6 @@
 case $HOSTNAME in
    selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa)
 		echo "FAIBASE DEBCONF DEBCONF8 VIDEO" ;;
-   # lisa just has icecast, see below
-   lisa)
-   		echo "FAIBASE DEBCONF DEBCONF8"
 esac
 
 case $HOSTNAME in
