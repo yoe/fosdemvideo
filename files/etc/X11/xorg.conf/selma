@@ -71,8 +71,8 @@ EndSection
 Section "Monitor"
 	Identifier	"Generic Monitor"
 	Option		"DPMS"
-	HorizSync	28-51
-	VertRefresh	43-80
+#	HorizSync	28-51
+#	VertRefresh	43-80
 EndSection
 
 Section "Screen"
@@ -102,7 +102,7 @@ Section "Screen"
 	EndSubSection
 	SubSection "Display"
 		Depth		24
-		Modes		"1024x768" "800x600" "640x480"
+		Modes		"1280x1024" "1024x768" "800x600" "640x480"
 	EndSubSection
 EndSection
 
