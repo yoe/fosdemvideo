@@ -12,7 +12,7 @@ for i in hda hdb hdc sda sdb sdc sdd sde sdf ; do {
 	[ -b /dev/$i ] && ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
 } ; done
 ls /etc/munin/plugins/smart_??? | grep smart > /dev/null 2>&1 && {
-	ainsl $target/etc/default/smartmontools "start_smartd=yes"
+	sed -i "s/#start_smartd/start_smartd/" $target/etc/default/smartmontools 
 	$ROOTCMD /etc/init.d/smartmontools reload
 	$ROOTCMD ln -sf /usr/share/munin/plugins/hddtemp_smartctl /etc/munin/plugins/hddtemp_smartctl
 	$ROOTCMD /etc/init.d/munin-node restart
