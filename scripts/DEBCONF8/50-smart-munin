@@ -8,7 +8,8 @@
 #
 # smart munin plugins
 #
-for i in sda sdb sdc sdd sde sdf sdg ; do {
+# FIXME: detect scsi disks properly, ignore usbdisks
+for i in sda sdb sdc sdd ; do {
 	[ -b /dev/$i ] && {
 		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
 		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i -a -d ata" >> $target/etc/smartd.conf
