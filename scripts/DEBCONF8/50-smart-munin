@@ -8,11 +8,21 @@
 #
 # smart munin plugins
 #
-for i in hda hdb hdc sda sdb sdc sdd sde sdf ; do {
-	[ -b /dev/$i ] && ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
+for i in sda sdb sdc sdd sde sdf sdg ; do {
+	[ -b /dev/$i ] && {
+		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
+		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i -a -d ata" >> $target/etc/smartd.conf
+	}
+} ; done
+for i in hda hdb hdc hdd ; do {
+	[ -b /dev/$i ] && {
+		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
+		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i" >> $target/etc/smartd.conf
+	}
 } ; done
 ls /etc/munin/plugins/smart_??? | grep smart > /dev/null 2>&1 && {
 	sed -i "s/#start_smartd/start_smartd/" $target/etc/default/smartmontools 
+	sed -i "s/^DEVICESCAN/#DEVICESCAN/" $target/etc/smartd.conf
 	$ROOTCMD /etc/init.d/smartmontools reload
 	$ROOTCMD ln -sf /usr/share/munin/plugins/hddtemp_smartctl /etc/munin/plugins/hddtemp_smartctl
 	$ROOTCMD /etc/init.d/munin-node restart
