@@ -9,7 +9,7 @@
 # smart munin plugins
 #
 for i in hda hdb hdc sda sdb sdc sdd sde sdf ; do {
-	[ -b /dev/$i ] && ln -sf /usr/share/munin/plugins/smart_ /etc/munin/plugins/smart_$i
+	[ -b /dev/$i ] && ln -sf /usr/share/munin/plugins/smart_ /etc/munin/plugins/smart_$i && ainsl /etc/default/smartmontools "start_smartd=yes"
 } ; done
 
 $ROOTCMD ln -sf /usr/share/munin/plugins/hddtemp_smartctl /etc/munin/plugins/hddtemp_smartctl
