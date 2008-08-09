@@ -3,7 +3,7 @@
 # assign classes for hosts at debconf8
 # `hostname -f` doesnt return proper results
 case $HOSTNAME in
-   selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa)
+   selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa|marge)
 		echo "FAIBASE DEBCONF DEBCONF8 VIDEO" ;;
 esac
 
@@ -35,7 +35,7 @@ esac
 
 
 case $HOSTNAME in 
-   selma|patty|itchy|scratchy|daffy|barney)
+   selma|patty|itchy|scratchy|marge|daffy|barney)
    		echo "DVSWITCHUSER";;
 esac
 
