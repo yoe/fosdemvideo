@@ -45,7 +45,7 @@ PACKAGES install lisa
 fail2ban
 
 #unused:
-#PACKAGES install BRIDGE
-#bridge-utils
+PACKAGES install BRIDGE
+bridge-utils
 
 

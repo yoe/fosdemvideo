@@ -15,7 +15,7 @@ esac
 case $HOSTNAME in
    daffy) 
    		echo "ENCODING";;
-   selma|patty|itchy|scratchy) 
+   marge|patty|itchy|scratchy) 
    		echo "CAPTURE";;
    mrwhite)
    		echo "REVIEW";;
@@ -28,6 +28,11 @@ case $HOSTNAME in
    selma|scratchy) 
    		echo "DVSWITCH";;
 esac
+case $HOSTNAME in
+   selma) 
+   		echo "BRIDGE";;
+esac
+
 
 case $HOSTNAME in 
    selma|patty|itchy|scratchy|daffy|barney)
