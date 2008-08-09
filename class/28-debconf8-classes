@@ -28,14 +28,14 @@ case $HOSTNAME in
    selma|scratchy) 
    		echo "DVSWITCH";;
 esac
-case $HOSTNAME in
-   selma) 
-   		echo "BRIDGE";;
-esac
+#case $HOSTNAME in
+#   selma) 
+#   		echo "BRIDGE";;
+#esac
 
 
 case $HOSTNAME in 
    selma|patty|itchy|scratchy|marge|daffy|barney)
-   		echo "DVSWITCHUSER";;
+   		echo "DVSWITCHPUBKEY";;
 esac
 
