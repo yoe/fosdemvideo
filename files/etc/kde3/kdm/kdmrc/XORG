@@ -64,7 +64,7 @@ LoginMode=DefaultLocal
 PreselectUser=Previous
 
 [X-:0-Core]
-AutoLoginAgain=false
+AutoLoginAgain=true
 AutoLoginDelay=0
 AutoLoginEnable=true
 AutoLoginLocked=false
