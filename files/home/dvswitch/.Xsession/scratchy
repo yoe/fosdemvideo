@@ -1,11 +1,13 @@
 # setup dvswitch
 dvswitch &
-dc-start-source firewire:scratchy &
+sleep 1
+xterm -e dvsource-firewire &
 dc-start-source firewire:itchy/1 &
 dc-start-source firewire:itchy/0 &
-dvsource-file -l loop-debconf8.dv &
-xterm -e dc-start-sink file:barney &
-xterm -e dc-start-sink icecast:daffy &
+sleep 1
+dvsource-file -l /home/dvswitch/loop-debconf8.dv &
+xterm -e "dc-start-sink file:barney" &
+xterm -e "dc-start-sink icecast:daffy" &
 
 # last command
 icewm-session
