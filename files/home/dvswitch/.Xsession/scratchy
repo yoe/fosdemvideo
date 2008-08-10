@@ -1,3 +1,8 @@
+#
+# manual edits will be lost
+# use svn://svn.debian.org/svn/debconf-video/fai-config/files/home/dvswitch/.Xsession/$hostname
+#
+
 # kill old sinks in case there are some left
 xterm -e ssh barney 'ps fax | grep "dvsink-files -h scratchy -p 4321"|grep -v grep|cut -d " " -f1
 | xargs -n 1 kill -9'
@@ -12,6 +17,7 @@ dc-start-source firewire:itchy/1 &
 dc-start-source firewire:itchy/0 &
 sleep 1
 dvsource-file -l /home/dvswitch/loop-debconf8.dv &
+dvsource-file -l /home/dvswitch/sponsors_loop.dv &
 xterm -e "dc-start-sink file:barney" &
 xterm -e "dc-start-sink icecast:daffy" &
 
