@@ -1,4 +1,4 @@
-deb http://mirror/debian/ etch main contrib non-free
+deb http://#MIRROR#/debian/ etch main contrib non-free
 deb http://security.debian.org/ etch/updates main contrib non-free
 
 deb http://db.debconf.org/dc-admin/archive/ etch/i386/
