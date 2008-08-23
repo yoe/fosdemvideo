@@ -30,7 +30,7 @@ dvsink
 debconf-video-encode
 oggshout
 
-PACKAGES install barney
+PACKAGES install STORAGE
 dvsink
 debconf-video-store
 nfs-kernel-server

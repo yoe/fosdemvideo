@@ -21,8 +21,9 @@ case $HOSTNAME in
    		echo "REVIEW";;
    lisa)
    		echo "ICECAST";;
+   barney)
+   		echo "STORAGE";;
 esac
-# "barney" is its own class
 
 case $HOSTNAME in
    selma|scratchy) 
@@ -33,9 +34,15 @@ esac
 #   		echo "BRIDGE";;
 #esac
 
-
 case $HOSTNAME in 
    selma|patty|itchy|scratchy|marge|daffy|barney)
    		echo "DVSWITCHPUBKEY";;
 esac
+
+# post-processing after debconf8 at home
+case $HOSTNAME in
+   io)
+		echo "FAIBASE DEBCONF DEBCONF8 VIDEO ENCODING STORAGE" ;;
+esac
+
 
