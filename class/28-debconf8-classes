@@ -1,7 +1,12 @@
 #! /bin/sh
 
 # assign classes for hosts at debconf8
-# `hostname -f` doesnt return proper results
+# `hostname -f` doesnt return proper results (before running fai :)
+
+#
+# the class DEBCONF8 is reserved for machines at the venue...
+#
+
 case $HOSTNAME in
    selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa|marge)
 		echo "FAIBASE DEBCONF DEBCONF8 VIDEO" ;;
@@ -39,10 +44,10 @@ case $HOSTNAME in
    		echo "DVSWITCHPUBKEY";;
 esac
 
-# post-processing after debconf8 at home
+# post-processing after debconf8 at home, do not define DEBCONF8 here
 case $HOSTNAME in
    io)
-		echo "FAIBASE DEBCONF DEBCONF8 VIDEO ENCODING STORAGE" ;;
+		echo "FAIBASE DEBCONF VIDEO ENCODING STORAGE" ;;
 esac
 
 
