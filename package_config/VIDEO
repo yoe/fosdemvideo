@@ -25,7 +25,7 @@ PACKAGES install CAPTURE
 dvgrab dvsource
 
 PACKAGES install ENCODING
-ffmpeg ffmpeg2theora oggfwd 
+ffmpeg ffmpeg2theora  
 dvsink
 debconf-video-encode
 oggshout
