@@ -14,7 +14,7 @@ DISTRO=etch
 # either use local mirror or ftp.de.debian.org
 TMPFILE=`mktemp -p /tmp`
 if $( wget -q http://mirror/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then MIRROR=mirror 
-elif MIRROR=ftp.de.debian.org ; fi
+else MIRROR=ftp.de.debian.org ; fi
 rm $TMPFILE 
 
 # modify copied file
