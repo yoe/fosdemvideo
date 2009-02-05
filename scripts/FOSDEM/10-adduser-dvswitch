@@ -1,0 +1,15 @@
+#! /bin/bash
+
+#
+#        (c) 2006-2009 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+USER=dvswitch
+$ROOTCMD adduser --quiet --disabled-password --gecos "" $USER
+
+$ROOTCMD mkdir -p /home/$USER/.ssh
+$ROOTCMD touch /home/$USER/.ssh/authorized_keys
+$ROOTCMD chown -R $USER.$USER /home/$USER/.ssh
+$ROOTCMD chmod 700 /home/$USER/.ssh
+  
