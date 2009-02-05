@@ -11,12 +11,15 @@ PACKAGES install XORG
 x-window-system elinks
 icewm xserver-xorg xterm kdm
 xserver-xorg-video-intel
-xscreensaver iceweasel
+iceweasel
 irssi xchat
 
 PACKAGES install DVSWITCH
 dvswitch
 debconf-video-switch
+
+PACKAGES remove DVSWITCH
+xscreensaver
 
 PACKAGES install REVIEW
 totem mplayer xine-ui vlc
