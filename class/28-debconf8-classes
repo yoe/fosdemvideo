@@ -7,6 +7,9 @@
 # the class DEBCONF8 is reserved for machines at the venue...
 #
 
+exit 0
+# debconf8 is over
+
 case $HOSTNAME in
    selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa|marge)
 		echo "FAIBASE DEBCONF DEBCONF8 VIDEO" ;;

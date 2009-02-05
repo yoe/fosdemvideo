@@ -1,0 +1,40 @@
+#! /bin/sh
+
+# assign classes for hosts at fosdem 2009
+# `hostname -f` doesnt return proper results (before running fai :)
+
+#
+#
+
+case $HOSTNAME in
+   selma|patty|daffy)
+		echo "FAIBASE DEBCONF VIDEO" ;;
+esac
+
+case $HOSTNAME in
+   selma) 
+   		echo "XORG";;
+esac
+
+case $HOSTNAME in
+   daffy) 
+   		echo "ENCODING";;
+   selma|patty|daffy) 
+   		echo "CAPTURE";;
+   daffy)
+   		echo "ICECAST";;
+   selma)
+   		echo "STORAGE";;
+esac
+
+case $HOSTNAME in
+   selma) 
+   		echo "DVSWITCH";;
+esac
+
+case $HOSTNAME in 
+   selma|patty|daffy)
+   		echo "DVSWITCHPUBKEY";;
+esac
+
+
