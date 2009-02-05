@@ -1,0 +1,45 @@
+creating a d-i usbstick howto
+-----------------------------
+
+fdisk /dev/sdb
+-> create a WIN32 VFAT partition (type b in fdisk)
+
+mkfs.vfat /dev/sdb1
+mount /dev/sdb1 /mnt
+
+copy the following files to /mnt:
+
+vmlinuz				# from http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/hd-media/
+initrd.gz   			# from http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/hd-media/
+syslinux.cfg   			# see current directory :) defines language and preseed file url
+debian-40r0-i386-businesscard.iso	# from http://cdimage.debian.org/debian-cd/4.0_r0/i386/iso-cd/
+preseed.cfg  			# see current directory
+final_setup.sh  		# see current directory
+ac583520.asc			# h01gers public key
+
+umount /dev/sdb1
+syslinux /dev/sdb1		# the t60 needs 3.51 from sid/holgers etch backports...
+install-mbr /dev/sdb
+
+
+usage notes
+-----------
+Upon boot you will be greated with:
+
+MBR FA:
+
+Then just press the "a" key and the prompt will change to:
+
+MBR 1234F
+
+Then press the "1" key and the system should boot into the text-based installer.
+
+
+The installation is automatic, the root password will be set to "fai". You just
+have to confirm partitioning and choose a hostname from the following list:
+
+h01ger's: 	patty
+DaCa's:		daffy
+Q_'s		selma
+
+That should be all ;)
