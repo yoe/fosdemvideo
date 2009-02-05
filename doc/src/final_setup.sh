@@ -11,13 +11,17 @@ LANG=C
 # distribution we are using
 DISTRO=etch
 
-# either use local mirror or ftp.de.debian.org
-apt-get install file
-TMPFILE=`mktemp -p /tmp`
-if $( wget -q http://mirror/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then MIRROR=mirror 
-elif $(wget -q http://ftp.de.debian.org/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then MIRROR=ftp.de.debian.org 
-else echo cannot reach a mirror, aborting && exit 1 ; fi
-rm $TMPFILE 
+# hardcode mirror to use
+MIRROR=ftp.de.debian.org 
+#
+## either use local mirror or ftp.de.debian.org
+#apt-get install file
+#TMPFILE=`mktemp -p /tmp`
+#if $( wget -q http://mirror/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then MIRROR=mirror 
+#elif $(wget -q http://ftp.de.debian.org/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then MIRROR=ftp.de.debian.org 
+#else echo cannot reach a mirror, aborting && exit 1 ; fi
+#rm $TMPFILE 
+
 
 # which arch are we running on? (needed for sources.list)
 ARCH=`dpkg --print-installation-architecture`
