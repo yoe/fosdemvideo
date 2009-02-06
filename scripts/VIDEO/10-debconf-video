@@ -7,12 +7,12 @@
 
 HOSTNAME=`hostname`
 
-# TODO: this is DEBCONF8 specific
-[ -f /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME ] || exit 0
+# $EVENT  is definied in class/*var
+[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME ] || exit 0
 
 source /etc/default/debconf-video.passwd || exit 1
 
-cp /usr/share/doc/debconf-video-common/conf/dc8/default-$HOSTNAME /etc/default/debconf-video 
+cp /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME /etc/default/debconf-video 
 
 # #HOSTNAME# gets replaced by $HOSTNAME and so on...
 sed -i "s/#ICECAST_PASS#/$ICECAST_PASS/" /etc/default/debconf-video

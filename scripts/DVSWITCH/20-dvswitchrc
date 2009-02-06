@@ -7,8 +7,8 @@
 
 HOSTNAME=`hostname`
 
-# TODO: this is DEBCONF8 specific
-[ -f /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME ] || exit 0
+# $EVENT  is definied in class/*var
+[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME ] || exit 0
 
-cp /usr/share/doc/debconf-video-common/conf/dc8/dvswitchrc-$HOSTNAME /etc/dvswitchrc
+cp /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME /etc/dvswitchrc
 

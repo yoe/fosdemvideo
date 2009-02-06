@@ -1,0 +1,4 @@
+UTC=no
+FAI_ACTION=softupdate
+# this is used to pick the right configs from the debconf-video package
+EVENT=fosdem09
