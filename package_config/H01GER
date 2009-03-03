@@ -1,2 +1,6 @@
+PACKAGES install
+usplash mplayer kino
+
 PACKAGES install IPW2X00
 network-manager-gnome
+
