@@ -1,0 +1,13 @@
+#! /bin/sh
+
+# assign classes for h01gers video hosts 
+# `hostname -f` doesnt return proper results (before running fai :)
+
+echo "FAIBASE DEBCONF VIDEO" 
+
+case $HOSTNAME in
+   goldberg)	echo "XORG ENCODING CAPTURE";;
+   goldwasser)  echo "XORG ENCODING REVIEW STORAGE"
+esac
+
+
