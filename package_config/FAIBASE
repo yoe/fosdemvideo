@@ -11,3 +11,6 @@ zsh mc tree screen
 pciutils ethtool sudo
 molly-guard dnsutils
 apt-listchanges cron-apt
+
+PACKAGES install IPW2X00
+firmware-ipw2x00
