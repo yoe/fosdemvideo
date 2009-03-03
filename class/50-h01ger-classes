@@ -6,8 +6,8 @@
 echo "FAIBASE DEBCONF VIDEO" 
 
 case $HOSTNAME in
-   goldberg)	echo "XORG ENCODING CAPTURE";;
-   goldwasser)  echo "XORG ENCODING REVIEW STORAGE"
+   goldberg)	echo "XORG ENCODING CAPTURE" ;;
+   goldwasser)  echo "XORG ENCODING REVIEW STORAGE" ;;
 esac
 
 echo "H01GER"
