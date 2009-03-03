@@ -9,7 +9,7 @@
 LANG=C
 
 # distribution we are using
-DISTRO=etch
+DISTRO=lenny
 
 # hardcode mirror to use
 MIRROR=ftp.de.debian.org

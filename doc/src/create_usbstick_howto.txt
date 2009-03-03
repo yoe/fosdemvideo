@@ -1,25 +1,27 @@
 creating a d-i usbstick howto
 -----------------------------
 
-fdisk /dev/sdb
+sudo disk /dev/sdb
 -> create a WIN32 VFAT partition (type b in fdisk)
 
-mkfs.vfat /dev/sdb1
-mount /dev/sdb1 /mnt
+sudo mkfs.vfat /dev/sdb1
+sudo mount /dev/sdb1 /mnt
 
 copy the following files to /mnt:
 
-vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/hd-media/ )
-initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/hd-media/ )
+sudo cp vmlinuz initrd.gz syslinux.cfg debian-500-i386-businesscard.iso preseed.cfg final_setup.sh ac583520.asc /mnt
+
+vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
+initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
 syslinux.cfg   			# see current directory :) defines language and preseed file url
-debian-40r0-i386-businesscard.iso	# take it from http://cdimage.debian.org/debian-cd/4.0_r6/i386/iso-cd/ !
+debian-500-i386-businesscard.iso	# take it from http://cdimage.debian.org/debian-cd/5.0.0/i386/iso-cd/ !
 preseed.cfg  			# see current directory
 final_setup.sh  		# see current directory
 ac583520.asc			# h01gers public key
 
-umount /dev/sdb1
-syslinux /dev/sdb1		# the t60 needs 3.51 from sid/holgers etch backports...
-install-mbr /dev/sdb
+sudo umount /dev/sdb1
+sudo syslinux /dev/sdb1		# the t60 needs 3.51 from sid/holgers etch backports...
+sudo install-mbr /dev/sdb
 
 
 usage notes

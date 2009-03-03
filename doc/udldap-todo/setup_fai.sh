@@ -1,19 +1,19 @@
 #! /bin/bash
 
-# Copyright 2006-2007 Holger Levsen 
+# Copyright 2006,2007, 2009 Holger Levsen 
 # released under the GPLv=2
 #
 
 
 cat > /etc/apt/sources.list <<-EOF
-deb http://ftp.debian.org/debian/ etch main contrib
-deb-src http://ftp.debian.org/debian/ etch main contrib
+deb http://ftp.debian.org/debian/ lenny main contrib
+deb-src http://ftp.debian.org/debian/ lenny main contrib
 
-deb http://security.debian.org/ etch/updates main contrib
-deb-src http://security.debian.org/ etch/updates main contrib
+deb http://security.debian.org/ lenny/updates main contrib
+deb-src http://security.debian.org/ lenny/updates main contrib
 
-deb http://cmburns.debconf.org/dc-admin/archive/ etch/i386/
-deb http://cmburns.debconf.org/dc-admin/archive/ etch/all/
+deb http://cmburns.debconf.org/dc-admin/archive/ lenny/i386/
+deb http://cmburns.debconf.org/dc-admin/archive/ lenny/all/
 
 EOF
 
