@@ -1,7 +1,7 @@
 creating a d-i usbstick howto
 -----------------------------
 
-sudo disk /dev/sdb
+sudo fdisk /dev/sdb
 -> create a WIN32 VFAT partition (type b in fdisk)
 
 sudo mkfs.vfat /dev/sdb1
@@ -38,7 +38,7 @@ Then press the "1" key and the system should boot into the text-based installer.
 
 
 The installation is automatic, the root password will be set to "fai". You just
-(*) have to confirm partitioning and choose a hostname from the following list:
+have to confirm partitioning and choose a hostname from the following list:
 
 h01ger's: 	patty
 DaCa's:		daffy
@@ -50,4 +50,3 @@ After the installation is done, check /etc/motd and /etc/hosts if they look
 somewhat sensible for this ;-)
 
 
-(*) sadly there is a bug, so you need to choose a country too :)
