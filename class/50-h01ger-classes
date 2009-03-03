@@ -10,4 +10,4 @@ case $HOSTNAME in
    goldwasser)  echo "XORG ENCODING REVIEW STORAGE"
 esac
 
-
+echo "H01GER"
