@@ -11,7 +11,7 @@ PACKAGES install XORG
 x-window-system elinks
 icewm xserver-xorg xterm kdm
 xserver-xorg-video-intel
-iceweasel
+iceweasel mozilla-noscript mozilla-firefox-adblock
 irssi xchat
 
 PACKAGES install DVSWITCH
