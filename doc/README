@@ -1,3 +1,12 @@
+Howto setup a video infrastructure
+----------------------------------
+
+1. prepare in svn
+2. boot from usbstick
+3. profit!
+
+Now these three little steps again, but in detail:
+
 
 preparing the fai setup
 -----------------------
@@ -14,9 +23,12 @@ cp 29-fosdem2009-classes   29-yourconf-classes
 cp FOSDEM.var	YOURCONF.var
 cp patty.var	a_hostname.var
 
-vi 29-yourconf-classes
-vi YOURCONF.var
-# do hostname.var's later
+vi 29-yourconf-classes 	
+vi YOURCONF.var		# FOSDEM.var sets "EVENT=fosdem09" - you need 
+			# 	to set this to the name of the directory 
+			#	you create in the debconf-video package 
+			#	- see below
+# do hostname.var's later, they are mostly cosmetic to make FAI not display some warnings
 
 # optional step:
 #   take a look what software is installed in which class. ../class/29-yourconf-classes definis the classes the host is in
@@ -27,10 +39,18 @@ view *
 cd ../scripts
 # each class also has scripts associated with them
 
+# there are two more directories: debconf/ and files/. The former has 
+# class based debconf preseeding files and the second files which can
+# be copied with the fcopy command from fai. grep in the scripts dir
+# for "fcopy" and then look at that script and the corresponding 
+# _directory_ with class files in files/
+
+
 initial install
 ---------------
 # create an usbstick as described in ./src/create_usbstick_howto.txt 
 # boot from usbstick, choose the right hostname per machine as set in ./class/29-yourconf-classes
+
 
 doing changes later / debug installations
 -----------------------------------------
@@ -42,16 +62,52 @@ run "softupdate" as root to update the configuration (this is basically a around
 Second configuration area
 -------------------------
 
-Sadly not all configuration is in FAIs config space, some is in the debconf-video package. FAI is used/useful there too, as it takes
-care of putting the (once) manually entered video passwds into the right config files.
+Sadly not all configuration is in FAIs config space, some is in the debconf-video package. (This is a todo item for DebConf9 or better, for before DebConf9.) FAI is used/useful there too, as it takes care of putting the (once) manually entered video passwds into the right config files.
 
-uploading packages to $url.debconf.org
+Preparing the package
+^^^^^^^^^^^^^^^^^^^^^
+svn co svn+ssh://i$USERNAME@svn.debian.org/svn/debconf-video/package/trunk
+# you can also work in branches like pycon does :)
+# there is a doc/README too, but this doesnt describe you how to set it up, "only" what the package does.
 
+Create a directory inside the conf/ directory named after your conference. This needs to match EVENT defined in $fai-config-dir/classes/YOURCONF.var
+Base it on an existing conf.
+
+Then build as usual with svn-buildpackage.
+
+Uploading the package
+^^^^^^^^^^^^^^^^^^^^^
+Then you need to upload the package to the debconf-apt-repository. Choose "lenny" as distribution.
+
+This is the relevant section from my ~/.dupload.conf:
+
+$cfg{'dc'} = {
+        fqdn => "cmburns.debconf.org",
+        incoming => "/var/www/db/dc-admin/archive/mini-dinstall/incoming/",
+        # files pass on to dinstall on ftp-master which sends emails itself
+        method => "scpb",
+        login => "holger",
+};
+
+
+
+Put the passwords on each machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 edit /etc/default/debconf-video.passwd on each machine once, then run softupdate. the fai configuration will put the values in the right files.
 
+### begin /etc/default/debconf-video.passwd example:
+export ICECAST_PASS=fubar
+### end
+
+Run softupdate once again. Voila, it's time for some cake now :-)
+
+
+2009-03-21 Holger Levsen
 
 
 
-also
-see http://wiki.debconf.org/wiki/Videoteam/Software
+
+
+
+final words: also see http://wiki.debconf.org/wiki/Videoteam/Software
 
