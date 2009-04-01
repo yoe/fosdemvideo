@@ -1,0 +1,4 @@
+If you want the source for vmlinux or initrd.gz please send an email to holger@layer-acht.org. I will then ask you for a shipping address and 5 Euros to be transferred to my bankaccount and in return I will send you a CD with the sources needed to build them.
+
+Alternativly you can go to http://ftp.debian.org/ and download the sources yourself. Those files are unmodified copies taken from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ and build from lenny sources.
+ 
