@@ -9,7 +9,7 @@ telnet
 
 PACKAGES install XORG
 x-window-system elinks
-icewm xserver-xorg xterm kdm
+xfce4 xserver-xorg xterm kdm
 xserver-xorg-video-intel
 iceweasel mozilla-noscript mozilla-firefox-adblock
 irssi xchat

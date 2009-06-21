@@ -16,7 +16,7 @@ filegen clockstats file clockstats type day enable
 # Your server will pick a different set every time it starts up.
 #  *** Please consider joining the pool! ***
 #  *** <http://www.pool.ntp.org/join.html> ***
-server homer.dc8.debconf.org iburst
+server homer.dc9.debconf.org iburst
 
 # By default, exchange time with everybody, but don't allow configuration.
 # See /usr/share/doc/ntp-doc/html/accopt.html for details.
