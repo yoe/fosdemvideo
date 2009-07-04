@@ -13,6 +13,9 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
+   patty)	echo "IPW2X00"
+
+case $HOSTNAME in
    selma|scratchy|mrwhite) 
    		echo "XORG";;
 esac
