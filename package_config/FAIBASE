@@ -7,11 +7,10 @@ cron debconf-utils discover file hdparm
 vim joe emacs21 jove less linuxlogo
 ssh strace
 sysutils time ntp sl psmisc
-zsh mc tree screen 
+zsh mc tree screen rsync iftop iotop
 pciutils ethtool sudo
 molly-guard dnsutils
 apt-listchanges cron-apt
-#rsync iftop iotop
 
 PACKAGES install IPW2X00
 firmware-ipw2x00 wireless-tools
