@@ -7,7 +7,7 @@ cron debconf-utils discover file hdparm
 vim joe emacs21 jove less linuxlogo
 ssh strace
 sysutils time ntp sl psmisc
-zsh mc tree screen rsync iftop iotop
+zsh mc tree screen 
 pciutils ethtool sudo
 molly-guard dnsutils
 apt-listchanges cron-apt
