@@ -38,11 +38,7 @@ Then press the "1" key and the system should boot into the text-based installer.
 
 
 The installation is automatic, the root password will be set to "fai". You just
-have to confirm partitioning and choose a hostname from the following list:
-
-h01ger's: 	patty
-DaCa's:		daffy
-Q_'s		selma
+have to confirm partitioning and choose the right hostname.
 
 That should be all ;)
 

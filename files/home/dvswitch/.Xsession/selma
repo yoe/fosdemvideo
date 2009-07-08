@@ -17,5 +17,5 @@ xterm -e "dc-start-sink file:barney" &
 xterm -e "dc-start-sink icecast:daffy" &
 
 # last command
-icewm-session
+xfce4-session
 

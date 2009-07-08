@@ -8,42 +8,36 @@
 #
 
 case $HOSTNAME in
-   selma|patty|itchy|scratchy|daffy|barney|mrwhite|lisa|marge)
+   selma|patty|itchy|scratchy|barney|lisa|ned|rod|todd|dolph|jimbo|kearney|nelson)
 		echo "FAIBASE DEBCONF DEBCONF9 VIDEO" ;;
 esac
 
 case $HOSTNAME in
    patty)	echo "IPW2X00"
-
-case $HOSTNAME in
-   selma|scratchy|mrwhite) 
-   		echo "XORG";;
 esac
 
 case $HOSTNAME in
-   daffy) 
-   		echo "ENCODING";;
-   marge|patty|itchy|scratchy) 
+   patty|itchy) 
    		echo "CAPTURE";;
-   mrwhite)
-   		echo "REVIEW";;
+   selma|scratchy) 
+   		echo "XORG CAPTURE DVSWITCH";;
+   ned|rod|todd) 
+   		echo "ENCODING";;
+   dolph|jimbo|kearney|nelson)
+   		echo "XORG REVIEW";;
    lisa)
    		echo "ICECAST";;
    barney)
    		echo "STORAGE";;
 esac
 
-case $HOSTNAME in
-   selma|scratchy) 
-   		echo "DVSWITCH";;
-esac
 #case $HOSTNAME in
 #   selma) 
 #   		echo "BRIDGE";;
 #esac
 
 case $HOSTNAME in 
-   selma|patty|itchy|scratchy|marge|daffy|barney)
+   selma|patty|itchy|scratchy|ned|rod|todd|barney)
    		echo "DVSWITCHPUBKEY";;
 esac
 

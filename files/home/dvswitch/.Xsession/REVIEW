@@ -3,5 +3,5 @@ vlc "http://video.debconf.org:8000/Microcine.ogv.m3u" &
 vlc "http://video.debconf.org:8000/Salon_del_mar.ogv.m3u"&
 
 # last command
-icewm-session
+xfce4-session
 

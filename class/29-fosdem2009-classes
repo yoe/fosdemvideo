@@ -7,7 +7,7 @@
 #
 
 case $HOSTNAME in
-   selma|patty|daffy)
+   selma|patty|ned)
 		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
 esac
 
@@ -17,11 +17,11 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
-   daffy) 
+   ned) 
    		echo "ENCODING";;
-   selma|patty|daffy) 
+   selma|patty|ned) 
    		echo "CAPTURE";;
-   daffy)
+   ned)
    		echo "ICECAST";;
    selma)
    		echo "STORAGE";;
@@ -33,7 +33,7 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in 
-   selma|patty|daffy)
+   selma|patty|ned)
    		echo "DVSWITCHPUBKEY";;
 esac
 

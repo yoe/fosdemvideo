@@ -4,7 +4,7 @@
 192.168.0.254	linksys.debconf.org linksys
 192.168.0.1	patty.debconf.org patty
 192.168.0.2	selma.debconf.org selma
-192.168.0.3	daffy.debconf.org daffy
+192.168.0.3	ned.debconf.org ned
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
