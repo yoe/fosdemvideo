@@ -5,6 +5,7 @@ hosterrorpatterns="XXXXX"
 hostignorepatterns="XXXXX
 dmesg.log:.*Error: Driver .pcspkr. is already registered, aborting...
 dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
-dmesg.log:.* AER service couldn't init device .* - no _OSC support"
+dmesg.log:.* AER service couldn't init device .* - no _OSC support
+dmesg.log:.* pnp 00:09: can't add resource for IO 0x4d0-0x4d1"
 
 HOSTNAME=$(hostname)
