@@ -13,7 +13,7 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
-   patty)	echo "IPW2X00"
+   dolph)	echo "IPW2X00"
 esac
 
 case $HOSTNAME in
