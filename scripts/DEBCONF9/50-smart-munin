@@ -15,7 +15,10 @@ for i in sda sdb sdc sdd ; do {
 		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i -a -d ata" >> $target/etc/smartd.conf
 	}
 } ; done
-for i in hda hdb ; do {
+
+# FIXME: see above:
+# not on lisa
+ifclass lisa || for i in hda hdb ; do {
 	[ -b /dev/$i ] && {
 		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
 		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i" >> $target/etc/smartd.conf
