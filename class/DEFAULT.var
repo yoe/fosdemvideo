@@ -2,6 +2,8 @@
 FAI_ALLOW_UNSIGNED="true"
 
 hosterrorpatterns="XXXXX"
-hostignorepatterns="XXXXX"
+hostignorepatterns="dmesg.log:.*Error: Driver 'pcspkr' is already registered, aborting...
+dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
+dmesg.log:.* AER service couldn't init device .* - no _OSC support"
 
 HOSTNAME=$(hostname)

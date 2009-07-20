@@ -1,3 +1,3 @@
 #! /bin/sh
 
-lspci | grep -q "Intel Corporation PRO/Wireless 2" && echo IPW2X00
+lspci | grep -q "Intel Corporation PRO/Wireless 2" && echo IPW2X00 || true
