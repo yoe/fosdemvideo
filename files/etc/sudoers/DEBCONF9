@@ -16,6 +16,7 @@ Defaults	env_reset
 # User privilege specification
 root	ALL=(ALL) ALL
 joerg ALL=(ALL) NOPASSWD: ALL
+zobel ALL=(ALL) NOPASSWD: ALL
 %admin ALL=(ALL) NOPASSWD: ALL
 %adm ALL=(ALL) NOPASSWD: ALL
 nagios          ALL=(ALL) NOPASSWD: /usr/bin/apt-get update
