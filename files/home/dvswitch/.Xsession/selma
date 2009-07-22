@@ -10,10 +10,10 @@ xterm -e dvsource-firewire &
 dc-start-source firewire:patty/1 &
 dc-start-source firewire:patty/0 &
 sleep 1
-dvsource-file -l /home/dvswitch/loop-debconf8.dv &
+dvsource-file -l /home/dvswitch/loop-debconf9.dv &
 dvsource-file -l /home/dvswitch/sponsors_loop.dv &
 xterm -e "dc-start-sink file:barney" &
-xterm -e "dc-start-sink icecast:daffy" &
+xterm -e "dc-start-sink icecast:lisa" &
 
 # last command
 xfce4-session
