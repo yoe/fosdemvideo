@@ -5,6 +5,9 @@
 #        GPL2 licenced
 #
 
+mkdir /home/dvswitch
+chown 1053.1008 /home/dvswitch
+
 HOSTNAME=`hostname`
 
 # $EVENT  is definied in class/*var
