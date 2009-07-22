@@ -16,4 +16,4 @@ editfiles:
    all::
 	{ ${target}/etc/fstab
 	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
-    
+ 	}   
