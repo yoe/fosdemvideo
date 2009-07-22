@@ -6,7 +6,7 @@
 #
 
 mkdir -p /etc/ssh/userkeys
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvHApOrne0Ram8EHJn/FWHtGzvnxB5H3gxp4TgeDB6AEcV2AclcRikud1MuCjtT42tHQ+8Z1yfwOC5agWs0QgFHOJEdbUHEqDdCfzI9MDSLFNphCFQuQkvevMmRdiyBCfLxoe61m9wI1vgdD4lBxD2+OfzFofEHEKgbIhGuTg/c/qyS1XeO4t+LpuP6cNNve61nodEhHmIjRb8rSd3/oMEIwu8mCNzVOtQjCjciGIRYZBxv3hBWLxJ1dzyz59ewsLi/73e3ggThC//7m9KsG2qdqlnCKbskI+5Ebrt9Q6IUJJZHjJ8E3fSUYmqmk06db8EgBT+iSuZzC1GUaflftQlQ== dvswitch@scratchy.dc8.debconf.org" > /etc/ssh/userkeys/dvswitch
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqTk3Evbr94QtsYcoHOMZRpKdBERnBmXTaogm5uM7nKmu1yzt1TCiBSaUnXArgcBp6bL/Nbq4WA30i1gNKIkU78RdvySub9coDZCeWXVPsnXtNpdplPG/pr5CEg4XWs7RkpxrpnlAfEfbNZktODglW14pji6tbczPyZ7zFFYDl2nmCRiiglqIl7XMpR+UcPwQin4Oe3Jg7RXafUacHm4+YPnjVpfeeOqXimCF3gRDsLib0jppLv38JXFf+TL8NibYQKP/pKfMg13ZeCDVA4kD1/9IGsZk7Q8a4+NnzHi26oFGv5ConFq5BEA4rmgD0pq3oq8J8FycBvrxqrv3ec9kAw== dvswitch@selma" > /etc/ssh/userkeys/dvswitch
 chown 1053.1008 /etc/ssh/userkeys/dvswitch
 chmod 600 /etc/ssh/userkeys/dvswitch
 
