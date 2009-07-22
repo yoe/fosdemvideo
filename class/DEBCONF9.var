@@ -1,3 +1,12 @@
 UTC=no
 time_zone=Europe/Madrid
 FAI_ACTION=softupdate
+
+hostignorepatterns="hostignorepatters
+dmesg.log:.*Error: Driver .pcspkr. is already registered, aborting...
+dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
+dmesg.log:.* AER service couldn't init device .* - no _OSC support
+dmesg.log:.* pnp 00:09: can't add resource for IO 0x4d0-0x4d1
+dmesg.log:.* ACPI Warning (tbutils-0217): Incorrect checksum in table [OEMB] - 09, should be FE [20080321]
+"
+
