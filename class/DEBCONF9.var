@@ -1,9 +1,10 @@
 UTC=no
 time_zone=Europe/Madrid
 FAI_ACTION=softupdate
+EVENT=dc9
 
 hosterrorpatterns="XXXXX"
-hostignorepatterns="hostignorepatters
+hostignorepatterns="$hostignorepatters
 dmesg.log:.*Error: Driver .pcspkr. is already registered, aborting...
 dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
 dmesg.log:.* AER service couldn't init device .* - no _OSC support
