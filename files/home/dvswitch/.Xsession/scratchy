@@ -18,7 +18,7 @@ sleep 1
 dvsource-file -l /home/dvswitch/loop-debconf9.dv &
 dvsource-file -l /home/dvswitch/sponsors_loop.dv &
 xterm -e "dc-start-sink file:barney" &
-xterm -e "dc-start-sink icecast:lisa" &
+xterm -e "dc-start-sink icecast:rod" &
 
 # last command
 xfce4-session
