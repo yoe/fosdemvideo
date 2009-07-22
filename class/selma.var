@@ -1,6 +1,6 @@
 
-hostignorepatterns="$hostignorepatterns
+hostignorepatterns="hostignorepatterns
 A dummy host specific error to ignore
-dmesg.log:.* ACPI Warning (tbfadt-0442): Optional field "Gpe1Block" has zero address or length: .*
+dmesg.log:.* ACPI Warning (tbfadt-0442): Optional field \"Gpe1Block\" has zero address or length: .*
 dmesg.log:.* Marking TSC unstable due to: check_tsc_sync_source failed.
 dmesg.log:.* ACPI: Error installing bay notify handler"
