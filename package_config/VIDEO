@@ -8,7 +8,7 @@ debconf-video-common
 telnet
 
 PACKAGES install XORG
-x-window-system elinks
+xorg elinks
 xfce4 xserver-xorg xterm kdm
 xserver-xorg-video-intel
 iceweasel mozilla-noscript mozilla-firefox-adblock
