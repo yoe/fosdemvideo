@@ -1,0 +1,12 @@
+#! /usr/sbin/cfagent -f
+
+control:
+  actionsequence = ( editfiles )
+  EditFileSize = ( 30000 )
+
+editfiles:
+  ETCH::
+    { ${target}/etc/logcheck/logcheck.conf
+      ReplaceAll "INTRO=1" With "INTRO=0"
+      ReplaceAll "#INTRO=0" With "INTRO=0"
+    }
