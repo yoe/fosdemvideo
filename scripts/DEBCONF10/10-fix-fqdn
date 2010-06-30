@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # fix /etc/mailname
-echo "$HOSTNAME.dc9.debconf.org" > /etc/mailname
+echo "$HOSTNAME.dc10.debconf.org" > /etc/mailname
 
 # fix /etc/hosts
 
 IPADDRESS=`host $HOSTNAME | awk '{print $4}'|head -1`
 cat /etc/hosts |grep -v "127.0"|grep -v $HOSTNAME > /etc/hosts.tmp
 echo "127.0.0.1       localhost" >> /etc/hosts.tmp
-echo "$IPADDRESS	$HOSTNAME.dc9.debconf.org $HOSTNAME" >> /etc/hosts.tmp
+echo "$IPADDRESS	$HOSTNAME.dc10.debconf.org $HOSTNAME" >> /etc/hosts.tmp
 mv /etc/hosts.tmp /etc/hosts
 
