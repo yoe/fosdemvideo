@@ -1,15 +1,15 @@
 #! /bin/sh
 
-# assign classes for hosts at debconf9
+# assign classes for hosts at debconf10
 # `hostname -f` doesnt return proper results (before running fai :)
 
 #
-# the class DEBCONF9 is reserved for machines at the venue...
+# the class DEBCONF10 is reserved for machines at the venue...
 #
 
 case $HOSTNAME in
    selma|patty|itchy|scratchy|barney|lisa|ned|rod|todd|dolph|jimbo|kearney|nelson)
-		echo "FAIBASE DEBCONF DEBCONF9 VIDEO" ;;
+		echo "FAIBASE DEBCONF DEBCONF10 VIDEO" ;;
 esac
 
 case $HOSTNAME in
