@@ -4,7 +4,7 @@ FAI_ACTION=softupdate
 EVENT=dc10
 
 hosterrorpatterns="XXXXX"
-hostignorepatterns="$hostignorepatters
+hostignorepatterns="$hostignorepatterns
 dmesg.log:.*Error: Driver .pcspkr. is already registered, aborting...
 dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
 dmesg.log:.* AER service couldn't init device .* - no _OSC support
