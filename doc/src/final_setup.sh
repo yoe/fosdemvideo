@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #
-# Copyright 2006-2008 Holger Levsen 
+# Copyright 2006-2010 Holger Levsen 
 # released under the GPLv=2
 #
 
@@ -12,7 +12,7 @@ LANG=C
 DISTRO=lenny
 
 # hardcode mirror to use
-MIRROR=ftp.de.debian.org 
+MIRROR=ftp.us.debian.org 
 #
 ## either use local mirror or ftp.de.debian.org
 #apt-get install file
@@ -33,11 +33,6 @@ deb http://security.debian.org/ $DISTRO/updates main contrib non-free
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/$ARCH/
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 " > /etc/apt/sources.list
-
-# /me hates this - we should definitly fix this before DebConf9
-echo 'APT::Get::AllowUnauthenticated "true";
-Aptitude::CmdLine::Ignore-Trust-Violations "true";
-' > /etc/apt/apt.conf.d/7debconf7
 
 # install fai clients and recommended stuff
 apt-get update
