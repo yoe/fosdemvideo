@@ -9,7 +9,7 @@
 LANG=C
 
 # distribution we are using
-DISTRO=lenny
+DISTRO=squeeze
 
 # hardcode mirror to use
 MIRROR=ftp.us.debian.org 
@@ -27,15 +27,17 @@ MIRROR=ftp.us.debian.org
 ARCH=`dpkg --print-installation-architecture`
 
 # overwrite existing sources.lists, provide sensible defaults
-echo "deb http://$MIRROR/debian/ $DISTRO main contrib non-free
-deb http://security.debian.org/ $DISTRO/updates main contrib non-free
+echo "#deb http://$MIRROR/debian/ $DISTRO main contrib non-free
+#deb http://security.debian.org/ $DISTRO/updates main contrib non-free
+
+deb http://snapshot.debian.org/archive/debian/20100704T132725Z/ squeeze main
 
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/$ARCH/
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 " > /etc/apt/sources.list
 
 # install fai clients and recommended stuff
-apt-get update
+apt-get update && apt-get upgrade && apt-get dist-upgrade
 DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive apt-get install fai-client subversion 
 
 # configure fai

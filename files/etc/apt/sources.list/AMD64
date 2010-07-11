@@ -1,6 +1,8 @@
-deb http://#MIRROR#/debian/ lenny main contrib non-free
-deb http://security.debian.org/ lenny/updates main contrib non-free
+#deb http://#MIRROR#/debian/ squeeze main contrib non-free
+#deb http://security.debian.org/ squeeze/updates main contrib non-free
 
-deb http://db.debconf.org/dc-admin/archive/ lenny/amd64/
-deb http://db.debconf.org/dc-admin/archive/ lenny/all/
+deb http://snapshot.debian.org/archive/debian/20100704T132725Z/ squeeze main
+
+deb http://db.debconf.org/dc-admin/archive/ squeeze/amd64/
+deb http://db.debconf.org/dc-admin/archive/ squeeze/all/
 
