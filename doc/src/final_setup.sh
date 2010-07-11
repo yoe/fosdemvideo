@@ -37,7 +37,7 @@ deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 " > /etc/apt/sources.list
 
 # install fai clients and recommended stuff
-apt-get update && apt-get upgrade && apt-get dist-upgrade
+apt-get update && apt-get -y upgrade && apt-get -y dist-upgrade
 DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive apt-get install fai-client subversion 
 
 # configure fai
