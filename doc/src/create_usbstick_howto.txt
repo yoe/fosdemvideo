@@ -9,33 +9,24 @@ sudo mount /dev/sdb1 /mnt
 
 copy the following files to /mnt:
 
-sudo cp vmlinuz initrd.gz syslinux.cfg debian-500-i386-businesscard.iso preseed.cfg final_setup.sh ac583520.asc /mnt
+sudo cp vmlinuz initrd.gz syslinux.cfg debian-505-i386-businesscard.iso preseed.cfg final_setup.sh ac583520.asc /mnt
 
 vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
 initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
 syslinux.cfg   			# see current directory :) defines language and preseed file url
-debian-500-i386-businesscard.iso	# take it from http://cdimage.debian.org/debian-cd/5.0.0/i386/iso-cd/ !
+debian-505-i386-businesscard.iso	# take it from http://cdimage.debian.org/debian-cd/5.0.5/i386/iso-cd/ !
 preseed.cfg  			# see current directory
 final_setup.sh  		# see current directory
 ac583520.asc			# h01gers public key
 
 sudo umount /dev/sdb1
-sudo syslinux /dev/sdb1		# the t60 needs 3.51 from sid/holgers etch backports...
+sudo syslinux /dev/sdb1		# the t60 needed 3.51 from sid/holgers etch backports...
 sudo install-mbr /dev/sdb
 
 
 usage notes
 -----------
-Upon boot you will be greated with:
-
-MBR FA:
-
-Then just press the "a" key and the prompt will change to:
-
-MBR 1234F
-
-Then press the "1" key and the system should boot into the text-based installer.
-
+Execute the above commands, boot from the stick, enjoy.
 
 The installation is automatic, the root password will be set to "fai". You just
 have to confirm partitioning and choose the right hostname.
