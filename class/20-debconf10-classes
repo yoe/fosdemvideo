@@ -23,7 +23,7 @@ case $HOSTNAME in
    		echo "XORG CAPTURE DVSWITCH";;
    ned|rod|todd) 
    		echo "ENCODING";;
-   dolph|jimbo|keamey|nelson)
+   dolph|jimbo|kearney|nelson)
    		echo "XORG REVIEW";;
    lisa)
    		echo "ICECAST";;
