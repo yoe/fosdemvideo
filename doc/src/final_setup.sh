@@ -26,6 +26,11 @@ MIRROR=ftp.us.debian.org
 # which arch are we running on? (needed for sources.list)
 ARCH=`dpkg --print-installation-architecture`
 
+# install fai clients and recommended stuff
+export DEBCONF_FRONTEND=noninteractive  
+export DEBIAN_FRONTEND=noninteractive 
+apt-get -y install fai-client subversion 
+
 # overwrite existing sources.lists, provide sensible defaults
 echo "#deb http://$MIRROR/debian/ $DISTRO main contrib non-free
 #deb http://security.debian.org/ $DISTRO/updates main contrib non-free
@@ -36,9 +41,12 @@ deb http://db.debconf.org/dc-admin/archive/ $DISTRO/$ARCH/
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 " > /etc/apt/sources.list
 
-# install fai clients and recommended stuff
-apt-get update && apt-get -y upgrade && apt-get -y dist-upgrade
-DEBCONF_FRONTEND=noninteractive  DEBIAN_FRONTEND=noninteractive apt-get -y install fai-client subversion 
+# upgrade to squeeze snapshort
+apt-get update 
+apt-get -y install apt
+apt-get -y install linux-image-2.6.32-5-686 
+apt-get -y upgrade 
+apt-get -y dist-upgrade
 
 # configure fai
 echo 'FAI_CONFIG_SRC="svn://svn.debian.org/svn/debconf-video/fai-config"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
