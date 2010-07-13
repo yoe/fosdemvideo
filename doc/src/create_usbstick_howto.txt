@@ -28,6 +28,11 @@ usage notes
 -----------
 Execute the above commands, boot from the stick, enjoy.
 
+If you get the mbr prompt: "MBR: FA"
+type 'a'
+then the prompt becomes: "MBR 1234F:"
+type '1'
+
 The installation is automatic, the root password will be set to "fai". You just
 have to confirm partitioning and choose the right hostname.
 
