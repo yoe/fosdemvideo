@@ -44,7 +44,7 @@ deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 # upgrade to squeeze snapshort
 apt-get update 
 apt-get -y install apt
-apt-get -y install linux-image-2.6.32-5-686 
+apt-get -y install linux-image-2.6.32-5-686-bigmem
 apt-get -y upgrade 
 apt-get -y dist-upgrade
 
