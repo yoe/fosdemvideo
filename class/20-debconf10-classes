@@ -21,7 +21,7 @@ case $HOSTNAME in
    		echo "CAPTURE";;
    selma|scratchy) 
    		echo "XORG CAPTURE DVSWITCH";;
-   ned|rod|todd) 
+   barney|ned|rod|todd) 
    		echo "ENCODING";;
    dolph|jimbo|kearney)
    		echo "XORG REVIEW";;
