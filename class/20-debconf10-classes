@@ -21,14 +21,14 @@ case $HOSTNAME in
    		echo "CAPTURE";;
    selma|scratchy) 
    		echo "XORG CAPTURE DVSWITCH";;
-   barney|ned|rod|todd) 
+   ned|rod|todd) 
    		echo "ENCODING";;
    dolph|jimbo|kearney)
    		echo "XORG REVIEW";;
    lisa)
    		echo "ICECAST";;
    barney)
-   		echo "STORAGE";;
+   		echo "STORAGE ENCODING";;
 esac
 
 #case $HOSTNAME in
