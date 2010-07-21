@@ -13,7 +13,7 @@ HOSTNAME=`hostname`
 # $EVENT  is definied in class/*var
 [ -f /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME ] || exit 0
 
-source /etc/default/debconf-video.passwd || exit 1
+. /etc/default/debconf-video.passwd || exit 1
 
 cp /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME /etc/default/debconf-video 
 
