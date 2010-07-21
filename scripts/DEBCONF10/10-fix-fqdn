@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # fix /etc/mailname
 echo "$HOSTNAME.dc10.debconf.org" > /etc/mailname
