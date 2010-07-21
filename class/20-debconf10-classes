@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # assign classes for hosts at debconf10
 # `hostname -f` doesnt return proper results (before running fai :)
