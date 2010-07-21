@@ -24,7 +24,7 @@ MIRROR=ftp.us.debian.org
 
 
 # which arch are we running on? (needed for sources.list)
-ARCH=`dpkg --print-installation-architecture`
+ARCH=`dpkg --print-architecture`
 
 # install fai clients and recommended stuff
 export DEBCONF_FRONTEND=noninteractive  
