@@ -5,6 +5,8 @@
 #        GPL2 licenced
 #
 
+. /usr/lib/fai/subroutines
+
 # don't restart postfix twice for the MAILSERVER
 ifclass MAILSERVER && exit 0
 
