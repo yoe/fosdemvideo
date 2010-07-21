@@ -12,9 +12,9 @@ case $HOSTNAME in
 		echo "FAIBASE DEBCONF DEBCONF10 VIDEO" ;;
 esac
 
-case $HOSTNAME in
-   dolph)	echo "IPW2X00"
-esac
+#case $HOSTNAME in
+#   dolph)	echo "IPW2X00"
+#esac
 
 case $HOSTNAME in
    patty|itchy) 
