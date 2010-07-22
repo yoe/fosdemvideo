@@ -45,7 +45,7 @@ deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
 apt-get update 
 apt-get -y install apt
 apt-get -y install linux-image-2.6.32-5-686-bigmem
-cat "y" | apt-get -y upgrade 
+echo "y" | apt-get -y upgrade 
 apt-get -y dist-upgrade
 
 # configure fai
