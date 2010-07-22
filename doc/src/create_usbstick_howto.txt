@@ -42,3 +42,15 @@ After the installation is done, check /etc/motd and /etc/hosts if they look
 somewhat sensible for this ;-)
 
 
+Using pxeboot installer
+-----------------------
+-Adjust preseed.cfg to wget final_setup.sh from svn. There is an example in the
+comment at the end of that file. 
+-Make preseed.cfg available via http some.where.
+-Add a stanza such as the following to your pxeboot environment:
+
+label video
+        menu label ^VideoTeam install
+        kernel debian-installer/i386/linux
+        append auto=true priority=critical vga=normal initrd=debian-installer/i386/initrd.gz -- quiet url=http://some.where.tld/preseed.cfg
+
