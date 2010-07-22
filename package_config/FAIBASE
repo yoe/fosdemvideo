@@ -4,7 +4,7 @@
 PACKAGES install
 cfengine2
 cron debconf-utils discover file hdparm
-vim joe emacs21 jove less linuxlogo
+vim joe emacs23 jove less linuxlogo
 ssh strace
 time ntp sl psmisc
 zsh mc tree screen 
