@@ -37,3 +37,9 @@ apt-get -y install linux-image-2.6.32-5-686-bigmem
 # grab next stage
 wget http://svn.debian.org/viewsvn/debconf-video/fai-config/doc/src/final_setup.sh 
 mv final_settup.sh /root
+
+echo "
+This is almost a FAI-ified DebConf Video machine for DC10.
+You should see final_setup.sh in /root/
+
+Run it and then life will be good." >> /etc/motd
