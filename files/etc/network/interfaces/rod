@@ -2,7 +2,7 @@
 auto lo eth0
 iface lo inet loopback
 iface eth0 inet static
-	address 128.59.13.3
+	address 128.59.13.11
 	netmask 255.255.255.0
 	broadcast 128.59.13.255
 	gateway 128.59.13.1
