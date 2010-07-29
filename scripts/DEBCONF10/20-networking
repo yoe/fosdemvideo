@@ -5,6 +5,6 @@
 #        GPL2 licenced
 #
 
-#fcopy -M /etc/hosts 
+fcopy -M /etc/hosts 
 fcopy -M /etc/resolv.conf
 fcopy -M /etc/network/interfaces

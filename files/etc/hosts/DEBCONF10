@@ -1,0 +1,30 @@
+127.0.0.1 localhost
+
+82.195.75.74 	apu.debconf.org apu
+72.14.176.206 krusty.debconf.org krusty
+
+128.59.13.1 gateway         gateway.dc10.debconf.org   
+128.59.13.2 selma           selma.dc10.debconf.org   
+128.59.13.3 patty           patty.dc10.debconf.org   
+128.59.13.4 jackie          jackie.dc10.debconf.org   
+128.59.13.5 blinky          blinky.dc10.debconf.org   
+128.59.13.6 itchy           itchy.dc10.debconf.org   
+128.59.13.9 lisa            lisa.dc10.debconf.org   
+128.59.13.10 barney          barney.dc10.debconf.org  
+128.59.13.11 rod             rod.dc10.debconf.org  
+128.59.13.16 scratchy        scratchy.dc10.debconf.org  
+128.59.13.19 homer           homer.dc10.debconf.org  
+128.59.13.20 marge           marge.dc10.debconf.org  
+128.59.13.21 sideshow        sideshow.dc10.debconf.org  
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+
+
