@@ -6,6 +6,7 @@ munin-node smartmontools lm-sensors rsync
 mailutils postfix logcheck logcheck-database
 debconf-video-common
 telnet
+userdir-ldap
 
 PACKAGES install XORG
 xorg elinks
