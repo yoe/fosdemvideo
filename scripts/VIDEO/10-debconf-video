@@ -5,7 +5,7 @@
 #        GPL2 licenced
 #
 
-mkdir /home/dvswitch
+mkdir -p /home/dvswitch
 chown 1053.1008 /home/dvswitch
 
 HOSTNAME=`hostname`
