@@ -1,0 +1,76 @@
+# Config file for ldap scripts
+
+# ud-replicate client configuration:
+# host from which to rsync the information (the one running ud-generate)
+synchost = "db";
+# hosts on which to use a local path to get the data (used as a shell glob later)
+localsyncon = "*cmburns*";
+
+# Basic LDAP configuration
+ldaphost = "db.debconf.org";
+basedn   = "ou=users,dc=debconf,dc=org";
+hostbasedn = "ou=hosts,dc=debconf,dc=org";
+adminuser = "admin";
+
+# Printable email addresses are shown as: 'cn mn sn <uid@emailappend>'
+emailappend = "debconf.org";
+
+# For the mail interface
+maildomain = "db.debconf.org";
+replyto = "admin@" + maildomain;
+pingfrom = "ping@" + maildomain;
+chpassfrom = "chpasswd@" + maildomain;
+changefrom = "change@" + maildomain;
+templatesdir = "/etc/userdir-ldap/templates/";
+replaycachefile = "/var/cache/userdir-ldap/mail/replay";
+#replaycachefile = "/tmp/replay";
+fingerprintfile = "/etc/userdir-ldap/badfingerprints"
+
+# Echelon
+ech_errorlog = "/org/db.debconf.org/mail/Log/ech-errors.log"
+ech_mainlog = "/org/db.debconf.org/mail/Log/ech.log"
+
+# User properties
+defaultgid = 100;
+
+# For the output generator
+generateconf = "/etc/userdir-ldap/generate.conf"
+generatedir = "/var/cache/userdir-ldap/hosts/";
+singlesshfile = False
+multiplesshfiles = True
+passdir = "/etc/userdir-ldap/";
+
+# GPG Things
+gpg = "/usr/bin/gpg";
+# The whole set of all keyrings
+keyrings = "/etc/userdir-ldap/keyring/keyring.gpg";
+# Keyrings synced to other machines, if they need them
+sync_keyrings = "/etc/userdir-ldap/keyring/keyring.gpg";
+# Keyrings used to search in when new developers get added
+add_keyrings = "/etc/userdir-ldap/keyring/keyring.gpg";
+
+# For the WEB interface
+webloginhtml = "login.html";
+websearchhtml = "searchform.html";
+websearchresulthtml = "searchresults.html";
+webupdatehtml = "update.html";
+hosthtml = "hostinfo.html";
+
+webloginurl = "login.cgi";
+websearchurl = "search.cgi";
+webupdateurl = "update.cgi";
+
+weblogfile = "/var/log/userldap-web.log";
+
+# When should authentication tokens expire?
+authexpires = 600;
+
+# How many bytes to use for the blowfish key (max = 56 (448 bits))
+blowfishkeylen = 10;
+
+# Change this!
+authtokenpath = "/var/cache/userdir-ldap/web-cookies";
+countrylist = "/var/www/userdir-ldap/domains.tab";
+
+# Finger daemon settings
+# use_inetd = 1;
