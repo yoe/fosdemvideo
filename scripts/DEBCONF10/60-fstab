@@ -13,10 +13,10 @@ directories:
 	${target}/video mode=0775 owner=1000 group=1008
 
 editfiles:
-   ENCODING::
-	{ ${target}/etc/fstab
-	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
- 	}  
+#  ENCODING::
+#	{ ${target}/etc/fstab
+#	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
+# 	}  
    DVSWITCH::
 	{ ${target}/etc/fstab
 	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
