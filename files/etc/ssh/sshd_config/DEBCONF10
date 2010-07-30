@@ -1,3 +1,4 @@
+
 # Package generated configuration file
 # See the sshd(8) manpage for details
 
@@ -9,13 +10,16 @@ Port 22
 Protocol 2
 # HostKeys for protocol version 2
 HostKey /etc/ssh/ssh_host_rsa_key
-HostKey /etc/ssh/ssh_host_dsa_key
+#HostKey /etc/ssh/ssh_host_dsa_key
 #Privilege Separation is turned on for security
 UsePrivilegeSeparation yes
 
 # Lifetime and size of ephemeral version 1 server key
 KeyRegenerationInterval 3600
 ServerKeyBits 768
+
+#GlobalKeysFile /var/lib/misc/ssh-rsa-shadow
+#MkHomeDir yes
 
 # Logging
 SyslogFacility AUTH
@@ -44,10 +48,10 @@ PermitEmptyPasswords no
 
 # Change to yes to enable challenge-response passwords (beware issues with
 # some PAM modules and threads)
-ChallengeResponseAuthentication yes
+ChallengeResponseAuthentication no
 
 # Change to no to disable tunnelled clear text passwords
-#PasswordAuthentication yes
+PasswordAuthentication no
 
 # Kerberos options
 #KerberosAuthentication no
@@ -75,3 +79,5 @@ AcceptEnv LANG LC_*
 Subsystem sftp /usr/lib/openssh/sftp-server
 
 UsePAM yes
+AuthorizedKeysFile /var/lib/misc/userkeys/%u
+AuthorizedKeysFile2 /var/keys/%u

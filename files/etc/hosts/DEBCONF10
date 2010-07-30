@@ -4,21 +4,21 @@
 72.14.176.206 krusty.debconf.org krusty
 89.16.166.49 db.debconf.org db
 
-128.59.13.1 gateway         gateway.dc10.debconf.org   
-128.59.13.2 selma           selma.dc10.debconf.org   
-128.59.13.3 patty           patty.dc10.debconf.org   
-128.59.13.4 jackie          jackie.dc10.debconf.org   
-128.59.13.5 blinky          blinky.dc10.debconf.org   
-128.59.13.6 itchy           itchy.dc10.debconf.org   
-128.59.13.9 lisa            lisa.dc10.debconf.org   
-128.59.13.10 barney          barney.dc10.debconf.org  
-128.59.13.11 rod             rod.dc10.debconf.org  
-128.59.13.16 scratchy        scratchy.dc10.debconf.org  
-128.59.13.17 ted        	ted.dc10.debconf.org  
-128.59.13.18 nodd		nodd.dc10.debconf.org  
-128.59.13.19 homer           homer.dc10.debconf.org  
-128.59.13.20 marge           marge.dc10.debconf.org  
-128.59.13.21 sideshow        sideshow.dc10.debconf.org  
+128.59.13.1     gateway.dc10.debconf.org  	gateway 
+128.59.13.2     selma.dc10.debconf.org   	selma
+128.59.13.3     patty.dc10.debconf.org   	patty
+128.59.13.4     jackie.dc10.debconf.org   	jackie
+128.59.13.5     blinky.dc10.debconf.org   	blinky
+128.59.13.6     itchy.dc10.debconf.org   	itchy
+128.59.13.9     lisa.dc10.debconf.org   	lisa
+128.59.13.10    barney.dc10.debconf.org		barney
+128.59.13.11    rod.dc10.debconf.org  		rod
+128.59.13.16    scratchy.dc10.debconf.org	scratchy  
+128.59.13.17	ted.dc10.debconf.org  		ted
+128.59.13.18  	nodd.dc10.debconf.org  		nodd
+128.59.13.19    homer.dc10.debconf.org  	homer
+128.59.13.20    marge.dc10.debconf.org  	marge
+128.59.13.21    sideshow.dc10.debconf.org  	sideshow
 
 
 # The following lines are desirable for IPv6 capable hosts
