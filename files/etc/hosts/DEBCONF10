@@ -19,6 +19,8 @@
 128.59.13.19    homer.dc10.debconf.org  	homer
 128.59.13.20    marge.dc10.debconf.org  	marge
 128.59.13.21    sideshow.dc10.debconf.org  	sideshow
+128.59.13.22    dolph.dc10.debconf.org  	dolph
+
 
 
 # The following lines are desirable for IPv6 capable hosts
