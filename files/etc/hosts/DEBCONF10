@@ -2,6 +2,7 @@
 
 82.195.75.74 	apu.debconf.org apu
 72.14.176.206 krusty.debconf.org krusty
+89.16.166.49 db.debconf.org db
 
 128.59.13.1 gateway         gateway.dc10.debconf.org   
 128.59.13.2 selma           selma.dc10.debconf.org   
