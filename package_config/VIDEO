@@ -5,7 +5,7 @@ PACKAGES install VIDEO
 munin-node smartmontools lm-sensors rsync
 mailutils postfix logcheck logcheck-database
 debconf-video-common
-telnet
+telnet lynx w3m screen
 userdir-ldap
 
 PACKAGES install XORG
