@@ -8,7 +8,7 @@
 #
 
 case $HOSTNAME in
-   selma|patty|jackie|itchy|scratchy|blinky|barney|lisa|ned|rod|todd|dolph|jimbo|kearney)
+   selma|patty|jackie|sideshow|itchy|scratchy|blinky|barney|lisa|ned|rod|todd|dolph|jimbo|kearney)
 		echo "FAIBASE DEBCONF DEBCONF10 VIDEO" ;;
 esac
 
@@ -17,17 +17,17 @@ esac
 #esac
 
 case $HOSTNAME in
-   patty|itchy|jackie|blinky) 
+   patty|itchy|jackie|blinky|sideshow) 
    		echo "CAPTURE";;
    selma|scratchy) 
    		echo "XORG CAPTURE DVSWITCH";;
-   ned|rod|todd) 
+   ned|todd) 
    		echo "ENCODING";;
    dolph|jimbo|kearney)
    		echo "XORG REVIEW";;
    lisa)
    		echo "ICECAST";;
-   barney)
+   barney|rod)
    		echo "STORAGE ENCODING";;
 esac
 
@@ -37,7 +37,7 @@ esac
 #esac
 
 case $HOSTNAME in 
-   selma|patty|jackie|itchy|scratchy|blinky|ned|rod|todd|barney)
+   selma|patty|jackie|sideshow|itchy|scratchy|blinky|ned|rod|todd|barney)
    		echo "DVSWITCHPUBKEY";;
 esac
 
