@@ -18,8 +18,7 @@ dc-start-source firewire:itchy &
 dc-start-source firewire:blinky &
 #dvsource-firewire &
 sleep 1
-dvsource-file -l /home/dvswitch/loop-debconf9.dv &
-dvsource-file -l /home/dvswitch/sponsors_loop.dv &
+dvsource-file -l /home/dvswitch/loopdc10f.dv &
 #xterm -e "dc-start-sink file:barney" &
 #xterm -e "dc-start-sink icecast:rod" &
 
