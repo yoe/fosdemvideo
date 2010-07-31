@@ -1,0 +1,4 @@
+## /etc/udev/rules.d/99-firewire.rules
+
+# Firewire devices
+KERNEL=="fw*",GROUP="video",MODE="0660"

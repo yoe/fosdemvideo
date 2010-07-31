@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+#        (c) 2006,2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy -r /etc/udev
