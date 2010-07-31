@@ -13,7 +13,8 @@ setxkbmap -option terminate:ctrl_alt_bksp &
 # setup dvswitch
 dvswitch &
 sleep 1
-xterm -e dvsource-firewire &
+#xterm -e dvsource-firewire &
+dvsource-firewire &
 dc-start-source firewire:itchy &
 dc-start-source firewire:blinky &
 #dvsource-firewire &
