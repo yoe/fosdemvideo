@@ -26,7 +26,7 @@ PACKAGES install REVIEW
 totem mplayer xine-ui vlc
 
 PACKAGES install CAPTURE
-dvgrab dvsource
+dvgrab dvsource debconf-video-capture
 
 PACKAGES install ENCODING
 ffmpeg ffmpeg2theora  
