@@ -7,6 +7,7 @@ mailutils postfix logcheck logcheck-database
 debconf-video-common
 telnet lynx w3m screen
 userdir-ldap
+bzip2 
 
 PACKAGES install XORG
 xorg elinks
