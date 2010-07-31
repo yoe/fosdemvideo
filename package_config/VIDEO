@@ -16,11 +16,11 @@ iceweasel mozilla-noscript xul-ext-adblock-plus
 irssi xchat
 
 PACKAGES install DVSWITCH
-dvswitch
+dvswitch nodm
 debconf-video-switch
 
 PACKAGES remove DVSWITCH
-xscreensaver
+xscreensaver kdm
 
 PACKAGES install REVIEW
 totem mplayer xine-ui vlc

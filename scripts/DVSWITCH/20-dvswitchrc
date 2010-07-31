@@ -12,3 +12,4 @@ HOSTNAME=`hostname`
 
 cp /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME /etc/dvswitchrc
 
+fcopy -M /etc/default/nodm
