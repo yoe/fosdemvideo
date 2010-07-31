@@ -11,5 +11,5 @@ chown 1053.1008 /etc/ssh/userkeys/dvswitch
 chmod 600 /etc/ssh/userkeys/dvswitch
 
 # brute force
-ln -s /etc/ssh/userkeys/ /var/keys
+ln -sf /etc/ssh/userkeys/ /var/keys
 
