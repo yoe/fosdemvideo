@@ -20,7 +20,7 @@ case $HOSTNAME in
    patty|itchy|jackie|blinky|sideshow) 
    		echo "CAPTURE";;
    selma|scratchy) 
-   		echo "XORG CAPTURE DVSWITCH";;
+   		echo "XORG CAPTURE DVSWITCH STORAGE";;
    ned|todd) 
    		echo "ENCODING";;
    dolph|jimbo|kearney)
