@@ -3,7 +3,7 @@
 # use svn://svn.debian.org/svn/debconf-video/fai-config/files/home/dvswitch/.Xsession/$hostname
 #
 
-setxkbmap -option terminate:ctrl_alt_bksp
+setxkbmap -option terminate:ctrl_alt_bksp &
 
 # kill old sinks in case there are some left
 #xterm -e ssh barney 'ps fax | grep "dvsink-files -h scratchy -p 4321"|grep -v grep|cut -d " " -f1| xargs -n 1 kill -9'
