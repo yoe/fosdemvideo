@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+#        (c) 2006-2010 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy -M /etc/default/cpufrequtils
