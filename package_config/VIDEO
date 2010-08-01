@@ -8,6 +8,7 @@ debconf-video-common
 telnet lynx w3m screen
 userdir-ldap
 bzip2 
+cpufrequtils powertop
 
 PACKAGES install XORG
 xorg elinks
