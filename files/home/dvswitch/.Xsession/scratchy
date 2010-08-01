@@ -8,7 +8,8 @@ setxkbmap -option terminate:ctrl_alt_bksp &
 # kill old sinks in case there are some left
 #xterm -e ssh barney 'ps fax | grep "dvsink-files -h scratchy -p 4321"|grep -v grep|cut -d " " -f1| xargs -n 1 kill -9'
 #xterm -e ssh daffy 'ps fax | grep "bash -c dvsink-command -h scratchy -p 4321 -- ffmpeg2theora"|grep -v grep|cut -d " " -f1  | xargs -n 1 kill -9' 
-#sleep 1
+xterm -e ssh blinky 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^ *//" |cut -d " " -f1  | xargs -n 1 kill -9' 
+xterm -e ssh itchy 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^ *//" |cut -d " " -f1  | xargs -n 1 kill -9' 
 
 # setup dvswitch
 dvswitch &
