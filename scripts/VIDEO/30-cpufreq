@@ -6,3 +6,4 @@
 #
 
 fcopy -M /etc/default/cpufrequtils
+$ROOTCMD /etc/init.d/cpufrequtils reload
