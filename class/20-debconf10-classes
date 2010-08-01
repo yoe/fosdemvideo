@@ -31,6 +31,12 @@ case $HOSTNAME in
    		echo "STORAGE ENCODING";;
 esac
 
+case $HOSTNAME in
+   selma|scratchy) 
+   		echo "NVIDIA";;
+esac
+
+
 #case $HOSTNAME in
 #   selma) 
 #   		echo "BRIDGE";;

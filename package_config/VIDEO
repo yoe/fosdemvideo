@@ -50,6 +50,10 @@ icecast2
 PACKAGES install lisa
 fail2ban
 
+PACKAGES install NVIDIA
+linux-headers-2.6.32-5-all
+nvidia-kernel-dkms nvidia-glx
+
 #unused:
 PACKAGES install BRIDGE
 bridge-utils
