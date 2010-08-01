@@ -16,7 +16,7 @@ sleep 1
 dc-start-source firewire:jackie &
 dc-start-source firewire:sideshow &
 dc-start-source firewire:patty &
-dc-start-source alsa:scratchy/hw:1 &
+dc-start-source alsa:selma/hw:1,1 &
 #dvsource-firewire &
 sleep 1
 dvsource-file -l /home/dvswitch/loopdc10f.dv &
