@@ -7,7 +7,7 @@ mailutils postfix logcheck logcheck-database
 debconf-video-common
 telnet lynx w3m screen
 userdir-ldap
-bzip2 
+bzip2  nload dstat
 cpufrequtils powertop
 
 PACKAGES install XORG
