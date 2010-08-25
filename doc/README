@@ -68,7 +68,7 @@ Preparing the package
 ^^^^^^^^^^^^^^^^^^^^^
 svn co svn+ssh://i$USERNAME@svn.debian.org/svn/debconf-video/package/trunk
 # you can also work in branches like pycon does :)
-# there is a doc/README too, but this doesnt describe you how to set it up, "only" what the package does.
+# there is a doc/README too, read it.
 
 Create a directory inside the conf/ directory named after your conference. This needs to match EVENT defined in $fai-config-dir/classes/YOURCONF.var
 Base it on an existing conf.
