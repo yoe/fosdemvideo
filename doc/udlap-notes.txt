@@ -1,0 +1,28 @@
+How to add the host selma to udlap on cmburns.debconf.org
+---------------------------------------------------------
+This needs to be done for all hosts at a debconf.
+
+
+selma:~# softupdate
+
+holger@cmburns:~$ sudo vi /var/keys/sshdist
+add from selmai the output of: cat /etc/ssh/ssh_host*_key.pub
+
+holger@cmburns:~$ ud-host -h cmburns
+
+holger@cmburns:~$ sudo -u sshdist ud-generate
+
+selma:~# ud-replicate
+
+(needs entry in cmburns:/etc/userdir-ldap/generate.conf)
+
+
+Manage users
+------------
+$ ud-info -r -a holger -u $user
+$ ud-useradd
+
+Edit groups in ldap
+-------------------
+$ ldapvi --encoding=ASCII --ldap-conf -h db.debconf.org -D uid=holger,ou=users,dc=debconf,dc=org 'gid=*'
+
