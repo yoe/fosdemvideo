@@ -99,15 +99,13 @@ edit /etc/default/debconf-video.passwd on each machine once, then run softupdate
 export ICECAST_PASS=fubar
 ### end
 
+DATABASE_PASSWORD needs to be set the same way on the host of the PENTA class, currently thats barney. Ben and Holger know the password.
+
 Run softupdate once again. Voila, it's time for some cake now :-)
 
 
 2009-03-21 Holger Levsen
-
-
-
-
-
+2010-08-25 updated
 
 final words: also see http://wiki.debconf.org/wiki/Videoteam/Software
 
