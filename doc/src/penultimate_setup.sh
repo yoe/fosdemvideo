@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #
-# Copyright 2006-2010 Holger Levsen 
+# Copyright 2006-2011 Holger Levsen 
 # released under the GPLv=2
 #
 
@@ -12,16 +12,14 @@ LANG=C
 DISTRO=squeeze
 
 # hardcode mirror to use
-MIRROR=mirror.cc.columbia.edu
+MIRROR=ftp.de.debian.org
 
 # which arch are we running on? (needed for sources.list)
 ARCH=`dpkg --print-architecture`
 
 # overwrite existing sources.lists, provide sensible defaults
-echo "#deb http://$MIRROR/debian/ $DISTRO main contrib non-free
-#deb http://security.debian.org/ $DISTRO/updates main contrib non-free
-
-deb http://snapshot.debian.org/archive/debian/20100704T132725Z/ squeeze main
+echo "deb http://$MIRROR/debian/ $DISTRO main contrib non-free
+deb http://security.debian.org/ $DISTRO/updates main contrib non-free
 
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/$ARCH/
 deb http://db.debconf.org/dc-admin/archive/ $DISTRO/all/
