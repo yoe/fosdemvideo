@@ -11,10 +11,10 @@ copy the following files to /mnt:
 
 sudo cp vmlinuz initrd.gz syslinux.cfg debian-505-i386-businesscard.iso preseed.cfg penultimate_setup.sh ac583520.asc /mnt
 
-vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
-initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/lenny/main/installer-i386/current/images/hd-media/ )
+vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-i386/current/images/hd-media/ )
+initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-i386/current/images/hd-media/ )
 syslinux.cfg   			# see current directory :) defines language and preseed file url
-debian-505-i386-businesscard.iso	# take it from http://cdimage.debian.org/debian-cd/5.0.5/i386/iso-cd/ !
+firmware-6.0.1a-i386-netinst.iso	# take it from http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/6.0.2.1/i386/iso-cd/ !
 preseed.cfg  			# see current directory
 penultimate_setup.sh  		# see current directory
 ac583520.asc			# h01gers public key
