@@ -16,7 +16,6 @@ selma:~# ud-replicate
 
 (needs entry in cmburns:/etc/userdir-ldap/generate.conf)
 
-
 Manage users
 ------------
 $ ud-info -r -a holger -u $user
@@ -25,4 +24,9 @@ $ ud-useradd
 Edit groups in ldap
 -------------------
 $ ldapvi --encoding=ASCII --ldap-conf -h db.debconf.org -D uid=holger,ou=users,dc=debconf,dc=org 'gid=*'
+
+cmburns firewall
+----------------
+
+krabappel:/etc/debconf.org# make
 
