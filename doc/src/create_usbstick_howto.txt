@@ -9,7 +9,7 @@ sudo mount /dev/sdb1 /mnt
 
 copy the following files to /mnt:
 
-sudo cp vmlinuz initrd.gz syslinux.cfg firmware-6.0.1a-i386-netinst.iso preseed.cfg final_setup.sh ac583520.asc /mnt
+sudo cp vmlinuz initrd.gz syslinux.cfg firmware-6.0.2.1-i386-netinst.iso preseed.cfg final_setup.sh ac583520.asc /mnt
 
 vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-i386/current/images/hd-media/ )
 initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-i386/current/images/hd-media/ )
