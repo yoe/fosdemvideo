@@ -1,0 +1,4 @@
+search dc11.debconf.org debconf.org
+domain dc11.debconf.org
+nameserver 78.28.148.4
+
