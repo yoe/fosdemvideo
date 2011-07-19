@@ -28,7 +28,7 @@ case $HOSTNAME in
    lisa)
    		echo "ICECAST";;
    barney|rod)
-   		echo "STORAGE ENCODING";;
+   		echo "STORAGE";;
 esac
 
 case $HOSTNAME in
