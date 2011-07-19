@@ -1,0 +1,9 @@
+deb http://ftp.ba.debian.org/debian/ squeeze main contrib non-free
+#deb http://#MIRROR#/debian/ squeeze main contrib non-free
+deb http://security.debian.org/ squeeze/updates main contrib non-free
+
+deb http://db.debconf.org/dc-admin/archive/ squeeze/amd64/
+deb http://db.debconf.org/dc-admin/archive/ squeeze/all/
+
+deb http://mraw.org/~kibi/xbpo/ ./
+
