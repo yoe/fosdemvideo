@@ -12,6 +12,11 @@ case $HOSTNAME in
 		echo "FAIBASE DEBCONF DEBCONF11 VIDEO" ;;
 esac
 
+case $HOSTNAME in
+   homer|dc11fw)
+		echo "FAIBASE DEBCONF DEBCONF11" ;;
+esac
+
 #case $HOSTNAME in
 #   dolph)	echo "IPW2X00"
 #esac
