@@ -37,8 +37,6 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
-   selma|scratchy) 
-   		echo "NVIDIA";;
    barney) 
    		echo "PENTA";;
 esac
