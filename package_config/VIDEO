@@ -16,6 +16,7 @@ xfce4 xserver-xorg xterm kdm
 xserver-xorg-video-intel
 iceweasel mozilla-noscript xul-ext-adblock-plus
 irssi xchat
+linux-image-2.6.39-2-amd64
 
 PACKAGES install DVSWITCH
 dvswitch nodm
