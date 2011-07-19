@@ -1,4 +1,4 @@
-deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+deb http://ftp.ba.debian.org/debian/ squeeze main contrib non-free
 #deb http://#MIRROR#/debian/ squeeze main contrib non-free
 deb http://security.debian.org/ squeeze/updates main contrib non-free
 
