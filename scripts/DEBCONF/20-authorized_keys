@@ -7,3 +7,7 @@ chmod 700 /root/.ssh
 chmod 600 /root/.ssh/authorized_keys
 chown -R root.root /root/.ssh
 
+# for udldap
+mkdir -p /etc/ssh/userkeys
+ln -sf /etc/ssh/userkeys/ /var/keys
+

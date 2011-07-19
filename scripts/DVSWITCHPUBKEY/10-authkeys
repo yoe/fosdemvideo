@@ -10,6 +10,4 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBLa0ujvmwvETWBh39X2GiqbyJQuZl6d808A
 chown 1053.1008 /etc/ssh/userkeys/dvswitch
 chmod 600 /etc/ssh/userkeys/dvswitch
 
-# brute force
-ln -sf /etc/ssh/userkeys/ /var/keys
 
