@@ -16,5 +16,8 @@ dmesg.log:.* PM: Error -22 checking image file
 dmesg.log:.* PM: Resume from disk failed.
 dmesg.log:.* svc: failed to register lockdv1 RPC service (errno 97).
 software.log:WARNING: The following packages cannot be authenticated!
-software.log:Authentication warning overridden."
+software.log:Authentication warning overridden.
+dmesg.log:.* HEST: Table not found.
+dmesg.log:.* ERST: Table is not found!
+dmesg.log:.* PM: Image not found (code -22)"
 
