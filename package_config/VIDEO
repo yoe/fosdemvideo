@@ -23,6 +23,7 @@ linux-image-2.6.39-2-amd64
 PACKAGES install DVSWITCH
 dvswitch nodm
 debconf-video-switch
+dvsink
 
 PACKAGES remove DVSWITCH
 xscreensaver kdm
