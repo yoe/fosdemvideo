@@ -13,6 +13,11 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
+   selma|patty|jackie|itchy|scratchy|blinky)
+		echo "ELITEBOOK" ;;
+esac
+
+case $HOSTNAME in
    homer|dc11fw)
 		echo "FAIBASE DEBCONF DEBCONF11" ;;
 esac
