@@ -11,8 +11,10 @@ dmesg.log:.* AER service couldn't init device .* - no _OSC support
 dmesg.log:.* pnp 00:09: can't add resource for IO 0x4d0-0x4d1
 dmesg.log:.* ACPI Warning (tbutils-0217): Incorrect checksum in table [OEMB] - 09, should be FE [20080321]
 dmesg.log:.* PM: Resume from disk failed.
-dmesg.log:.* ata1.00: ACPI.*
+dmesg.log:.* ata..00: ACPI.*
 dmesg.log:.* PM: Error -22 checking image file
 dmesg.log:.* PM: Resume from disk failed.
-dmesg.log:.* svc: failed to register lockdv1 RPC service (errno 97)."
+dmesg.log:.* svc: failed to register lockdv1 RPC service (errno 97).
+software.log:WARNING: The following packages cannot be authenticated!
+software.log:Authentication warning overridden."
 

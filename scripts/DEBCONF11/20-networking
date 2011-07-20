@@ -7,4 +7,4 @@
 
 fcopy -M /etc/hosts 
 fcopy -M /etc/resolv.conf
-fcopy -M /etc/network/interfaces
+fcopy -M -i /etc/network/interfaces
