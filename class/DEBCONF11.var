@@ -9,5 +9,15 @@ dmesg.log:.*Error: Driver .pcspkr. is already registered, aborting...
 dmesg.log:.* warning.*ntpd.*uses 32-bit capabilities.*
 dmesg.log:.* AER service couldn't init device .* - no _OSC support
 dmesg.log:.* pnp 00:09: can't add resource for IO 0x4d0-0x4d1
-dmesg.log:.* ACPI Warning (tbutils-0217): Incorrect checksum in table [OEMB] - 09, should be FE [20080321]"
+dmesg.log:.* ACPI Warning (tbutils-0217): Incorrect checksum in table [OEMB] - 09, should be FE [20080321]
+dmesg.log:[.*] PM: Resume from disk failed.
+dmesg.log:[.*] ata1.00: ACPI _SDD failed (AE 0x5)
+dmesg.log:[.*] ata1.00: ACPI _SDD failed (AE 0x5)
+dmesg.log:[.*] ata1.00: ACPI: failed the second time, disabled
+dmesg.log:[.*] ata2.00: ACPI _SDD failed (AE 0x5)
+dmesg.log:[.*] ata2.00: ACPI _SDD failed (AE 0x5)
+dmesg.log:[.*] ata2.00: ACPI: failed the second time, disabled
+dmesg.log:[.*] PM: Error -22 checking image file
+dmesg.log:[.*] PM: Resume from disk failed.
+dmesg.log:[.*] svc: failed to register lockdv1 RPC service (errno 97)."
 
