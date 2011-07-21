@@ -28,7 +28,7 @@ dc-start-source firewire:patty &
 sleep 3
 #dc-start-source alsa:selma/hw:1 &
 #sleep 3
-dvsource-file -l /home/dvswitch/dc11simple.ogv &
+dvsource-file -l /home/dvswitch/dc11simple.dv &
 xterm -e "dc-start-sink file:selma" &
 xterm -e "while true ; do dc-start-sink icecast:todd ; done" &
 
