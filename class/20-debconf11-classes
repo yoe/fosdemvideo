@@ -18,7 +18,7 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
-   homer|dc11fw)
+   homer|dc11fw|freeswitch)
 		echo "FAIBASE DEBCONF DEBCONF11" ;;
 esac
 
