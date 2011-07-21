@@ -19,5 +19,7 @@ software.log:WARNING: The following packages cannot be authenticated!
 software.log:Authentication warning overridden.
 dmesg.log:.* HEST: Table not found.
 dmesg.log:.* ERST: Table is not found!
-dmesg.log:.* PM: Image not found (code -22)"
+dmesg.log:.* PM: Image not found (code -22)
+dmesg.log:.* ACPI Warning.*
+dmesg.log:.* aer 0000.*"
 
