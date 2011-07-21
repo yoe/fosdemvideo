@@ -21,5 +21,7 @@ dmesg.log:.* HEST: Table not found.
 dmesg.log:.* ERST: Table is not found!
 dmesg.log:.* PM: Image not found (code -22)
 dmesg.log:.* ACPI Warning.*
-dmesg.log:.* aer 0000.*"
+dmesg.log:.* aer 0000.*
+dmesg.log:.* failed to get i915 symbols, graphics turbo disabled"
+
 
