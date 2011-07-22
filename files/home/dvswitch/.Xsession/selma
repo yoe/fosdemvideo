@@ -20,9 +20,9 @@ xterm -e ssh patty 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^ *
 # setup dvswitch
 xterm -e dvswitch &
 sleep 1
-xterm -e dvsource-firewire &
+xterm -e "dc-start-source firewire+tally:selma" &
 sleep 1
-dc-start-source firewire:jackie &
+dc-start-source firewire+tally:jackie &
 sleep 3
 dc-start-source firewire:patty &
 sleep 3

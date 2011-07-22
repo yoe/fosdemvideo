@@ -17,10 +17,10 @@ xterm -e ssh itchy 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^ *
 # setup dvswitch
 xterm -e dvswitch &
 sleep 1
-xterm -e dvsource-firewire &
+xterm -e "dc-start-source firewire+tally:scratchy" &
 #dvsource-firewire &
 sleep 3
-dc-start-source firewire:itchy &
+dc-start-source firewire+tally:itchy &
 sleep 3
 dc-start-source firewire:blinky &
 sleep 3
