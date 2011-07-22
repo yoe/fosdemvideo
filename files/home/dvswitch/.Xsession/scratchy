@@ -20,9 +20,9 @@ sleep 1
 xterm -e "dc-start-source firewire+tally:scratchy" &
 #dvsource-firewire &
 sleep 3
-dc-start-source firewire+tally:itchy &
+xterm -e "dc-start-source firewire+tally:itchy" &
 sleep 3
-dc-start-source firewire:blinky &
+xterm -e "dc-start-source firewire:blinky" &
 sleep 3
 #dvsource-alsa -h scratchy -p 4321 -s pal hw:1,0 &
 #sleep 3

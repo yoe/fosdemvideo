@@ -22,9 +22,9 @@ xterm -e dvswitch &
 sleep 1
 xterm -e "dc-start-source firewire+tally:selma" &
 sleep 1
-dc-start-source firewire+tally:jackie &
+xterm -e "dc-start-source firewire+tally:jackie" &
 sleep 3
-dc-start-source firewire:patty &
+xterm -e "dc-start-source firewire:patty" &
 sleep 3
 #dc-start-source alsa:selma/hw:1 &
 #sleep 3
