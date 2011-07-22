@@ -3,6 +3,8 @@
 # use svn://svn.debian.org/svn/debconf-video/fai-config/files/home/dvswitch/.Xsession/$hostname
 #
 
+export DISPLAY=":0.0"
+
 setxkbmap -option terminate:ctrl_alt_bksp &
 
 # disable screensaver
