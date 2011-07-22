@@ -51,7 +51,7 @@ esac
 #esac
 
 case $HOSTNAME in 
-   selma|patty|jackie|itchy|scratchy|blinky|todd|barney)
+   selma|patty|jackie|itchy|scratchy|blinky|todd|barney|lisa)
    		echo "DVSWITCHPUBKEY";;
 esac
 

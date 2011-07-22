@@ -12,6 +12,7 @@ pciutils ethtool sudo
 molly-guard dnsutils
 apt-listchanges cron-apt
 firmware-linux-nonfree
+iperf
 
 PACKAGES install IPW2X00
 firmware-ipw2x00 wireless-tools
