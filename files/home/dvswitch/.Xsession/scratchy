@@ -6,7 +6,7 @@
 setxkbmap -option terminate:ctrl_alt_bksp &
 
 # disable screensaver
-xset s off
+xset -dpms
 
 # kill old sinks in case there are some left
 #xterm -e ssh barney 'ps fax | grep "dvsink-files -h scratchy -p 4321"|grep -v grep | sed -e "s/^ *//" |cut -d " " -f1| xargs -n 1 kill -9'
