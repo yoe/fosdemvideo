@@ -16,7 +16,13 @@ editfiles:
   ENCODING::
 	{ ${target}/etc/fstab
 	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
- 	}  
+ 	} 
+  # goldberg is also storage server
+  goldberg::
+	{ ${target}/etc/fstab
+	CommentLinesStarting  "barney:/video"
+	}
+
 #   DVSWITCH::
 #	{ ${target}/etc/fstab
 #	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
