@@ -12,7 +12,7 @@ ifclass FOSDEM && (
 	mkdir -p /home/dvswitch/.ssh
 	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBSst7yA9fy1ezxBv0esguqXeRj4s4CRzHFlBO/xFnKkpewZY1ZTyEb3oC0XyFcCRoFJrMkfjwoWN9AzlpMnqjgnuVqWyQB2UbgJpERkGBqxhPbWpfRDcW40JTV1G3W2mBni1WKuWH5mECVfguLRT7Q9CAqGZS18/ESQTGf6OndEOGb6EWl6954xD7+DDSIGEmL86pOIR/TRvffBrVyP3zb9rZmltHK+Iat3Q28eyc650+2U2iMgBenjE0M1X+QqlLc2kIKe5pP/z/qAdCQGU3WEuIXvAYalb1V+JRAvxHLfrVvzZIU+BbHbVQJTuYFXBKIO6kRRaSV24hJQrhp6K3 dvswitch@scratchy" > /home/dvswitch/.ssh/authorized_keys
 	chown dvswitch.dvswitch -R /home/dvswitch/.ssh/authorized_keys
-	chown 700 /home/dvswitch/.ssh
+	chmod 700 /home/dvswitch/.ssh
 	chmod 600 /home/dvswitch/.ssh/authorized_keys
 )
 
