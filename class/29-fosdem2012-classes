@@ -1,40 +1,37 @@
 #! /bin/sh
 
-# assign classes for hosts at fosdem 2009
+# assign classes for hosts at fosdem 2012
 # `hostname -f` doesnt return proper results (before running fai :)
 
 #
 #
-exit 0
 
 case $HOSTNAME in
-   selma|patty|ned)
+   r?grab|r?dvswitch)
 		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
 esac
 
 case $HOSTNAME in
-   selma) 
+   r?dvswitch) 
    		echo "XORG";;
 esac
 
 case $HOSTNAME in
-   ned) 
-   		echo "ENCODING";;
-   selma|patty|ned) 
+#   ned) 
+#   		echo "ENCODING";;
+   r?grab) 
    		echo "CAPTURE";;
-   ned)
-   		echo "ICECAST";;
-   selma)
-   		echo "STORAGE";;
+#   ned)
+#   		echo "ICECAST";;
 esac
 
 case $HOSTNAME in
-   selma) 
-   		echo "DVSWITCH";;
+   r?dvswitch) 
+   		echo "DVSWITCH STORAGE";;
 esac
 
 case $HOSTNAME in 
-   selma|patty|ned)
+   r?grab|r?dvswitch)
    		echo "DVSWITCHPUBKEY";;
 esac
 

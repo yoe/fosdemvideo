@@ -1,10 +1,27 @@
 127.0.0.1 localhost
 
-82.195.75.74 	apu.debconf.org 
-192.168.0.254	linksys.debconf.org linksys
-192.168.0.1	patty.debconf.org patty
-192.168.0.2	selma.debconf.org selma
-192.168.0.3	ned.debconf.org ned
+# janson
+193.191.80.10 r1grab
+193.191.80.11 r1dvswitch
+# ferrer
+193.191.80.20 r2grab
+193.191.80.21 r2dvswitch
+# K
+193.191.80.30 r3grab
+193.191.80.31 r3dvswitch
+# h1301
+193.191.80.40 r4grab
+193.191.80.41 r4dvswitch
+# h1302
+193.191.80.50 r5grab
+193.191.80.51 r5dvswitch
+
+# encoding
+193.191.81.11  flumo1
+193.191.81.12  flumo2
+193.191.81.13  flumo3 celtic # (wouter's old laptop, not rented) 
+
+193.191.95.254 gateway
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
