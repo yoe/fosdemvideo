@@ -3,6 +3,7 @@
 # assign classes for h01gers video hosts 
 # `hostname -f` doesnt return proper results (before running fai :)
 
+exit 0
 echo "FAIBASE DEBCONF VIDEO" 
 
 case $HOSTNAME in
