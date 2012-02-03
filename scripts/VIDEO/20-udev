@@ -5,4 +5,4 @@
 #        GPL2 licenced
 #
 
-fcopy -r /etc/udev
+fcopy -i -r /etc/udev
