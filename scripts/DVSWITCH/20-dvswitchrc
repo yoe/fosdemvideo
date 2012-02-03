@@ -8,8 +8,8 @@
 HOSTNAME=`hostname`
 
 # $EVENT  is definied in class/*var
-[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME ] || exit 0
+#[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME ] || exit 0
 
-cp /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME /etc/dvswitchrc
+#cp /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME /etc/dvswitchrc
 
-fcopy -M /etc/default/nodm
+fcopy -M /etc/default/nodm /etc/dvswitchrc
