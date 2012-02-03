@@ -7,31 +7,31 @@
 #
 
 case $HOSTNAME in
-   r?grab|r?dvswitch)
+   r?grab*|r?dvswitch*)
 		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
 esac
 
 case $HOSTNAME in
-   r?dvswitch) 
+   r?dvswitch*) 
    		echo "XORG";;
 esac
 
 case $HOSTNAME in
 #   ned) 
 #   		echo "ENCODING";;
-   r?grab) 
+   r?grab*) 
    		echo "CAPTURE";;
 #   ned)
 #   		echo "ICECAST";;
 esac
 
 case $HOSTNAME in
-   r?dvswitch) 
+   r?dvswitch*) 
    		echo "DVSWITCH STORAGE";;
 esac
 
 case $HOSTNAME in 
-   r?grab|r?dvswitch)
+   r?grab*|r?dvswitch*)
    		echo "DVSWITCHPUBKEY";;
 esac
 
