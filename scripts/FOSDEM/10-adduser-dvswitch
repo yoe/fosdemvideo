@@ -14,7 +14,7 @@ $ROOTCMD chown -R $USER.$USER /home/$USER/.ssh
 $ROOTCMD chmod 700 /home/$USER/.ssh
 
 # we normally get this group from ldap
-addgroup --quiet --gid 1008 videoteam
+addgroup --quiet --gid 1008 videoteam || true
 
 # the videoteam group which owns the raw1394 device etc
 for i in dialout cdrom floppy audio video plugdev powerdev nvram netdev videoteam ; do $ROOTCMD adduser --quiet $USER $i ; done
