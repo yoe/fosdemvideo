@@ -7,6 +7,7 @@
 
 USER=dvswitch
 $ROOTCMD adduser --quiet --disabled-password --gecos "" $USER
+$ROOTCMD addgroup --quiet --gid 1000 dvswitch || true
 $ROOTCMD adduser --quiet $USER dvswitch
 
 $ROOTCMD mkdir -p /home/$USER/.ssh
