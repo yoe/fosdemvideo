@@ -3,20 +3,20 @@
 
 
 # janson
-193.191.80.10 r1grab
-193.191.80.11 r1dvswitch
+193.191.80.10 r1grab 		r1grab.video.fosdem.org
+193.191.80.11 r1dvswitch	r1dvswitch.video.fosdem.org
 # ferrer
-193.191.80.20 r2grab
-193.191.80.21 r2dvswitch
+193.191.80.20 r2grab		r2grab.video.fosdem.org
+193.191.80.21 r2dvswitch	r2dvswitch.video.fosdem.org
 # K
-193.191.80.30 r3grab
-193.191.80.31 r3dvswitch
+193.191.80.30 r3grab		r3grab.video.fosdem.org
+193.191.80.31 r3dvswitch	r3dvswitch.video.fosdem.org
 # h1301
-193.191.80.40 r4grab
-193.191.80.41 r4dvswitch
+193.191.80.40 r4grab		r4grab.video.fosdem.org
+193.191.80.41 r4dvswitch	r4dvswitch.video.fosdem.org
 # h1302
-193.191.80.50 r5grab
-193.191.80.51 r5dvswitch
+193.191.80.50 r5grab		r5grab.video.fosdem.org
+193.191.80.51 r5dvswitch	r5dvswitch.video.fosdem.org
 
 # encoding
 193.191.81.11  flumo1
