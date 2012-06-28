@@ -1,15 +1,15 @@
 # Name of the location from which we are recording
-CONFERENCE_NAME='FOSDEM 2012'
-VENUE_NAME="Universite libre de Bruxelles"
-ROOM_NAME="Janson"
+CONFERENCE_NAME='DebConf12'
+VENUE_NAME="Universidad Centro Americana"
+ROOM_NAME="Aula Magna"
 # Sources and sinks
-SOURCES="firewire:r1dvswitch firewire:r1grab"
-SINKS="file:r1dvswitch"
+SOURCES="firewire:r1dvswitch firewire:r1grab1 firewire:r1grab2"
+SINKS="file:r1dvswitch icecast:encoder1"
 # Icecast streaming server parameters
-#ICECAST_ADDR=lisa.dc11.debconf.org
-#ICECAST_PORT=8000
-#ICECAST_PASS=Ieniech6
-#ICECAST_PATH=/Roundroom.ogv
+ICECAST_ADDR=encoder1.dc12.debconf.org
+ICECAST_PORT=8000
+ICECAST_PASS=Ieniech6
+ICECAST_PATH=/talkroom1.ogv
 # Stream encoding parameters
 VIDEO_STREAM_WIDTH=320
 VIDEO_STREAM_HEIGHT=240
@@ -19,4 +19,4 @@ AUDIO_STREAM_HZ=48000
 AUDIO_STREAM_KBPS=64
 # File store base directory
 FILE_BASE="/video"
-#FILE_SERVER="barney"
+#FILE_SERVER="storage1"

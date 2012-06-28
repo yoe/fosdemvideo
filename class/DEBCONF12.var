@@ -1,7 +1,7 @@
 UTC=no
-time_zone=Europe/Sarajevo
+time_zone=America/Managua
 FAI_ACTION=softupdate
-EVENT=dc11
+EVENT=dc12
 
 hosterrorpatterns="XXXXX"
 hostignorepatterns="$hostignorepatterns

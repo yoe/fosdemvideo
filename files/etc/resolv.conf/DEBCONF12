@@ -1,0 +1,4 @@
+search dc12.debconf.org debconf.org
+domain dc12.debconf.org
+nameserver 172.30.15.1
+
