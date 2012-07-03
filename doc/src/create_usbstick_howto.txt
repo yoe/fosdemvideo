@@ -21,6 +21,7 @@ firmware-6.0.1a-amd64-netinst.iso	# take it from http://cdimage.debian.org/cdima
 preseed.cfg  			# see current directory
 final_setup.sh  		# see current directory
 ac583520.asc			# h01gers public key
+README.source			# GPL compliance... tel about the source
 
 sudo umount /dev/sdb1
 sudo syslinux /dev/sdb1		# the t60 needed 3.51 from sid/holgers etch backports...
