@@ -6,7 +6,7 @@
 #
 
 mkdir -p /etc/ssh/userkeys
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBSst7yA9fy1ezxBv0esguqXeRj4s4CRzHFlBO/xFnKkpewZY1ZTyEb3oC0XyFcCRoFJrMkfjwoWN9AzlpMnqjgnuVqWyQB2UbgJpERkGBqxhPbWpfRDcW40JTV1G3W2mBni1WKuWH5mECVfguLRT7Q9CAqGZS18/ESQTGf6OndEOGb6EWl6954xD7+DDSIGEmL86pOIR/TRvffBrVyP3zb9rZmltHK+Iat3Q28eyc650+2U2iMgBenjE0M1X+QqlLc2kIKe5pP/z/qAdCQGU3WEuIXvAYalb1V+JRAvxHLfrVvzZIU+BbHbVQJTuYFXBKIO6kRRaSV24hJQrhp6K3 dvswitch@scratchy" > /etc/ssh/userkeys/dvswitch
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSsjjk76c3+VGui6EoXu4fJoIkadwoR2nA78Rh8tWiQxFXIf6xQpWoF/+Zg70m0K+8cs5R2kp0BC2Lfk05C+hsX9oNACMCVJ5GbTMzm14EryyjnUa46alAmZcFyx+2FhUIW0QVb98PiUmLhsm9/1/zAsXKM7Z5NydJfNnE+NVYkjLQr3n6KYbksYcrAnLUL6SwkHhMBFIP9W+HyFvH+m8agOWQ6kkmlXGpqOM7yFbA1CkTRnsgZYbel+Ly4dXeuNXnYIa5s//VkQlzI1hkytV6J32y811hiJgh98sx692RjQJtlMQbaw6/X1q6Eddx1D/5lBfWEnZPhHJQ3zutqaDH dvswitch@r1dvswitch" > /etc/ssh/userkeys/dvswitch
 
 ifclass FOSDEM && (
 	mkdir -p /home/dvswitch/.ssh
