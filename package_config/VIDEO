@@ -13,7 +13,7 @@ twinkle
 
 PACKAGES install XORG
 xorg elinks
-xfce4 xserver-xorg xterm kdm
+xfce4 xserver-xorg xterm
 xserver-xorg-video-intel
 iceweasel mozilla-noscript xul-ext-adblock-plus
 irssi xchat
