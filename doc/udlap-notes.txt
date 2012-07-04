@@ -6,7 +6,7 @@ This needs to be done for all hosts at a debconf.
 selma:~# softupdate
 
 holger@cmburns:~$ sudo vi /var/keys/sshdist
-add from selmai the output of: cat /etc/ssh/ssh_host*_key.pub
+add from selmai the output of: cat /etc/ssh/ssh_host_rsa_key.pub
 
 holger@cmburns:~$ ud-host -h cmburns
 

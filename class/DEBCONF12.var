@@ -22,6 +22,9 @@ dmesg.log:.* ERST: Table is not found!
 dmesg.log:.* PM: Image not found (code -22)
 dmesg.log:.* ACPI Warning.*
 dmesg.log:.* aer 0000.*
-dmesg.log:.* failed to get i915 symbols, graphics turbo disabled"
+dmesg.log:.* failed to get i915 symbols, graphics turbo disabled
+dmesg.log:.* pci 0000:00:00.0: BAR 3: can't allocate resource
+dmesg.log:.* pci 0000:00:13.2: EHCI: BIOS handoff failed (BIOS bug?) 01010001
+dmesg.log:.* Fast TSC calibration failed"
 
 
