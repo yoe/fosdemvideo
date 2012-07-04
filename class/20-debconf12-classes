@@ -18,7 +18,7 @@ case $HOSTNAME in
    r?grab*) 
    		echo "CAPTURE";;
    r?dvswitch*) 
-   		echo "XORG DVSWITCH STORAGE";;
+   		echo "XORG CAPTURE DVSWITCH STORAGE";;
    storage*) 
    		echo "STORAGE";;
    localstream*) 
