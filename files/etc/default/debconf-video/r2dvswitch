@@ -4,9 +4,9 @@ VENUE_NAME="Universidad Centro Americana"
 ROOM_NAME="Roberto Teran"
 # Sources and sinks
 SOURCES="firewire:r2dvswitch firewire:r2grab1 firewire:r2grab2"
-SINKS="file:r2dvswitch icecast:encoder1"
+SINKS="file:r2dvswitch icecast:encoder2"
 # Icecast streaming server parameters
-ICECAST_ADDR=encoder1.dc12.debconf.org
+ICECAST_ADDR=encoder2.dc12.debconf.org
 ICECAST_PORT=8000
 ICECAST_PASS=Ieniech6
 ICECAST_PATH=/talkroom2.ogv
