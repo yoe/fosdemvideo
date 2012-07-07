@@ -34,7 +34,7 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in 
-   r?grab*|r?dvswitch*)
+   r?grab*|r?dvswitch*|storage?)
    		echo "DVSWITCHPUBKEY";;
 esac
 
