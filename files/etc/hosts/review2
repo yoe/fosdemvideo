@@ -1,0 +1,28 @@
+127.0.0.1 localhost review2.dc12.debconf.org
+
+82.195.75.74 	apu.debconf.org apu
+72.14.176.206 krusty.debconf.org krusty
+
+89.16.166.49    db.debconf.org db
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+172.31.1.0 	r1gw.dc12.debconf.org	r1gw
+172.31.1.1 	r1dvswitch.dc12.debconf.org r1dvswitch
+172.31.1.2 	r1grab1.dc12.debconf.org r1grab1	encoder1.dc12.debconf.org	encoder1
+
+172.31.1.3 	r1grab2.dc12.debconf.org r1grab2
+172.31.2.0 	r2gw.dc12.debconf.org r2gw
+172.31.2.1 	r2dvswitch.dc12.debconf.org r2dvswitch
+172.31.2.2 	r2grab1.dc12.debconf.org r2grab1	encoder2.dc12.debconf.org	encoder2
+172.31.2.3 	r2grab2.dc12.debconf.org r2grab2
+172.31.11.1 	storage1.dc12.debconf.org storage1
+172.31.12.1 	localstream1.dc12.debconf.org localstream1
+
+
