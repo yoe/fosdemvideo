@@ -15,7 +15,11 @@ directories:
 editfiles:
   ENCODING::
 	{ ${target}/etc/fstab
-	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
+	AppendIfNoSuchLine "storage1:/video    /video      nfs     defaults,auto,rw 0       0"
+ 	} 
+  REVIEW::
+	{ ${target}/etc/fstab
+	AppendIfNoSuchLine "storage1:/video    /video      nfs     defaults,auto,ro 0       0"
  	} 
   # goldberg is also storage server
   goldberg::

@@ -1,0 +1,14 @@
+#! /bin/bash
+
+#
+#        (c) 2006-2012 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+USER=review
+$ROOTCMD adduser --quiet --disabled-password --gecos "" $USER
+
+
+# the videoteam group which owns the raw1394 device etc
+for i in dialout cdrom floppy audio video plugdev powerdev nvram netdev ; do $ROOTCMD adduser --quiet $USER $i ; done
+  
