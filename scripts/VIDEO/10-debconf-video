@@ -1,12 +1,14 @@
 #!/bin/sh
 
 #
-#        (c) 2006,2008 Holger Levsen         holger@layer-acht.org
+#        (c) 2006-2012 Holger Levsen         holger@layer-acht.org
 #        GPL2 licenced
 #
 
 mkdir -p /home/dvswitch
 chown 1053.1008 /home/dvswitch
+
+fcopy /etc/default/locale
 
 HOSTNAME=`hostname`
 
