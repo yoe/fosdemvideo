@@ -10,7 +10,7 @@ iface vlan15 inet static
         gateway 172.31.15.1
         vlan_raw_device eth1
 
-iface vlan5 inet static
+iface vlan15 inet static
         address 190.181.128.165
         netmask 255.255.255.248
         broadcast 190.181.128.167
