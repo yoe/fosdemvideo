@@ -13,6 +13,7 @@ molly-guard dnsutils
 apt-listchanges cron-apt
 firmware-linux-nonfree
 iperf vlan
+wipe 
 
 PACKAGES install IPW2X00
 firmware-ipw2x00 wireless-tools
