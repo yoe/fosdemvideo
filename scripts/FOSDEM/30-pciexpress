@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# the laptops used with twinpacts need pci express
+case $HOSTNAME in
+   twinpact?) 	ainsl /etc/modules "pciehp"
+esac
