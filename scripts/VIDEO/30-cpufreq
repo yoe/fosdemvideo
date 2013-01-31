@@ -6,4 +6,6 @@
 #
 
 fcopy -M /etc/default/cpufrequtils
-[ -f /etc/init.d/cpufrequtils ] && /etc/init.d/cpufrequtils reload
+if [ -f /etc/init.d/cpufrequtils ] ; then
+	/etc/init.d/cpufrequtils reload
+fi
