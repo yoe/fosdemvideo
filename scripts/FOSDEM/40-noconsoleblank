@@ -2,5 +2,5 @@
 
 # the laptops used with twinpacts need pci express
 case $HOSTNAME in
-   twinpact?) 	sed -i -e 's/^\(BLANK_TIME\)=.*/\1=0/' /etc/kbd/config
+   twinpact?) 	sed -i -e '/^BLANK_TIME=0$/!s/^\(BLANK_TIME\)=.*/\1=0/' /etc/kbd/config
 esac
