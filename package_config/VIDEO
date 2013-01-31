@@ -9,7 +9,7 @@ userdir-ldap
 bzip2  nload dstat
 powertop
 locales-all
-#debconf-video-common
+debconf-video-common
 
 PACKAGES remove VIDEO
 cpufrequtils
@@ -21,13 +21,11 @@ xserver-xorg-video-intel
 iceweasel mozilla-noscript xul-ext-adblock-plus
 irssi xchat
 
-#PACKAGES install ELITEBOOK
-#linux-image-2.6.39-2-amd64
 
 PACKAGES install DVSWITCH
 dvswitch nodm
 dvsink
-#debconf-video-switch
+debconf-video-switch
 
 PACKAGES remove DVSWITCH
 xscreensaver kdm
@@ -38,7 +36,7 @@ nodm
 
 PACKAGES install CAPTURE
 dvgrab dvsource 
-#debconf-video-capture
+debconf-video-capture
 
 PACKAGES install ENCODING
 ffmpeg ffmpeg2theora  
@@ -51,7 +49,7 @@ dvsink
 nfs-kernel-server
 debian-keyring apache2
 ezstream
-#debconf-video-store
+debconf-video-store
 
 PACKAGES install ICECAST
 icecast2
