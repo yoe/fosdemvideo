@@ -26,8 +26,8 @@ irssi xchat
 
 PACKAGES install DVSWITCH
 dvswitch nodm
-debconf-video-switch
 dvsink
+#debconf-video-switch
 
 PACKAGES remove DVSWITCH
 xscreensaver kdm
