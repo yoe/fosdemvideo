@@ -5,17 +5,17 @@
 151.216.112.11 dvswitch1 dvswitch1.video.fosdem.org
 151.216.112.12 twinpact1 twinpact1.video.fosdem.org
 # K-auditorium
-151.216.112.11 dvswitch2 dvswitch2.video.fosdem.org
-151.216.112.12 twinpact2 twinpact2.video.fosdem.org
+151.216.112.21 dvswitch2 dvswitch2.video.fosdem.org
+151.216.112.22 twinpact2 twinpact2.video.fosdem.org
 # ferrer
-151.216.112.11 dvswitch3 dvswitch3.video.fosdem.org
-151.216.112.12 twinpact3 twinpact3.video.fosdem.org
+151.216.112.31 dvswitch3 dvswitch3.video.fosdem.org
+151.216.112.32 twinpact3 twinpact3.video.fosdem.org
 # h1301
-151.216.112.11 dvswitch4 dvswitch4.video.fosdem.org
-151.216.112.12 twinpact4 twinpact4.video.fosdem.org
+151.216.112.41 dvswitch4 dvswitch4.video.fosdem.org
+151.216.112.42 twinpact4 twinpact4.video.fosdem.org
 # h1302
-151.216.112.11 dvswitch5 dvswitch5.video.fosdem.org
-151.216.112.12 twinpact5 twinpact5.video.fosdem.org
+151.216.112.51 dvswitch5 dvswitch5.video.fosdem.org
+151.216.112.52 twinpact5 twinpact5.video.fosdem.org
 
 # spares
 151.216.112.61 spare1 spare1.video.fosdem.org
