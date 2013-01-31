@@ -1,10 +1,16 @@
 #! /bin/bash
 
-# assign classes for hosts at fosdem 2012
+# assign classes for hosts at fosdem 2013
 # `hostname -f` doesnt return proper results (before running fai :)
 
 #
 #
+
+case $HOSTNAME in
+  twinpact?|spare?)
+		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
+esac
+
 
 exit 0
 
