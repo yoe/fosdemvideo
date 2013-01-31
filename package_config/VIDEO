@@ -47,10 +47,10 @@ oggshout
 
 PACKAGES install STORAGE
 dvsink
-debconf-video-store
 nfs-kernel-server
 debian-keyring apache2
 ezstream
+#debconf-video-store
 
 PACKAGES install ICECAST
 icecast2
