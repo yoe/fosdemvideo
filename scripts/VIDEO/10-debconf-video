@@ -1,12 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 
 #
-#        (c) 2006-2012 Holger Levsen         holger@layer-acht.org
+#        (c) 2006-2013 Holger Levsen         holger@layer-acht.org
 #        GPL2 licenced
 #
 
 mkdir -p /home/dvswitch
-chown 1053.1008 /home/dvswitch
+if [ ifclass DEBCONF ] ; then
+	chown 1053.1008 /home/dvswitch
+else
+	chown 1000.1000 /home/dvswitch
+fi
+
 
 fcopy /etc/default/locale
 
