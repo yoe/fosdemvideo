@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo 'SUBSYSTEM=="firewire", GROUP="video"' > /etc/udev/rules.d/50-videoteam.rules
