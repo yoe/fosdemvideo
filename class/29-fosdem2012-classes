@@ -7,39 +7,22 @@
 #
 
 case $HOSTNAME in
-  twinpact?|spare?)
-		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
-esac
-
-
-exit 0
-
-case $HOSTNAME in
-   r?grab*|r?dvswitch*)
+  twinpact?|spare?|dvswitch?|encoder?)
 		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
 esac
 
 case $HOSTNAME in
-   r?dvswitch*) 
-   		echo "XORG";;
+   dvswitch?) 	echo "XORG DVSWITCH";;
+   twinpact?) 	echo "CAPTURE";;
 esac
+#unused CLASSES: ENCODING ICECAST
 
 case $HOSTNAME in
-#   ned) 
-#   		echo "ENCODING";;
-   r?grab*) 
-   		echo "CAPTURE";;
-#   ned)
-#   		echo "ICECAST";;
-esac
-
-case $HOSTNAME in
-   r?dvswitch*) 
-   		echo "DVSWITCH STORAGE";;
+   twinpact?) 	echo "STORAGE";;
 esac
 
 case $HOSTNAME in 
-   r?grab*|r?dvswitch*)
+   twinpact?|dvswitch?)
    		echo "DVSWITCHPUBKEY";;
 esac
 
