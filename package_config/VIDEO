@@ -8,8 +8,11 @@ debconf-video-common
 telnet lynx w3m screen
 userdir-ldap
 bzip2  nload dstat
-cpufrequtils powertop
+powertop
 locales-all
+
+PACKAGES remove VIDEO
+cpufrequtils
 
 PACKAGES install XORG
 xorg elinks
