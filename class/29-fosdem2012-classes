@@ -8,7 +8,7 @@
 
 case $HOSTNAME in
   twinpact?|spare?|dvswitch?|encoder?)
-		echo "FAIBASE DEBCONF VIDEO FOSDEM" ;;
+		echo "FAIBASE VIDEO FOSDEM" ;;
 esac
 
 case $HOSTNAME in

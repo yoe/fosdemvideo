@@ -9,7 +9,7 @@ mkdir -p /home/dvswitch
 if ifclass DEBCONF ; then
 	chown 1053.1008 /home/dvswitch
 else
-	chown 1000.1000 /home/dvswitch
+	chown dvswitch.dvswitch /home/dvswitch
 fi
 
 
