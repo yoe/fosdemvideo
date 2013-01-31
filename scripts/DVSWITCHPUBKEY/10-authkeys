@@ -5,19 +5,16 @@
 #        GPL2 licenced
 #
 
-mkdir -p /etc/ssh/userkeys
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSsjjk76c3+VGui6EoXu4fJoIkadwoR2nA78Rh8tWiQxFXIf6xQpWoF/+Zg70m0K+8cs5R2kp0BC2Lfk05C+hsX9oNACMCVJ5GbTMzm14EryyjnUa46alAmZcFyx+2FhUIW0QVb98PiUmLhsm9/1/zAsXKM7Z5NydJfNnE+NVYkjLQr3n6KYbksYcrAnLUL6SwkHhMBFIP9W+HyFvH+m8agOWQ6kkmlXGpqOM7yFbA1CkTRnsgZYbel+Ly4dXeuNXnYIa5s//VkQlzI1hkytV6J32y811hiJgh98sx692RjQJtlMQbaw6/X1q6Eddx1D/5lBfWEnZPhHJQ3zutqaDH dvswitch@r1dvswitch" > /etc/ssh/userkeys/dvswitch
-
-ifclass FOSDEM && (
+if ifclass FOSDEM ; then
 	mkdir -p /home/dvswitch/.ssh
 	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqGjcVt6aHFlTTVY2eMh611baV/oHHZbuRavgOAD9BzPyHXsR9SmplH7qujjM2VPohwRAyqAJZqsC1Dr7MQWNjSzt7EHnAyYYFTd2ggLWYti+zGB/JeBnvR9AnhcgHHXo3CheSQza46v5CeXnS9tzwtsAqvJMaOaDRhBkTdLKbBgASOFVHp16mUWFyWmahBNNj1FnZNgecLfs0D7X8rvgbrxJibWn3cobbkbbJ4CcTRrh9huGBIbmtZyJIQKOMcGILDg0qisb8dgt7R17iaPpHQaoqqPDp+T2Hm5NCWBJXTdAhnWVsybIXaykIvq2eaXikrvfS2wTu9vMndNsIYyQd dvswitch@dvswitch1" > /home/dvswitch/.ssh/authorized_keys
 	chown dvswitch.dvswitch -R /home/dvswitch/.ssh/authorized_keys
 	chmod 700 /home/dvswitch/.ssh
 	chmod 600 /home/dvswitch/.ssh/authorized_keys
-)
-
-
-chown 1053.1008 /etc/ssh/userkeys/dvswitch
-chmod 600 /etc/ssh/userkeys/dvswitch
-
+else 
+	mkdir -p /etc/ssh/userkeys
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSsjjk76c3+VGui6EoXu4fJoIkadwoR2nA78Rh8tWiQxFXIf6xQpWoF/+Zg70m0K+8cs5R2kp0BC2Lfk05C+hsX9oNACMCVJ5GbTMzm14EryyjnUa46alAmZcFyx+2FhUIW0QVb98PiUmLhsm9/1/zAsXKM7Z5NydJfNnE+NVYkjLQr3n6KYbksYcrAnLUL6SwkHhMBFIP9W+HyFvH+m8agOWQ6kkmlXGpqOM7yFbA1CkTRnsgZYbel+Ly4dXeuNXnYIa5s//VkQlzI1hkytV6J32y811hiJgh98sx692RjQJtlMQbaw6/X1q6Eddx1D/5lBfWEnZPhHJQ3zutqaDH dvswitch@r1dvswitch" > /etc/ssh/userkeys/dvswitch
+	chown 1053.1008 /etc/ssh/userkeys/dvswitch
+	chmod 600 /etc/ssh/userkeys/dvswitch
+fi
 
