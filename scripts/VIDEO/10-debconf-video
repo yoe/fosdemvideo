@@ -6,10 +6,11 @@
 #
 
 mkdir -p /home/dvswitch
-if ifclass DEBCONF ; then
-	chown 1053.1008 /home/dvswitch
-else
+if ifclass FOSDEM ; then
 	chown dvswitch.dvswitch /home/dvswitch
+else
+	# bloody debconf hell
+	chown 1053.1008 /home/dvswitch
 fi
 
 
