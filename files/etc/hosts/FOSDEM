@@ -24,7 +24,7 @@
 
 # infrastructure
 151.216.112.1  gateway gw gw..video.fosdem.org gateway.video.fosdem.org
-151.216.113.1  server server.video.fosdem.org
+151.216.113.1  server server.video.fosdem.org encoder1 encoder1.video.fosdem.org
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
