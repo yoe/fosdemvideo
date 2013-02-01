@@ -12,7 +12,7 @@ xset -dpms
 xset s off
 
 # kill old sinks in case there are some left
-xterm -e ssh encoder1 'ps fax | grep "bash -c dvsink-command -h encoder1 -p 4321 -- ffmpeg2theora"|grep -v grep | sed -e "s/^ *//" | cut -d " " -f1  | xargs -n 1 kill -9' 
+#xterm -e ssh encoder1 'ps fax | grep "bash -c dvsink-command -h encoder1 -p 4321 -- ffmpeg2theora"|grep -v grep | sed -e "s/^ *//" | cut -d " " -f1  | xargs -n 1 kill -9' 
 xterm -e ssh twinpact4 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^ *//" |cut -d " " -f1  | xargs -n 1 kill -9' 
 
 # setup dvswitch
