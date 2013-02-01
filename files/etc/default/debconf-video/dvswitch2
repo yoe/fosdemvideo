@@ -1,0 +1,14 @@
+# Name of the location from which we are recording
+CONFERENCE_NAME='FOSDEM2013'
+VENUE_NAME="ULB"
+ROOM_NAME="K-auditorium"
+# Publication details
+PUBLISH_AUTHOR='FOSDEM video team'
+PUBLISH_ORG='FOSDEM'
+PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
+
+# File store base directory
+FILE_BASE="/video"
+
+VIDEO_STANDARD=pal
+
