@@ -1,0 +1,27 @@
+#!/bin/bash
+
+set -e
+
+newfile=$(basename $1 .dv).webm
+wavfile=$(basename $1 .dv).wav
+wavfile=$(readlink -f $wavfile)
+normalfile=$(basename $1 .dv)-normal.wav
+normalfile=$(readlink -f $normalfile)
+oldfile=$(readlink -f $1)
+
+echo -e "\033]0;Pass 1: $newfile\007"
+gst-launch-0.10 webmmux name=mux ! fakesink \
+  uridecodebin uri=file://$oldfile name=demux \
+  demux. ! ffmpegcolorspace ! deinterlace ! vp8enc multipass-cache-file=/tmp/vp8-multipass multipass-mode=1 threads=4 ! queue ! mux.video_0 \
+  demux. ! progressreport ! audioconvert ! audiorate ! tee name=t ! queue ! vorbisenc ! queue ! mux.audio_0 \
+  t. ! queue ! wavenc ! filesink location=$wavfile
+echo -e "\033]0;Audio normalize: $newfile\007"
+sox --norm $wavfile $normalfile
+echo -e "\033]0;Pass 2: $newfile\007"
+gst-launch-0.10 webmmux name=mux ! filesink location=$newfile \
+  uridecodebin uri=file://$oldfile name=video \
+  uridecodebin uri=file://$normalfile name=audio \
+  video. ! ffmpegcolorspace ! deinterlace ! vp8enc multipass-cache-file=/tmp/vp8-multipass multipass-mode=2 threads=4 ! queue ! mux.video_0 \
+  audio. ! progressreport ! audioconvert ! audiorate ! vorbisenc ! queue ! mux.audio_0
+
+rm $wavfile $normalfile
