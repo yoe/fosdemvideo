@@ -4,7 +4,9 @@ These scripts were used to transcode videos made at FOSDEM from DV into WebM.
 
 This scripts takes a command file, which looks somewhat like this:
 
- filename|type|starttime|endtime|description
+<pre>
+filename|type|starttime|endtime|description
+</pre>
 
 where
 
@@ -13,9 +15,9 @@ where
 - `type` is one of 0 (unused file), 1 (file containing an
   entire recording), or 3 (file containing part of a recording). Any
   other values are ignored.
-- starttime is the start of the interesting content inside _this_ file.
-- endtime is the end of the interesting content inside _this_ file.
-- description describes what the file contains; e.g., the title of the
+- `starttime` is the start of the interesting content inside _this_ file.
+- `endtime` is the end of the interesting content inside _this_ file.
+- `description` describes what the file contains; e.g., the title of the
   talk. The .webm file will use this as its filename.
 
 Using that information, dv2webm will output (on stdout) a script that
