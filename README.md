@@ -2,7 +2,8 @@ These scripts were used to transcode videos made at FOSDEM from DV into WebM.
 
 # dv2webm-batch
 
-This scripts takes a command file, which looks somewhat like this:
+This scripts takes a command file, which should contain lines looking somewhat
+like this:
 
 <pre>
 filename|type|starttime|endtime|description
