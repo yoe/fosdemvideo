@@ -38,7 +38,7 @@ syslinux, to account for tiny differences between BIOS implementations
 (which can't be done in a boot sector). Just look for files with 'mbr'
 in their name in /usr/lib/syslinux.
 
-The installation is automatic, the root password will be set to "fai". You just
+The installation is automatic, the root password will be set to "redPill". You just
 have to confirm partitioning and choose the right hostname.
 
 That should be all ;)
