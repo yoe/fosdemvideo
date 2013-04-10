@@ -1,10 +1,13 @@
 creating a d-i usbstick howto
 -----------------------------
 
+sudo apt-get install syslinux
+
 sudo dd if=/usr/lib/syslinux/mbr.bin of=/dev/sdb
+(mbr_c.bin for the debconf videoteam HP laptops)
 
 sudo fdisk /dev/sdb
--> create a WIN32 VFAT partition (type b in fdisk)
+-> create a WIN32 VFAT partition (type t and then b in fdisk)
 -> Make sure to mark it bootable (type a in fdisk)
 
 sudo mkfs.vfat /dev/sdb1
@@ -12,12 +15,12 @@ sudo mount /dev/sdb1 /mnt
 
 copy the following files to /mnt:
 
-sudo cp vmlinuz initrd.gz syslinux.cfg firmware-6.0.6-amd64-netinst.iso preseed.cfg final_setup.sh ac583520.asc /mnt
+sudo cp vmlinuz initrd.gz syslinux.cfg firmware-6.0.7-amd64-netinst.iso preseed.cfg final_setup.sh ac583520.asc /mnt
 
 vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-amd64/current/images/hd-media/ )
 initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-amd64/current/images/hd-media/ )
 syslinux.cfg   			# see current directory :) defines language and preseed file url
-firmware-6.0.6-amd64-netinst.iso	# take it from http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/firmware-6.0.6-amd64-netinst.iso
+firmware-6.0.7-amd64-netinst.iso	# take it from http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/firmware-6.0.7-amd64-netinst.iso
 preseed.cfg  			# see current directory
 final_setup.sh  		# see current directory
 ac583520.asc			# h01gers public key
