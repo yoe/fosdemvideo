@@ -1,6 +1,6 @@
 #
 # manual edits will be lost
-# use svn://svn.debian.org/svn/debconf-video/fai-config/files/home/dvswitch/.Xsession/$hostname
+# use file $hostname in http://anonscm.debian.org/gitweb/?p=debconf-video/config.git;a=tree;f=files/home/dvswitch/.Xsession/
 #
 
 export DISPLAY=":0.0"

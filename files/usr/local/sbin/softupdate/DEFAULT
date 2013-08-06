@@ -19,7 +19,7 @@ HOSTNAME=`hostname`
 
 [ -f /var/log/fai/$HOSTNAME/last/error.log ] && cat /var/log/fai/$HOSTNAME/last/error.log
 
-REVISION=`cd /var/lib/fai/config/ && svn up`
+REVISION=`cd /var/lib/fai/config/ && git fetch --all && git reset --hard`
 SUBJECT="`hostname -s` upgraded to $REVISION"
 cat /var/log/fai/$HOSTNAME/last/error.log 2>/dev/null| mail -s "$SUBJECT" root
 

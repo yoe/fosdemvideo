@@ -4,7 +4,7 @@ todo
 - use fai (instead of the debconf-video package) to deploy /etc/debconf-video/default and replace passwords after copying
 - check http://wiki.debconf.org/wiki/DebConf10/Videoteam/TODO
 - fai script: check for id_rsa auf barney + dvswitch machines, output warning if not
-- mfl: copied the final files from machines, needs committing to svn
+- mfl: copied the final files from machines, needs committing to git
 - copied+pasted from h01gers todo list:
 	copy paste questions to mfl:
 	        mfl: faiify document  dc-import..

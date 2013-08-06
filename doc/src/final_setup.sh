@@ -17,7 +17,7 @@ echo "y" | apt-get -y dist-upgrade
 apt-get -y install fai-client subversion 
 
 # configure fai
-echo 'FAI_CONFIG_SRC="svn://svn.debian.org/svn/debconf-video/fai-config"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
+echo 'FAI_CONFIG_SRC="git://anonscm.debian.org/debconf-video/config.git"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
 
 # run first softupdate, after that you can use /usr/local/sbin/softupdate 
 fai -N softupdate

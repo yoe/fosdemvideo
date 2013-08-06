@@ -1,7 +1,7 @@
 Howto setup a video infrastructure
 ----------------------------------
 
-1. prepare in svn
+1. prepare in git
 2. boot from usbstick
 3. profit!
 
@@ -10,8 +10,8 @@ Now these three little steps again, but in detail:
 
 preparing the fai setup
 -----------------------
-svn co svn+ssh://$USERNAME@svn.debian.org/svn/debconf-video/fai-config/
-cd fai-config
+git clone git+ssh://$USERNAME@git.debian.org/git/debconf-video/config.git
+cd config
 
 cd class
 # take a look at an existing conference to learn how fai works 
@@ -66,14 +66,13 @@ Sadly not all configuration is in FAIs config space, some is in the debconf-vide
 
 Preparing the package
 ^^^^^^^^^^^^^^^^^^^^^
-svn co svn+ssh://i$USERNAME@svn.debian.org/svn/debconf-video/package/trunk
-# you can also work in branches like pycon does :)
+git clone git+ssh://$USERNAME@git.debian.org/git/debconf-video/package.git
 # there is a doc/README too, read it.
 
 Create a directory inside the conf/ directory named after your conference. This needs to match EVENT defined in $fai-config-dir/classes/YOURCONF.var
 Base it on an existing conf.
 
-Then build as usual with svn-buildpackage.
+Then build as usual with git-buildpackage.
 
 Uploading the package
 ^^^^^^^^^^^^^^^^^^^^^
@@ -106,6 +105,7 @@ Run softupdate once again. Voila, it's time for some cake now :-)
 
 2009-03-21 Holger Levsen
 2010-08-25 updated
+2013-08-06 Git migration. Frank lin Piat
 
 final words: also see http://wiki.debconf.org/wiki/Videoteam/Software
 

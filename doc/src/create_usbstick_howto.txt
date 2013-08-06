@@ -49,7 +49,7 @@ somewhat sensible for this ;-)
 
 Using pxeboot installer
 -----------------------
--Adjust preseed.cfg to wget penultimate_setup.sh from svn. There is an example in the
+-Adjust preseed.cfg to wget penultimate_setup.sh from git. There is an example in the
 comment at the end of that file. 
 -Make preseed.cfg available via http some.where.
 -Add a stanza such as the following to your pxeboot environment:

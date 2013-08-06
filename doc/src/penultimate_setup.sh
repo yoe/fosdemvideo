@@ -33,7 +33,7 @@ apt-get -y install apt
 apt-get -y install linux-image-2.6.32-5-686-bigmem
 
 # grab next stage
-wget http://svn.debian.org/viewsvn/debconf-video/fai-config/doc/src/final_setup.sh 
+wget -O final_setup.sh 'http://anonscm.debian.org/gitweb/?p=debconf-video/config.git;a=blob_plain;f=doc/src/penultimate_setup.sh;hb=HEAD'
 mv final_setup.sh /root
 
 echo "
