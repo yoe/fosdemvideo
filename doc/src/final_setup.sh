@@ -14,7 +14,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 echo "y" | apt-get -y upgrade 
 echo "y" | apt-get -y dist-upgrade
-apt-get -y install fai-client subversion 
+apt-get -y install fai-client git
 
 # configure fai
 echo 'FAI_CONFIG_SRC="git://anonscm.debian.org/debconf-video/config.git"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
