@@ -1,6 +1,6 @@
 # Name of the location from which we are recording
-CONFERENCE_NAME='DebConf12'
-VENUE_NAME="UCA, Managua, Nicaragua"
+CONFERENCE_NAME='DebConf13'
+VENUE_NAME="Le Camp, Vaumarcus, Switzerland"
 ROOM_NAME="talkroom2"
 # Publication details
 PUBLISH_AUTHOR='DebConf video team'
@@ -11,7 +11,7 @@ SOURCES="firewire:localhost"
 SINKS="file:localhost"
 VIDEO_STANDARD=pal
 # Icecast streaming server parameters
-ICECAST_ADDR=localstream1.dc12.debconf.org
+ICECAST_ADDR=localstream1.dc13.debconf.org
 ICECAST_PORT=8000
 ICECAST_PASS=lalasource
 # Stream encoding parameters

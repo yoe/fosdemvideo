@@ -25,7 +25,7 @@ xterm -e "dc-start-source firewire:r1grab1" &
 sleep 3
 xterm -e "dc-start-source firewire:r1grab2" &
 sleep 3
-dvsource-file -l /home/dvswitch/dc12.dv &
+dvsource-file -l /home/dvswitch/dc13.dv &
 xterm -e "dc-start-sink file:r1dvswitch" &
 xterm -e "while true ; do dc-start-sink icecast:encoder1 ; done" &
 
