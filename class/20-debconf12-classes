@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# assign classes for hosts at debconf12
+# assign classes for hosts at debconf13
 # `hostname -f` doesnt return proper results (before running fai :)
 
 #
@@ -8,7 +8,7 @@
 
 case $HOSTNAME in
    r?grab*|r?dvswitch*|encoder*|storage*|localstream*|review*)
-		echo "FAIBASE DEBCONF VIDEO DEBCONF12" ;;
+		echo "FAIBASE DEBCONF VIDEO DEBCONF13" ;;
 esac
 
 
