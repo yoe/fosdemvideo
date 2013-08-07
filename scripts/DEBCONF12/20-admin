@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fcopy -r /etc/userdir-ldap
 fcopy -m root,root,600 /etc/ssh/sshd_config

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fcopy -r -M /etc/apt
 $ROOTCMD apt-get update
