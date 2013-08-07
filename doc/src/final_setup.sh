@@ -23,8 +23,8 @@ echo 'FAI_CONFIG_SRC="git://anonscm.debian.org/debconf-video/config.git"' >> /et
 fai -N softupdate
 
 # display errors
-echo "cat /var/log/fai/last/error.log:"
-cat /var/log/fai/last/error.log
+echo "cat /var/log/fai/localhost/last-softupdate/error.log:"
+cat /var/log/fai/localhost/last-softupdate/error.log
 
 # done
 echo
