@@ -16,7 +16,7 @@ cpufrequtils
 
 PACKAGES install XORG
 xorg elinks
-xfce4 xserver-xorg xterm
+xfce4 xserver-xorg xterm hicolor-icon-theme
 xserver-xorg-video-intel
 iceweasel mozilla-noscript xul-ext-adblock-plus
 irssi xchat
