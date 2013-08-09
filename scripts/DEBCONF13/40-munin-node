@@ -13,5 +13,6 @@ editfiles:
 	{ /etc/munin/munin-node.conf
 	  AppendIfNoSuchLine 'allow ^192\.168\.253\.1$'
 	  AppendIfNoSuchLine 'allow ^192\.168\.0\.1$'
-	}
+	  AppendIfNoSuchLine 'allow ^80\.83\\56\.34$'
+		}
 
