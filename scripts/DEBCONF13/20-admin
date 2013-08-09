@@ -6,4 +6,4 @@ fcopy -m root,root,600 /etc/ssh/sshd_config
 fcopy -M /etc/nsswitch.conf
 fcopy -m root,root,440 /etc/sudoers
 
-ud-replicate
+ud-replicate || echo "Warning: ud-replicate cannot be run"
