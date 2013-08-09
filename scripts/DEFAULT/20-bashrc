@@ -6,4 +6,4 @@
 #
  
 fcopy /etc/bash.bashrc
-
+fcopy /usr/local/bin/dsa-check-packages
