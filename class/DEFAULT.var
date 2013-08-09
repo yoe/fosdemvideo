@@ -2,6 +2,7 @@
 FAI_ALLOW_UNSIGNED="true"
 
 hosterrorpatterns="XXXXX"
-hostignorepatterns="WARNING: Subdirectory tests/ not found. No tests run."
+hostignorepatterns="XXXXX
+WARNING: Subdirectory tests/ not found. No tests run."
 
 HOSTNAME=$(hostname)
