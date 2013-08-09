@@ -10,7 +10,7 @@ files:
 
 directories:
    any::
-	${target}/video mode=0775 owner=1000 group=1008
+	${target}/video mode=0775 owner=1053 group=1008
 
 editfiles:
   ENCODING::

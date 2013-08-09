@@ -14,7 +14,7 @@ if ifclass FOSDEM ; then
 else 
 	mkdir -p /etc/ssh/userkeys
 	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDita5UVO0+HO8uJ3607pZhyaSYBB5BhDvx+jY4TDPmwJGUUe1k/YJou0tNnvmMvi6hH+lu6UIFfbf8RRrYbMbVJtPF6nFa4TqypsGTpI1463Culg5d9Ph26fOOa1UuNiOWJrl79Nwlh8eeMKtU0UVO46VbyBRlTzChnSIVXmuzvu/zJ/LsqkqVfibMXNM73Yc6RcJfVCy1WqzPJ/sFNW2RiKyqCr8szNioeT35fDwNVkdc9VktNKW9WFBapSeXAA5ithanheA0T6a9agSmeUsIbyNP3ZAXhIEIwf97fmgGdLd/O/l1eV1ujd909zyKtraCCbPYL+/u6myFluLnZGz1 dvswitch@r1dvswitch.dc13" > /etc/ssh/userkeys/dvswitch
-	chown 1000.1008 /etc/ssh/userkeys/dvswitch
+	chown 1053.1008 /etc/ssh/userkeys/dvswitch
 	chmod 600 /etc/ssh/userkeys/dvswitch
 fi
 
