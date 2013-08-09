@@ -13,7 +13,7 @@ if ifclass FOSDEM ; then
 	chmod 600 /home/dvswitch/.ssh/authorized_keys
 else 
 	mkdir -p /etc/ssh/userkeys
-	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSsjjk76c3+VGui6EoXu4fJoIkadwoR2nA78Rh8tWiQxFXIf6xQpWoF/+Zg70m0K+8cs5R2kp0BC2Lfk05C+hsX9oNACMCVJ5GbTMzm14EryyjnUa46alAmZcFyx+2FhUIW0QVb98PiUmLhsm9/1/zAsXKM7Z5NydJfNnE+NVYkjLQr3n6KYbksYcrAnLUL6SwkHhMBFIP9W+HyFvH+m8agOWQ6kkmlXGpqOM7yFbA1CkTRnsgZYbel+Ly4dXeuNXnYIa5s//VkQlzI1hkytV6J32y811hiJgh98sx692RjQJtlMQbaw6/X1q6Eddx1D/5lBfWEnZPhHJQ3zutqaDH dvswitch@r1dvswitch" > /etc/ssh/userkeys/dvswitch
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDita5UVO0+HO8uJ3607pZhyaSYBB5BhDvx+jY4TDPmwJGUUe1k/YJou0tNnvmMvi6hH+lu6UIFfbf8RRrYbMbVJtPF6nFa4TqypsGTpI1463Culg5d9Ph26fOOa1UuNiOWJrl79Nwlh8eeMKtU0UVO46VbyBRlTzChnSIVXmuzvu/zJ/LsqkqVfibMXNM73Yc6RcJfVCy1WqzPJ/sFNW2RiKyqCr8szNioeT35fDwNVkdc9VktNKW9WFBapSeXAA5ithanheA0T6a9agSmeUsIbyNP3ZAXhIEIwf97fmgGdLd/O/l1eV1ujd909zyKtraCCbPYL+/u6myFluLnZGz1 dvswitch@r1dvswitch.dc13" > /etc/ssh/userkeys/dvswitch
 	chown 1000.1008 /etc/ssh/userkeys/dvswitch
 	chmod 600 /etc/ssh/userkeys/dvswitch
 fi
