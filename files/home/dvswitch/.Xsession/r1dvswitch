@@ -19,11 +19,11 @@ xterm -e ssh r1grab2 'ps fax | grep "dvgrab -noavc -"|grep -v grep | sed -e "s/^
 # setup dvswitch
 xterm -e dvswitch &
 sleep 1
-xterm -e "dc-start-source firewire:r1dvswitch" &
+xterm -e "dc-start-source firewire+tally:r1dvswitch" &
 sleep 3
-xterm -e "dc-start-source firewire:r1grab1" &
+xterm -e "dc-start-source firewire+tally:r1grab1" &
 sleep 3
-xterm -e "dc-start-source firewire:r1grab2" &
+xterm -e "dc-start-source firewire+tally:r1grab2" &
 sleep 3
 dvsource-file -l /home/dvswitch/dc13.dv &
 xterm -e "dc-start-sink file:r1dvswitch" &
