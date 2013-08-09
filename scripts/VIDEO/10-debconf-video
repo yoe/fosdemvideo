@@ -11,8 +11,8 @@ if ifclass FOSDEM ; then
 	chown dvswitch.dvswitch /video
 else
 	# bloody debconf hell
-	chown 1053.1008 /home/dvswitch
-	chown 1053.1008 /video
+	chown 1000.1008 /home/dvswitch
+	chown 1000.1008 /video
 fi
 
 
