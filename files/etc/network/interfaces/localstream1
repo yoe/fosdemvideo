@@ -5,9 +5,9 @@ iface lo inet loopback
 iface vlan15 inet static
 #iface eth0 inet static
         address 172.31.12.1
-        netmask 255.255.0.0
-        broadcast 172.31.255.255
-        gateway 172.31.15.1
+        netmask 255.240.0.0
+        broadcast 172.31.15.255
+        gateway 172.31.10.1
         vlan_raw_device eth1
 
 iface vlan15 inet static
