@@ -80,5 +80,7 @@ AcceptEnv LANG LC_*
 Subsystem sftp /usr/lib/openssh/sftp-server
 
 UsePAM yes
-AuthorizedKeysFile /var/lib/misc/userkeys/%u
-AuthorizedKeysFile2 /var/keys/%u
+
+## Keys in /var/lib/misc/userkeys are managed by ud-ldap
+## Keys in /var/keys are managed localy (or in FAI...)
+AuthorizedKeysFile /var/lib/misc/userkeys/%u /var/keys/%u
