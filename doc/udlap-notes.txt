@@ -21,6 +21,8 @@ Manage users
 $ ud-info -r -a holger -u $user
 $ ud-useradd
 
+<Ganneff> ~joerg/bin/add.sh $keyid ; ud-info -u user -a holger ; 200 A dc-video
+
 Edit groups in ldap
 -------------------
 $ ldapvi --encoding=ASCII --ldap-conf -h db.debconf.org -D uid=holger,ou=users,dc=debconf,dc=org 'gid=*'
