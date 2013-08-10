@@ -10,8 +10,6 @@ VIDEO_STANDARD=pal
 # Icecast streaming server parameters
 ICECAST_ADDR=localstream1.video.debconf.org
 ICECAST_PORT=8000
-ICECAST_PASS="#ICECAST_SOURCE_PASSWORD#"
-ICECAST_PATH=/talkroom1.ogv
 # Stream encoding parameters
 VIDEO_STREAM_WIDTH=320
 VIDEO_STREAM_HEIGHT=240
