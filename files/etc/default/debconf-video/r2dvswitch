@@ -1,19 +1,16 @@
 # Name of the location from which we are recording
 CONFERENCE_NAME='DebConf13'
 VENUE_NAME="Le Camp, Vaumarcus, Switzerland"
-ROOM_NAME="Second talk room"
+ROOM_NAME="talkroom2"
 # Publication details
 PUBLISH_AUTHOR='DebConf video team'
 PUBLISH_ORG='DebConf'
 PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
-# Sources and sinks
-#SOURCES="firewire:localhost"
-#SINKS="file:localhost"
 VIDEO_STANDARD=pal
 # Icecast streaming server parameters
-ICECAST_ADDR=localstream1.dc13.debconf.org
-ICECAST_PORT=8000
-ICECAST_PASS=lalasource
+#ICECAST_ADDR=localstream1.dc13.debconf.org
+#ICECAST_PORT=8000
+#ICECAST_PASS=lalasource
 # Stream encoding parameters
 VIDEO_STREAM_WIDTH=320
 VIDEO_STREAM_HEIGHT=240
@@ -21,9 +18,7 @@ VIDEO_STREAM_KBPS=230
 AUDIO_STREAM_HZ=48000
 AUDIO_STREAM_KBPS=64
 # File store base directory
+FILE_SERVER="storage1"
 FILE_BASE="/video"
-# Database access (pygresql)
-DATABASE_DSN="localhost:pentabarf"
-DATABASE_USER="pentabarf"
-#DATABASE_PASSWORD=
+# tally
 TALLY_DEVICE=/dev/tally_light
