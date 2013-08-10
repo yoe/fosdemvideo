@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #
-#        (c) 2006,2008 Holger Levsen         holger@layer-acht.org
+#        (c) 2006-2013 Holger Levsen         holger@layer-acht.org
 #        GPL2 licenced
 #
 
 
 export HOSTNAME=`hostname`
-export RELAY="homer"
+export RELAY="homer.dc13.debconf.org"
 
 # #HOSTNAME# gets replaced by $HOSTNAME and so on...
 
