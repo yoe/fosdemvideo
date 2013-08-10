@@ -12,9 +12,14 @@ iptables -A INPUT -s 83.68.216.0/22 -j ACCEPT  # Public LAN
 iptables -A INPUT -s 80.83.56.32/27 -j ACCEPT  # Server LA
 iptables -A INPUT -s 72.14.176.206 -p tcp --dport 8000 -j ACCEPT  # krusty
 iptables -A INPUT -s 86.59.21.37 -p tcp --dport 8000 -j ACCEPT    # Rhonda
+# Password SSH is disabled
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp --dport 2222 -j ACCEPT
 iptables -A INPUT -j DROP
 
 ip6tables -F INPUT
 ip6tables -A INPUT -s fe80::/10 -j ACCEPT  # Link-local
 ip6tables -A INPUT -s 2600:3c00::f03c:91ff:fe96:35d3 -p tcp --dport 8000 -j ACCEPT  # krusty
+ip6tables -A INPUT -p tcp --dport 22 -j ACCEPT
+ip6tables -A INPUT -p tcp --dport 2222 -j ACCEPT
 ip6tables -A INPUT -j DROP
