@@ -9,10 +9,10 @@
 LANG=C
 
 # distribution we are using
-DISTRO=lenny
+DISTRO=wheezy
 
 # hardcode mirror to use
-MIRROR=ftp.de.debian.org
+MIRROR=ftp.ch.debian.org
 #
 # either use local mirror or ftp.de.debian.org
 #TMPFILE=`mktemp -p /tmp`
