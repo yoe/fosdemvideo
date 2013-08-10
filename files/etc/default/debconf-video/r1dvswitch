@@ -1,14 +1,14 @@
 # Name of the location from which we are recording
 CONFERENCE_NAME='DebConf13'
 VENUE_NAME="Le Camp, Vaumarcus, Switzerland"
-ROOM_NAME="talkroom1"
+ROOM_NAME="Main talk room"
 # Publication details
 PUBLISH_AUTHOR='DebConf video team'
 PUBLISH_ORG='DebConf'
 PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
 # Sources and sinks
-SOURCES="firewire:localhost"
-SINKS="file:localhost"
+#SOURCES="firewire:localhost"
+#SINKS="file:localhost"
 VIDEO_STANDARD=pal
 # Icecast streaming server parameters
 ICECAST_ADDR=localstream1.dc13.debconf.org
