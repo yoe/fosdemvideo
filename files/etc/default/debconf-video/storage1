@@ -1,0 +1,6 @@
+# File store base directory
+FILE_BASE="/video"
+# Database access (pygresql)
+DATABASE_DSN="skinner.debconf.org:pentabarf"
+DATABASE_USER="dc7video"
+DATABASE_PASSWORD="#DATABASE_PASSWORD#"
