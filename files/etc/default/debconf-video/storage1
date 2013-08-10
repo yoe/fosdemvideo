@@ -1,3 +1,4 @@
+CONFERENCE_NAME='DebConf13'
 # File store base directory
 FILE_BASE="/video"
 # Database access (pygresql)
