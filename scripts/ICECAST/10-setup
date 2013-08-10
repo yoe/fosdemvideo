@@ -5,6 +5,6 @@
 #        GPL2 licenced
 #
 
-fcopy /etc/icecast/icecast.xml /etc/default/icecast2
+fcopy /etc/icecast2/icecast.xml /etc/default/icecast2
 $ROOTCMD /etc/init.d/icecast2 reload
 
