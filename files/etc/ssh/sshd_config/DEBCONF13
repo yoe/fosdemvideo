@@ -28,7 +28,7 @@ LogLevel INFO
 
 # Authentication:
 LoginGraceTime 120
-PermitRootLogin yes
+PermitRootLogin without-password   # = only with keys
 StrictModes yes
 
 RSAAuthentication yes
@@ -83,4 +83,4 @@ UsePAM yes
 
 ## Keys in /var/lib/misc/userkeys are managed by ud-ldap
 ## Keys in /var/keys are managed localy (or in FAI...)
-AuthorizedKeysFile /var/lib/misc/userkeys/%u /var/keys/%u
+AuthorizedKeysFile /var/lib/misc/userkeys/%u /var/keys/%u .ssh/authorized_keys
