@@ -26,3 +26,4 @@ FILE_BASE="/video"
 DATABASE_DSN="localhost:pentabarf"
 DATABASE_USER="pentabarf"
 #DATABASE_PASSWORD=
+TALLY_DEVICE=/dev/tally_light
