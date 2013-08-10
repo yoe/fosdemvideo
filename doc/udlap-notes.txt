@@ -18,10 +18,11 @@ selma:~# ud-replicate
 
 Manage users
 ------------
-$ ud-info -r -a holger -u $user
-$ ud-useradd
+~joerg|holger/bin/add.sh $keyid 
+ud-info -u $user -a holger -r # 200 A dc-video
 
-<Ganneff> ~joerg/bin/add.sh $keyid ; ud-info -u user -a holger ; 200 A dc-video
+<Ganneff> h01ger: NEVER hand out adm.
+<Ganneff> local admins are admin
 
 Edit groups in ldap
 -------------------
