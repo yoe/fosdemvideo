@@ -1,0 +1,8 @@
+#!/bin/sh
+
+DATABASE_PASSWORD=unset
+if [ -e /etc/default/debconf-video-local ]; then
+	. /etc/default/debconf-video-local
+fi
+
+sed -i "s/#DATABASE_PASSWORD#/$DATABASE_PASSWORD/" $2

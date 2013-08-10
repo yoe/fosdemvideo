@@ -25,5 +25,5 @@ FILE_BASE="/video"
 # Database access (pygresql)
 DATABASE_DSN="skinner.debconf.org:pentabarf"
 DATABASE_USER="pentabarf"
-#DATABASE_PASSWORD=
+DATABASE_PASSWORD="#DATABASE_PASSWORD#"
 TALLY_DEVICE=/dev/tally_light
