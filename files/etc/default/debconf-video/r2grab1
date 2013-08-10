@@ -7,9 +7,6 @@ PUBLISH_AUTHOR='DebConf video team'
 PUBLISH_ORG='DebConf'
 PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
 VIDEO_STANDARD=pal
-# Icecast streaming server parameters
-ICECAST_ADDR=localstream1.video.debconf.org
-ICECAST_PORT=8000
 # Stream encoding parameters
 VIDEO_STREAM_WIDTH=320
 VIDEO_STREAM_HEIGHT=240
