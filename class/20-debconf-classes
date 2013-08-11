@@ -16,7 +16,7 @@ case $HOSTNAME in
    encoder*) 
    		echo "ENCODING ICECAST";; # see below
    r?grab*) 
-   		echo "CAPTURE";;
+   		echo "CAPTURE ENCODING";;
    r?dvswitch*) 
    		echo "XORG CAPTURE DVSWITCH STORAGE";;
    storage*) 
@@ -30,7 +30,7 @@ esac
 # more encoder*
 case $HOSTNAME in
    r?grab1*) 
-   		echo "ENCODING ICECAST";;
+   		echo "ICECAST";;
 esac
 
 case $HOSTNAME in 
