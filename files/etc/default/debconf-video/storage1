@@ -5,3 +5,8 @@ FILE_BASE="/video"
 DATABASE_DSN="skinner.debconf.org:pentabarf"
 DATABASE_USER="dc7video"
 DATABASE_PASSWORD="#DATABASE_PASSWORD#"
+# Transcoding:
+PUBLISH_AUTHOR='DebConf video team'
+PUBLISH_ORG='DebConf'
+PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
+VENUE_NAME="Le Camp, Vaumarcus, Switzerland"
