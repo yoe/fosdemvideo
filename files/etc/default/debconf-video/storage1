@@ -9,4 +9,5 @@ DATABASE_PASSWORD="#DATABASE_PASSWORD#"
 PUBLISH_AUTHOR='DebConf video team'
 PUBLISH_ORG='DebConf'
 PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
+PUBLICATION_PATH=apu.debconf.org:/srv/video/2013/debconf13/
 VENUE_NAME="Le Camp, Vaumarcus, Switzerland"
