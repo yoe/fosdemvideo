@@ -103,6 +103,17 @@ DATABASE_PASSWORD needs to be set the same way on the host of the PENTA class, c
 
 Run softupdate once again. Voila, it's time for some cake now :-)
 
+Deploy dvswitch SSH key.
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+On one DVSWITCH machine, create an SSH key for dvswitch user:
+  ssh-keygen
+Then copy that private key on all the DVSWITCH machine (one per room!).
+(Use a USB key, because password authentication is disabled)
+
+Add the public key in FAI (in config.git). Edit the file:
+  scripts/DVSWITCHPUBKEY/10-authkeys
+
 
 2009-03-21 Holger Levsen
 2010-08-25 updated
