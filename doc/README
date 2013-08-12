@@ -1,15 +1,16 @@
 Howto setup a video infrastructure
 ----------------------------------
 
-1. prepare in git
+1. prepare the fai setup in git
 2. boot from usbstick
-3. profit!
+3. do minor stufs manualy (mostly related to security)
+4. profit!
 
 Now these three little steps again, but in detail:
 
 
-preparing the fai setup
------------------------
+preparing the fai setup in git
+------------------------------
 git clone git+ssh://$USERNAME@git.debian.org/git/debconf-video/config.git
 cd config
 
