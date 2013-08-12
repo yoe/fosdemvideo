@@ -76,7 +76,7 @@ Then build as usual with git-buildpackage.
 
 Uploading the package
 ^^^^^^^^^^^^^^^^^^^^^
-Then you need to upload the package to the debconf-apt-repository. Choose "lenny" as distribution.
+Then you need to upload the package to the debconf-apt-repository. Choose "wheezy" as distribution.
 
 This is the relevant section from my ~/.dupload.conf:
 
