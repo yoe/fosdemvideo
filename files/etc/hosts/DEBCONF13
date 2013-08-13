@@ -18,7 +18,7 @@
 172.31.2.2 	r2grab1.dc13.debconf.org r2grab1	encoder2.dc13.debconf.org	encoder2
 172.31.2.3 	r2grab2.dc13.debconf.org r2grab2
 
-172.31.11.1 	storage1.dc13.debconf.org storage1
+172.31.11.1 	storage1.dc13.debconf.org storage1	hiresencoder1.dc13.debconf.org hiresencoder1	hiresencoder2.dc13.debconf.org	hiresencoder2
 172.31.12.1 	localstream1.dc13.debconf.org localstream1
 
 # unused
