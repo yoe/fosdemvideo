@@ -15,6 +15,7 @@ ICECAST_PATH=/talkroom1.ogv
 # Cubemap streaming server paramters
 UDPTS_ADDR=localstream1.dc13.debconf.org
 UDPTS_PORT=1231
+METACUBE_PORT=4441
 # Stream encoding parameters
 VIDEO_STREAM_WIDTH=320
 VIDEO_STREAM_HEIGHT=240
