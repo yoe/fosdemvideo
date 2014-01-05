@@ -1,8 +1,10 @@
-== Test ==
+Test
+====
 
 This is some text.
 
-=== More ===
+More
+----
 
 Yes.
 
