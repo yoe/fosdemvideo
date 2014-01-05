@@ -2,15 +2,15 @@ Basic setup
 ====
 
 * 3 main talk rooms (janson, foo + lightning)
-**  streamed (the main talk rooms)
-**  audio entirely done by ULB (?)
-**  2 cameras, 1 twinpact
-**  3 laptops
+ *  streamed (the main talk rooms)
+ *  audio entirely done by ULB (?)
+ *  2 cameras, 1 twinpact
+ *  3 laptops
 
 * 17 developer rooms
-** 1 camera per room 
-** 1 twinpact or other slidegrabber
-** audio???
+ * 1 camera per room 
+ * 1 twinpact or other slidegrabber
+ * audio???
 
 open questions
 ----
