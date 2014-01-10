@@ -44,6 +44,9 @@ penta integration
 * 3 from FOSDEM
 * 10 from carl (2 need power supplies fixed)
 * 4 from Kenny (KDE)
+* four from ebay? CarlFK found some, maybe buy those.
+
+That would bring the total to 23...
 
 vga2usb 
 ----
