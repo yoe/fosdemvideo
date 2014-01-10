@@ -43,10 +43,14 @@ penta integration
 * 2 from IRILL
 * 3 from FOSDEM
 * 10 from carl (2 need power supplies fixed)
+* 4 from Kenny
 
 vga2usb 
 ----
 * some epiphan hw just ordered...
+  - Works, but has some limitations; dvsource would need to be restarted
+    every time a laptop connects or changes resolution. The "change of
+    resolution" seems to include "DPMS power off"...
 
 People (core team)
 ----
