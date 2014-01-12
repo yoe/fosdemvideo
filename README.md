@@ -60,5 +60,19 @@ People (core team)
 * wouter
 * h01ger (arriving 26th or 25th, leaving the 3rd)
 * carl (please enter your dates...)
-* you?
+* fil (dates?)
 
+
+Planning
+========
+
+This is an initial planning for what we'll do during the week before FOSDEM.
+
+- Monday: install servers, configure them, install transcoding scripts, monitoring, etc
+- Tuesday: install & test laptops
+- Wednesday: hook up cameras & twinpacts, test things, divide gear over boxes
+- Thursday: go buy stuff if we figure out we're missing something, write documentation for volunteers
+- Friday: margin in case we run behind schedule
+- Saturday/Sunday, early-o-clock: go to ULB and be ready to hand out video gear to volunteers
+- Saturday/Sunday, 8:00 AM: yell at devrooms who've not shown up yet, go set up
+  gear there ourselves (and possibly send volunteers there as well)
