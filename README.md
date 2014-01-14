@@ -18,7 +18,7 @@ Basic setup
  * 1 twinpact or other slidegrabber
  * audio???
 
-open questions
+open questions / random stati
 ----
 * tripods ordered?
   - Cameras all come with tripods
@@ -26,17 +26,18 @@ open questions
   - I've ordered 45 laptops now.
 * wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure?
+* 50 patch cables have been ordered
+* we need 100 power sockets for setup, status?
+* we need room cheat sheets, best written in asciidoc
+* penta integration - whats the status?
 
 3 servers
 ----
 * how do we use them?
   - 7 or 8 rooms per server. TODO: decide which rooms on which server (not too urgent).
   
-    Might be an issue connecting to AW; need to talk to network team.
+    Might be an issue connecting to AW (what is AW?); need to talk to network team.
 
-penta integration
-----
-* smells trouble
 
 15 twinpacts
 ----
