@@ -59,7 +59,7 @@ People (core team)
 ----
 * wouter
 * h01ger (arriving 26th or 25th, leaving the 3rd)
-* carl (please enter your dates...)
+* carl (arriving 26th, leaving the 3rd)
 * fil (arriving 2014-01-28 14:05 brussels south, leaving monday)
 
 
