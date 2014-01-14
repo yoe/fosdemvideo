@@ -15,8 +15,8 @@ Basic setup
 
 * 17 developer rooms
  * 1 camera per room 
- * 1 twinpact or other slidegrabber
- * audio???
+ * 1 twinpact
+ * audio, appearantly done by ULB
 
 open questions / random stati
 ----
@@ -28,7 +28,8 @@ open questions / random stati
   - debconf + bugfix for manual fade state machine failure?
 * 50 patch cables have been ordered
 * we need 100 power sockets for setup, status?
-* we need room cheat sheets, best written in asciidoc
+* we need room cheat sheets, best written in asciidoca
+ * include: if speakers insist not to be recorded, dont
 * penta integration - whats the status?
 
 3 servers
