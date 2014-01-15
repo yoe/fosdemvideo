@@ -77,7 +77,7 @@ extra hw
 * 3 from FOSDEM
 * 10 from carl (2 need power supplies fixed)
 * 4 from Kenny (KDE)
-* 5 newly bought on eBay
+* 5 newly bought on eBay (no power supplies or remotes) testing now.
 
 That would bring the total to 24...
 
