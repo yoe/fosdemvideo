@@ -20,7 +20,12 @@ Basic setup
 
 Check the rooms at https://fosdem.org/2014/schedule/rooms/ 
 
-TODO: according to irc+trouble  just now, we will have 23 rooms: those in there, minus certification, plus smalltalk
+TODO: according to irc+trouble  just now, we will have 23 rooms: those
+in there, minus certification, plus smalltalk
+
+No, smalltalk is one of the 22 rooms. See
+[the FIT wiki](https://fit.fosdem.org/wiki/Fosdem2014Devrooms): smalltalk is
+S.K.4.401, saturday.
 
 open questions / random stati
 ----
@@ -43,13 +48,22 @@ open questions / random stati
 * how do we use them?
   - 7 or 8 rooms per server. TODO: decide which rooms on which server (not too urgent).
  
-TODO: Might be an issue connecting to Building AW ; need to talk to network team.
+  There is no wired connectivity to the U building; we'll need to record
+  to local hard disk there, and possibly sneakernet them over with a USB
+  disk or some such.
+
 TODO: do we have 2 harddrives to redudantly store everything once we need to give the server back? when is that?
+
+- Rental up to three weeks past FOSDEM
+- We can host them at ULB for a few weeks to do the transcoding, at
+  which point they'll get uploaded to video.fosdem.org and mirrored to
+  (at least) five mirrors
+
+Hence, I don't think we need to redundantly store stuff 
 
 extra hw
 --------
 * 50 patch cables has been ordered
-
 
 24 twinpacts
 ----
@@ -67,7 +81,6 @@ People (core team)
 * h01ger (arriving 26th or 25th, leaving the 3rd or 4th)
 * carl (arriving 26th, leaving the 3rd)
 * fil (arriving 2014-01-28 14:05 brussels south, leaving monday)
-
 
 Planning
 ========
