@@ -32,6 +32,7 @@ open questions / random stati
 * we need room cheat sheets, best written in asciidoca
  * include: if speakers insist not to be recorded, dont
 * penta integration - whats the status?
+* do we want 20 small switches to have uplink connectivity to get the data of the latops easily at night?
 
 3 servers
 ----
