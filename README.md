@@ -18,15 +18,16 @@ Basic setup
  * 1 twinpact
  * audio, appearantly done by ULB
 
+
+
 open questions / random stati
 ----
-* tripods ordered?
-  - Cameras all come with tripods
-* backup laptops ordered? /me suggests 2 at least, so we can cope with 5% failures..
-  - I've ordered 45 laptops now.
+* how many cameras with tripods ordered? any backups?
+ * do they come with firewire cables?
+* 45 laptops ordered. hopefully with firewire... small or big firewire?
 * wheezy + which dvswitch version?
-  - debconf + bugfix for manual fade state machine failure?
-* 50 patch cables have been ordered
+  - debconf + bugfix for manual fade state machine failure? 
+  - which version / branch is that?
 * we need 100 power sockets for setup, status?
 * we need room cheat sheets, best written in asciidoca
  * include: if speakers insist not to be recorded, dont
@@ -36,8 +37,13 @@ open questions / random stati
 ----
 * how do we use them?
   - 7 or 8 rooms per server. TODO: decide which rooms on which server (not too urgent).
-  
-    Might be an issue connecting to AW (what is AW?); need to talk to network team.
+ 
+TODO: Might be an issue connecting to Building AW ; need to talk to network team.
+TODO: do we have 2 harddrives to redudantly store everything once we need to give the server back? when is that?
+
+extra hw
+--------
+* 50 patch cables has been ordered
 
 
 15 twinpacts
@@ -49,13 +55,6 @@ open questions / random stati
 * 5 newly bought on eBay
 
 That would bring the total to 23...
-
-vga2usb 
-----
-* some epiphan hw just ordered...
-  - Works, but has some limitations; dvsource would need to be restarted
-    every time a laptop connects or changes resolution. The "change of
-    resolution" seems to include "DPMS power off"...
 
 People (core team)
 ----
