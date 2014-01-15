@@ -31,17 +31,23 @@ open questions / random stati
 ----
 * how many cameras with tripods ordered? any backups?
  * do they come with firewire cables?
- * with 23 rooms we need how many more cameras?
+   - No idea. Probably not all of them.
 * 45 laptops ordered. hopefully with firewire... small or big firewire?
- * with 23 rooms we need 48 laptops at least
+  - small
 * wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure? 
   - which version / branch is that?
+    It's in [git](http://anonscm.debian.org/gitweb/?p=dvswitch/dvswitch.git;a=commit;h=75dda59bd2a74ffe842154a0f2d7a1d0c94fea00)
 * we need 100 power sockets for setup, status?
 * we need room cheat sheets, best written in asciidoca
  * include: if speakers insist not to be recorded, dont
 * penta integration - whats the status?
 * do we want 23 small switches to have uplink connectivity to get the data of the latops easily at night?
+  - The plan is to record to the server during the event, and copy to
+    local hard disk _only_ as a backup. As such, we don't necessarily
+    need 23 small switches (a few would be necessary, to deal with the
+    laptops from U building; but I have some at the office, so that
+    shouldn't be a major issue)
 
 3 servers
 ----
@@ -79,7 +85,7 @@ People (core team)
 ----
 * wouter
 * h01ger (arriving 26th or 25th, leaving the 3rd or 4th)
-* carl (arriving 26th, leaving the 3rd)
+* CarlFK (arriving 26th, leaving the 3rd) + Jen
 * fil (arriving 2014-01-28 14:05 brussels south, leaving monday)
 
 Planning
