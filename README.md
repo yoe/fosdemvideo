@@ -18,13 +18,17 @@ Basic setup
  * 1 twinpact
  * audio, appearantly done by ULB
 
+Check the rooms at https://fosdem.org/2014/schedule/rooms/ 
 
+TODO: according to irc+trouble  just now, we will have 23 rooms: those in there, minus certification, plus smalltalk
 
 open questions / random stati
 ----
 * how many cameras with tripods ordered? any backups?
  * do they come with firewire cables?
+ * with 23 rooms we need how many more cameras?
 * 45 laptops ordered. hopefully with firewire... small or big firewire?
+ * with 23 rooms we need 48 laptops at least
 * wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure? 
   - which version / branch is that?
@@ -32,7 +36,7 @@ open questions / random stati
 * we need room cheat sheets, best written in asciidoca
  * include: if speakers insist not to be recorded, dont
 * penta integration - whats the status?
-* do we want 20 small switches to have uplink connectivity to get the data of the latops easily at night?
+* do we want 23 small switches to have uplink connectivity to get the data of the latops easily at night?
 
 3 servers
 ----
@@ -47,7 +51,7 @@ extra hw
 * 50 patch cables has been ordered
 
 
-15 twinpacts
+24 twinpacts
 ----
 * 2 from IRILL
 * 3 from FOSDEM
@@ -55,12 +59,12 @@ extra hw
 * 4 from Kenny (KDE)
 * 5 newly bought on eBay
 
-That would bring the total to 23...
+That would bring the total to 24...
 
 People (core team)
 ----
 * wouter
-* h01ger (arriving 26th or 25th, leaving the 3rd)
+* h01ger (arriving 26th or 25th, leaving the 3rd or 4th)
 * carl (arriving 26th, leaving the 3rd)
 * fil (arriving 2014-01-28 14:05 brussels south, leaving monday)
 
