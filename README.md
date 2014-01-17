@@ -30,6 +30,11 @@ S.K.4.401, saturday.
 open questions / random stati
 ----
 * how many cameras with tripods ordered? any backups?
+ 
+  19 cameras have been ordered, all come with tripods. I had been
+  planning to borrow three from IRILL (for one we'd have to use a D-I
+  box), but apparently there's been a bit of a mixup.
+  - TODO: perhaps borrow three from CCC?
  * do they come with firewire cables?
    - No idea. Probably not all of them.
 * 45 laptops ordered. hopefully with firewire... small or big firewire?
