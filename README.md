@@ -54,6 +54,13 @@ open questions / random stati
     laptops from U building; but I have some at the office, so that
     shouldn't be a major issue)
 
+Things to buy
+----
+* vga cables
+* 22 boxes to carry stuff
+* 22*2 power bars 
+* firewire cables?
+
 3 servers
 ----
 * how do we use them?
