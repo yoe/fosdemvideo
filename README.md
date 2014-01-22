@@ -53,7 +53,7 @@ Things to buy
 ----
 * vga cables
 * 22 boxes to carry stuff
-* 22*2 power bars 
+* 22 * 2 power bars 
 
 Firewire cables
 ----
