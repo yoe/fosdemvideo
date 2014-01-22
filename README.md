@@ -137,7 +137,7 @@ Will arrive when CarlFK arrives :-)
 From CCC:
 ---------
 
-- 3 cameras will be brought by someone on some day
+- 1 camera will be brought by someone on some day
 
 TODO: fill out details
 
