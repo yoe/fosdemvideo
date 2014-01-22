@@ -13,19 +13,14 @@ Basic setup
  * 1 camera, 1 twinpact
  * 2 laptops
 
-* 17 developer rooms
+* 19 developer rooms
  * 1 camera per room 
  * 1 twinpact
  * audio, appearantly done by ULB
 
 Check the rooms at https://fosdem.org/2014/schedule/rooms/ 
+and https://fit.fosdem.org/wiki/Fosdem2014Devrooms 
 
-TODO: according to irc+trouble  just now, we will have 23 rooms: those
-in there, minus certification, plus smalltalk
-
-No, smalltalk is one of the 22 rooms. See
-[the FIT wiki](https://fit.fosdem.org/wiki/Fosdem2014Devrooms): smalltalk is
-S.K.4.401, saturday.
 
 open questions / random stati
 ----
@@ -59,7 +54,10 @@ Things to buy
 * vga cables
 * 22 boxes to carry stuff
 * 22*2 power bars 
-* firewire cables?
+
+Firewire cables
+----
+CarlFK> | h01ger: wouter said all laptops have 4 pin,  I'll bring 25 4-6 for the twinpacts, and 25 4-4 for cameras
 
 3 servers
 ----
