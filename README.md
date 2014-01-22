@@ -98,6 +98,21 @@ People (core team)
 * CarlFK (arriving 26th, leaving the 3rd) + Jen
 * fil (arriving 2014-01-28 14:05 brussels south, leaving monday)
 
+Gear arrivals
+=============
+
+- Cameras Videohouse: we can pick them up on wednesday (need to drive to
+  Vilvoorde, 10')
+- Cameras Stake5: will be delivered on wednesday
+- Cameras IRILL/DebConf: h01ger will bring these from Paris
+- Cameras CCC: ???
+- Laptops & servers: will be delivered on Monday
+- Twinpacts IRILL/DebConf: h01ger will bring these from Paris
+- Twinpacts Carl (Python): CarlFK will bring these
+- 3 Twinpacts FOSDEM are already at the office
+- 5 newly-bought twinpacts: CarlFK will bring these
+- Twinpacts KDE: Kenny will drop them off at infodesk on friday
+
 Planning
 ========
 
