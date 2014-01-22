@@ -162,7 +162,10 @@ This is an initial planning for what we'll do during the week before FOSDEM.
 - Wednesday: hook up cameras & twinpacts, test things, divide gear over boxes
 - Thursday: go buy stuff if we figure out we're missing something, write
   documentation for volunteers, make waitscreen loop
-- Friday: margin in case we run behind schedule
+- Friday morning: margin in case we run behind schedule
+- Friday afternoon: bring gear to ULB, with help of FOSDEM logistics
+  team. Possibly verify ULB audio set-up already in place, so we can ask
+  for changes if necessary (and still possible...)
 - Saturday/Sunday, early-o-clock: go to ULB and be ready to hand out video gear
   to volunteers
 - Saturday/Sunday, 8:00 AM: yell at devrooms who've not shown up yet, go set up
