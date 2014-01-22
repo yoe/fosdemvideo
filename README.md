@@ -101,17 +101,55 @@ People (core team)
 Gear arrivals
 =============
 
-- Cameras Videohouse: we can pick them up on wednesday (need to drive to
-  Vilvoorde, 10')
-- Cameras Stake5: will be delivered on wednesday
-- Cameras IRILL/DebConf: h01ger will bring these from Paris
-- Cameras CCC: ???
-- Laptops & servers: will be delivered on Monday
-- Twinpacts IRILL/DebConf: h01ger will bring these from Paris
-- Twinpacts Carl (Python): CarlFK will bring these
-- 3 Twinpacts FOSDEM are already at the office
-- 5 newly-bought twinpacts: CarlFK will bring these
-- Twinpacts KDE: Kenny will drop them off at infodesk on friday
+From Videohouse:
+----------------
+
+9 cameras plus tripods: we can pick these up on Wednesday (need to drive to
+Vilvoorde, 10')
+
+From Stake5:
+------------
+
+10 cameras: will be delivered on wednesday
+
+
+From IRILL/DebConf:
+-------------------
+
+h01ger will bring from Paris:
+
+- 2 cameras
+- 2 twinpacts
+
+Will arrive when h01ger arrives :-)
+
+From Python:
+------------
+
+CarlFK will bring:
+
+- 10 twinpacts
+- 5 more bought with FOSDEM money
+- Loads of firewire cables
+
+Will arrive when CarlFK arrives :-)
+
+From CCC:
+---------
+
+- 3 cameras will be brought by someone on some day
+
+TODO: fill out details
+
+From easy2rent:
+---------------
+
+3 servers and 45 laptops will be delivered on monday
+
+From KDE:
+---------
+
+Kenny Duffus will bring 4 twinpacts to the infodesk on friday.
 
 Planning
 ========
