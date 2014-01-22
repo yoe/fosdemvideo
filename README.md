@@ -3,13 +3,13 @@ Basic setup
 
 * 2 main talk rooms (janson, K auditorium)
  *  streamed (the main talk rooms), if Flumotion deal works out
- *  audio entirely done by ULB (?)
+ *  audio entirely done by ULB
  *  1 camera, 1 twinpact
  *  2 laptops
 
 * Lightning talks room
  * Streamed, if Flumotion deal works out
- * Audio done by us
+ * audio, appearantly done by ULB
  * 1 camera, 1 twinpact
  * 2 laptops
 
