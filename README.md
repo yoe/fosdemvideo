@@ -62,21 +62,22 @@ open questions / random stati
 3 servers
 ----
 * how do we use them?
-  - 7 or 8 rooms per server. TODO: decide which rooms on which server (not too urgent).
+  - 6 rooms per server:
+    - K building: video1
+    - H building (minus 1301, Cornil): video2
+    - Janson, AW building, H.1301: video3
  
   There is no wired connectivity to the U building; we'll need to record
   to local hard disk there, and possibly sneakernet them over with a USB
   disk or some such.
 
-TODO: do we have 2 harddrives to redudantly store everything once we need to give the server back? when is that?
+* For U building: sync to servers by night from NOC
+  - UA2.114: sync to video1
+  - UA2.252A: sync to video2
+  - UD2.120 & UD2.218A: sync to video3
 
-- Rental up to three weeks past FOSDEM
-- We can host them at ULB for a few weeks to do the transcoding, at
-  which point they'll get uploaded to video.fosdem.org and mirrored to
-  (at least) five mirrors
-
-Hence, I don't think we need to redundantly store stuff 
-
+Additionally, there are two USB hard disks to sneakernet data over in case of
+disk space issues
 
 24 twinpacts
 ----
