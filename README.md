@@ -1,3 +1,13 @@
+ToDo
+====
+* label everything from: carl + wouter + debconf
+* decide how to use storage, 2.5 tb each 
+* test+configure installation on two laptops (only)
+* buy printer cartridges
+* move fai from debconf to git..
+* 5 more laptops
+* git commit hooks
+
 Basic setup
 ====
 
@@ -49,15 +59,6 @@ open questions / random stati
     laptops from U building; but I have some at the office, so that
     shouldn't be a major issue)
 
-Things to buy
-----
-* vga cables
-* 22 boxes to carry stuff
-* 22 * 2 power bars 
-
-Firewire cables
-----
-CarlFK> | h01ger: wouter said all laptops have 4 pin,  I'll bring 25 4-6 for the twinpacts, and 25 4-4 for cameras
 
 3 servers
 ----
@@ -77,9 +78,6 @@ TODO: do we have 2 harddrives to redudantly store everything once we need to giv
 
 Hence, I don't think we need to redundantly store stuff 
 
-extra hw
---------
-* 50 patch cables has been ordered
 
 24 twinpacts
 ----
@@ -89,7 +87,7 @@ extra hw
 * 4 from Kenny (KDE)
 * 5 newly bought on eBay (no power supplies or remotes) testing now.
 
-That would bring the total to 24...
+Thats 24 in total.
 
 People (core team)
 ----
@@ -118,10 +116,10 @@ From IRILL/DebConf:
 
 h01ger will bring from Paris:
 
-- 2 cameras
+- 1 pelicase
 - 2 twinpacts
-
-Will arrive when h01ger arrives :-)
+- 3 cameras
+- 4 tripods
 
 From Python:
 ------------
@@ -132,14 +130,12 @@ CarlFK will bring:
 - 5 more bought with FOSDEM money
 - Loads of firewire cables
 
-Will arrive when CarlFK arrives :-)
 
-From CCC:
+From hackman:
 ---------
 
-- 1 camera will be brought by someone on some day
+- 1 camera will be brought by him on friday
 
-TODO: fill out details
 
 From easy2rent:
 ---------------
