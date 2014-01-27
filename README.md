@@ -6,7 +6,6 @@ ToDo
 * buy printer cartridges
 * move fai from debconf to git..
 * 5 more laptops
-* git commit hooks
 
 Basic setup
 ====
