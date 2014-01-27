@@ -72,9 +72,9 @@ open questions / random stati
   disk or some such.
 
 * For U building: sync to servers by night from NOC
-  - UA2.114: sync to video1
-  - UA2.252A: sync to video2
-  - UD2.120 & UD2.218A: sync to video3
+  - UA2.114 & UA2.252A: sync to video1
+  - UD2.120: sync to video2
+  - UD2.218A: sync to video3
 
 Additionally, there are two USB hard disks to sneakernet data over in case of
 disk space issues
