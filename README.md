@@ -6,6 +6,7 @@ ToDo
 * buy printer cartridges
 * move fai from debconf to git..
 * 5 more laptops
+* (for Wouter) build a list of contacts per devroom so we can update the rooms sheet
 
 Basic setup
 ====
