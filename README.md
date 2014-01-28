@@ -1,6 +1,7 @@
 
 ToDo
 ====
+* http://barbershop.grep.be/~wouter/fosdem.dv
 * wouter: buy gaffa-tape - 10 rolls
  * ask Gerry
 * organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
@@ -11,8 +12,9 @@ ToDo
  * boxes?!?
  * wouter: find 2 other cameras - contacted two companies
  * wouter: order/confirm 5 more laptops - confirmed
-* mail devroom managers and/or volunteers:
- * mail them now, tell them we mail updated infos on friday
+* mail devroom managers and/or volunteers on wednesday:
+ * tell them the basics, include cheatcheet.pdf, tell them we mail updated infos on friday
+* mail devroom managers and/or volunteers on friday again:
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
  * decide first: and then: include rsync howto in room cheatsheets(?)
