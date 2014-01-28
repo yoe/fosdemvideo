@@ -2,36 +2,30 @@
 ToDo
 ====
 * security starts to become an issue - think about it. 
-* include rsync howto in room cheatsheets
 * wouter: finish fosdem-loop.dv
-* wouter: find 2 other cameras
-* wouter: configure (reset) switches
-* wouter: order/confirm 5 more laptops
+* wouter: find 2 other cameras - contacted two companies
+* wouter: order/confirm 5 more laptops - confirmed
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * mail devroom managers and/or volunteers:
  * mail them now, tell them we mail updated infos on friday
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
  * include info when+where to get tshirts
+ * include rsync howto in room cheatsheets(?)
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
-* h01ger: move fai from debconf to git..
- * h01ger: faiify servers
-  * faiifxy bonding: 
-   * /etc/modprobe.d/bonding.conf
-   * /etc/network/interfaces
-   * apt-get install ifenslave-2.6
-  * save laptop+all logs on the server
- * wouter: pxe laptops
+* h01ger: faiify servers
+ * faiifxy bonding: 
+  * /etc/modprobe.d/bonding.conf
+  * /etc/network/interfaces
+  * apt-get install ifenslave-2.6
+ * save laptop+all logs on the server
 * print: 
  * building maps
 * label everything from: carl + wouter + debconf
 * Build a list of serial numbers (for insurance)
- * for all 45 laptops 
- * twinpacts 
- * cameras
- * 3 servers 
+ * 4 twinpacts from KDE
+ * cameras from debconf
  * wouters monitor
- * what else has a serial number 
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
  * or mithros solution
  * add notes from talk with sesse to this very readme
