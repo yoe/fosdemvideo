@@ -1,13 +1,24 @@
 ToDo
 ====
-* label everything from: carl + wouter + debconf
-* decide how to use storage, 2.5 tb each 
-* test+configure installation on two laptops (only)
-* buy printer cartridges
 * move fai from debconf to git..
-* 5 more laptops
-* (for Wouter) build a list of contacts per devroom so we can update the rooms sheet
+* label everything from: carl + wouter + debconf
+ * buy label tape
+* decide how to use storage, 2.5 tb each. 3 servers.. need config.
+* test+configure installation on two laptops (only)
+* buy printer cartridges (wouter knows which)
+* wouter: order/confirm 5 more laptops
+* wouter: build a list of contacts per devroom so we can update the rooms sheet
 * Build a list of serial numbers (for insurance)
+ * h01ger wonders whether for all 45 laptops and twinpacts and cameras... oh my...
+* streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
+ * or mithros solution
+* document in wiki: review workflow
+* test on penta: review workflow
+ * forget streaming, REVIEW ALL THE THINGS
+* java room: confirm they want recordings, ask mario torre
+* missing tripod for hackmans camera
+* hackman arriving friday 1930 BRU, then beer event? :-/
+* sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
 
 Basic setup
 ====
