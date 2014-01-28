@@ -1,0 +1,10 @@
+#! /bin/bash
+
+#
+#        (c) 2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy /etc/icecast2/icecast.xml /etc/default/icecast2
+$ROOTCMD /etc/init.d/icecast2 reload
+

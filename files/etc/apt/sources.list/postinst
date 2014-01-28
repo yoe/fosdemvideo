@@ -1,0 +1,25 @@
+#! /bin/bash
+
+#
+# Copyright 2006-2008 Holger Levsen 
+# released under the GPLv=2
+#
+
+# country=UNIX
+LANG=C
+
+# distribution we are using
+DISTRO=wheezy
+
+# hardcode mirror to use
+MIRROR=ftp.ch.debian.org
+#
+# either use local mirror or ftp.de.debian.org
+#TMPFILE=`mktemp -p /tmp`
+#if $( wget -q http://mirror/debian/dists/$DISTRO/Release.gpg -O $TMPFILE && file $TMPFILE | grep PGP > /dev/null ) ; then export MIRROR=mirror 
+#else export MIRROR=ftp.de.debian.org ; fi
+#rm $TMPFILE 
+
+# modify copied file
+sed -i "s/#MIRROR#/$MIRROR/" $2
+

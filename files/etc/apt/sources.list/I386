@@ -1,0 +1,7 @@
+deb http://ftp.us.debian.org/debian/ wheezy main contrib non-free
+#deb http://#MIRROR#/debian/ wheezy main contrib non-free
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+
+deb http://db.debconf.org/dc-admin/archive/ wheezy/i386/
+deb http://db.debconf.org/dc-admin/archive/ wheezy/all/
+

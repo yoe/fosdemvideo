@@ -1,0 +1,8 @@
+# unfortunatly...
+FAI_ALLOW_UNSIGNED="true"
+
+hosterrorpatterns="XXXXX"
+hostignorepatterns="XXXXX
+WARNING: Subdirectory tests/ not found. No tests run."
+
+HOSTNAME=$(hostname)

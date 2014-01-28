@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#
+#        (c) 2008-2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+if ifclass FOSDEM ; then
+	mkdir -p /home/dvswitch/.ssh
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqGjcVt6aHFlTTVY2eMh611baV/oHHZbuRavgOAD9BzPyHXsR9SmplH7qujjM2VPohwRAyqAJZqsC1Dr7MQWNjSzt7EHnAyYYFTd2ggLWYti+zGB/JeBnvR9AnhcgHHXo3CheSQza46v5CeXnS9tzwtsAqvJMaOaDRhBkTdLKbBgASOFVHp16mUWFyWmahBNNj1FnZNgecLfs0D7X8rvgbrxJibWn3cobbkbbJ4CcTRrh9huGBIbmtZyJIQKOMcGILDg0qisb8dgt7R17iaPpHQaoqqPDp+T2Hm5NCWBJXTdAhnWVsybIXaykIvq2eaXikrvfS2wTu9vMndNsIYyQd dvswitch@dvswitch1" > /home/dvswitch/.ssh/authorized_keys
+	chown dvswitch.dvswitch -R /home/dvswitch/.ssh/authorized_keys
+	chmod 700 /home/dvswitch/.ssh
+	chmod 600 /home/dvswitch/.ssh/authorized_keys
+else 
+	mkdir -p /etc/ssh/userkeys
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDita5UVO0+HO8uJ3607pZhyaSYBB5BhDvx+jY4TDPmwJGUUe1k/YJou0tNnvmMvi6hH+lu6UIFfbf8RRrYbMbVJtPF6nFa4TqypsGTpI1463Culg5d9Ph26fOOa1UuNiOWJrl79Nwlh8eeMKtU0UVO46VbyBRlTzChnSIVXmuzvu/zJ/LsqkqVfibMXNM73Yc6RcJfVCy1WqzPJ/sFNW2RiKyqCr8szNioeT35fDwNVkdc9VktNKW9WFBapSeXAA5ithanheA0T6a9agSmeUsIbyNP3ZAXhIEIwf97fmgGdLd/O/l1eV1ujd909zyKtraCCbPYL+/u6myFluLnZGz1 dvswitch@r1dvswitch.dc13" > /etc/ssh/userkeys/dvswitch
+	chown 1053.1008 /etc/ssh/userkeys/dvswitch
+	chmod 600 /etc/ssh/userkeys/dvswitch
+fi
+

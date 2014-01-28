@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DATABASE_PASSWORD=unset
+if [ -e /etc/default/debconf-video-local ]; then
+	. /etc/default/debconf-video-local
+fi
+
+sed -i "s/#DATABASE_PASSWORD#/$DATABASE_PASSWORD/" $2
+sed -i "s/#ICECAST_SOURCE_PASSWORD#/$ICECAST_SOURCE_PASSWORD/" $2

@@ -1,0 +1,4 @@
+## /etc/udev/rules.d/99-ttyusb.rules
+
+# USB serial devices
+KERNEL=="ttyUSB*",GROUP="1008",MODE="0660",SYMLINK+="tally_light"

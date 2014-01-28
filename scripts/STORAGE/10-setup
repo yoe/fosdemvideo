@@ -1,0 +1,10 @@
+#! /bin/bash
+
+#
+#        (c) 2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy /etc/exports
+$ROOTCMD /etc/init.d/nfs-kernel-server reload
+

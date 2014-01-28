@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#
+#        (c) 2006, 2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+. /usr/lib/fai/subroutines
+
+#
+# smart munin plugins
+#
+# FIXME: detect scsi disks properly, ignore usbdisks
+for i in sda sdb sdc sdd ; do {
+	[ -b /dev/$i ] && {
+		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
+		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i -a -d ata" >> $target/etc/smartd.conf
+	}
+} ; done
+
+# FIXME: see above:
+# not on lisa
+ifclass lisa || for i in hda hdb ; do {
+	[ -b /dev/$i ] && {
+		ln -sf /usr/share/munin/plugins/smart_ $target/etc/munin/plugins/smart_$i 
+		grep "^/dev/$i" $target/etc/smartd.conf || echo "/dev/$i" >> $target/etc/smartd.conf
+	}
+} ; done
+ls /etc/munin/plugins/smart_??? | grep smart > /dev/null 2>&1 && {
+	sed -i "s/#start_smartd/start_smartd/" $target/etc/default/smartmontools 
+	sed -i "s/^DEVICESCAN/#DEVICESCAN/" $target/etc/smartd.conf
+	$ROOTCMD /etc/init.d/smartmontools reload
+	$ROOTCMD ln -sf /usr/share/munin/plugins/hddtemp_smartctl /etc/munin/plugins/hddtemp_smartctl
+	$ROOTCMD /etc/init.d/munin-node restart
+}
+

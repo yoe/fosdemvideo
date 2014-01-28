@@ -1,0 +1,13 @@
+CONFERENCE_NAME='DebConf13'
+# File store base directory
+FILE_BASE="/video"
+# Database access (pygresql)
+DATABASE_DSN="skinner.debconf.org:pentabarf"
+DATABASE_USER="dc7video"
+DATABASE_PASSWORD="#DATABASE_PASSWORD#"
+# Transcoding:
+PUBLISH_AUTHOR='DebConf video team'
+PUBLISH_ORG='DebConf'
+PUBLISH_LICENSE='CC-BY 3.0: http://creativecommons.org/licenses/by/3.0/'
+PUBLICATION_PATH=apu.debconf.org:/srv/video/2013/debconf13/
+VENUE_NAME="Le Camp, Vaumarcus, Switzerland"

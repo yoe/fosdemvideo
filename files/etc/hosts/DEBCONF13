@@ -1,0 +1,36 @@
+127.0.0.1 localhost
+
+# on the wide wide net
+82.195.75.74	apu.debconf.org apu
+72.14.176.206	krusty.debconf.org krusty
+89.16.166.49	db.debconf.org db
+
+# on site
+80.83.56.34 	homer.dc13.debconf.org homer
+
+172.31.1.0 	r1gw.dc13.debconf.org	r1gw
+172.31.1.1 	r1dvswitch.dc13.debconf.org r1dvswitch
+172.31.1.2 	r1grab1.dc13.debconf.org r1grab1	encoder1.dc13.debconf.org	encoder1
+172.31.1.3 	r1grab2.dc13.debconf.org r1grab2
+
+172.31.2.0 	r2gw.dc13.debconf.org r2gw
+172.31.2.1 	r2dvswitch.dc13.debconf.org r2dvswitch
+172.31.2.2 	r2grab1.dc13.debconf.org r2grab1	encoder2.dc13.debconf.org	encoder2
+172.31.2.3 	r2grab2.dc13.debconf.org r2grab2
+
+172.31.11.1 	storage1.dc13.debconf.org storage1	hiresencoder1.dc13.debconf.org hiresencoder1	hiresencoder2.dc13.debconf.org	hiresencoder2
+172.31.12.1 	localstream1.dc13.debconf.org localstream1
+
+# unused
+#172.30.3.1 	review2.dc13.debconf.org	review1
+#172.30.3.2 	review2.dc13.debconf.org	review1
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+

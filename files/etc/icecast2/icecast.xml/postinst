@@ -1,0 +1,13 @@
+#!/bin/sh
+
+ICECAST_SOURCE_PASSWORD=unset
+ICECAST_RELAY_PASSWORD=unset
+ICECAST_ADMIN_PASSWORD=unset
+
+if [ -e /etc/default/debconf-video-local ]; then
+	. /etc/default/debconf-video-local
+fi
+
+sed -i -e "s/#ICECAST_SOURCE_PASSWORD#/$ICECAST_SOURCE_PASSWORD/" \
+       -e "s/#ICECAST_RELAY_PASSWORD#/$ICECAST_RELAY_PASSWORD/" \
+       -e "s/#ICECAST_ADMIN_PASSWORD#/$ICECAST_ADMIN_PASSWORD/" $2

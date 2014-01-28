@@ -1,0 +1,41 @@
+#! /bin/bash
+
+# assign classes for hosts at debconf13
+# `hostname -f` doesnt return proper results (before running fai :)
+
+#
+#
+
+case $HOSTNAME in
+   r?grab*|r?dvswitch*|encoder*|storage*|localstream*|review*)
+		echo "FAIBASE DEBCONF VIDEO DEBCONF13" ;;
+esac
+
+
+case $HOSTNAME in
+   encoder*) 
+   		echo "ENCODING ICECAST";; # see below
+   r?grab*) 
+   		echo "CAPTURE ENCODING";;
+   r?dvswitch*) 
+   		echo "XORG CAPTURE DVSWITCH STORAGE";;
+   storage*) 
+   		echo "STORAGE";;
+   localstream*) 
+   		echo "ICECAST";;
+   review*) 
+   		echo "XORG REVIEW";;
+esac
+
+# more encoder*
+case $HOSTNAME in
+   r?grab1*) 
+   		echo "ICECAST";;
+esac
+
+case $HOSTNAME in 
+   r?grab*|r?dvswitch*|storage?)
+   		echo "DVSWITCHPUBKEY";;
+esac
+
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#
+#        (c) 2006-2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+
+export HOSTNAME=`hostname`
+export RELAY="homer.dc13.debconf.org"
+
+# #HOSTNAME# gets replaced by $HOSTNAME and so on...
+
+sed -i "s/#HOSTNAME#/$HOSTNAME/" $2
+sed -i "s/#RELAY#/$RELAY/" $2
+

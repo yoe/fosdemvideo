@@ -1,0 +1,25 @@
+#! /usr/sbin/cfagent -f
+
+control:
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+	/etc/mailname mode=0644 owner=root group=root   action=fixall
+
+directories:
+   any::
+	/tmp mode=1777 owner=0 group=0
+
+editfiles:
+   any::
+	{ /etc/mailname
+	  AutoCreate
+          AppendIfNoSuchLine "${HOSTNAME}"
+	}
+
+	{ /etc/default/rcS
+	  ReplaceAll "^UTC=.*" With "UTC=${UTC}"
+	}
+

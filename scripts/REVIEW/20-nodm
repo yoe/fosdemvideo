@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#
+#        (c) 2012 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+fcopy -M /etc/default/nodm

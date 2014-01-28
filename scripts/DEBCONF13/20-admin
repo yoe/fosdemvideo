@@ -1,0 +1,9 @@
+#!/bin/bash
+
+fcopy -r /etc/userdir-ldap
+fcopy -m root,root,600 /etc/ssh/sshd_config
+/etc/init.d/ssh reload
+fcopy -M /etc/nsswitch.conf
+fcopy -m root,root,440 /etc/sudoers
+
+ud-replicate || echo "Warning: ud-replicate cannot be run"

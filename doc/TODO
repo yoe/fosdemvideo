@@ -1,0 +1,26 @@
+todo 
+--------------------
+
+- use fai (instead of the debconf-video package) to deploy /etc/debconf-video/default and replace passwords after copying
+- check http://wiki.debconf.org/wiki/DebConf10/Videoteam/TODO
+- fai script: check for id_rsa auf barney + dvswitch machines, output warning if not
+- mfl: copied the final files from machines, needs committing to git
+- copied+pasted from h01gers todo list:
+	copy paste questions to mfl:
+	        mfl: faiify document  dc-import..
+	        mfl: same with syncing files over... exact rsync command
+	        crontab: import+transcode
+	        <edrz> h01ger: bwh moved /video on rod to /video.bak so barney:/video could be mounted on /video
+	        <edrz> Ganneff re-used the existing coordinator room role for v-t volunteer coordinator and just added roles for that to the rooms.
+	        mfl: renww xsession wg tallylights
+	        add user to dialout
+	        transcoding on barney+rod
+- document roles, probably with a dia picture as well:
+        volunteer training: maxy
+        cheatsheets: tassia
+        tshirts: andrew
+        marga: penta review coordinator
+        volunteer master davis, tuesday: marga
+        volunteer master interschool, tuesday: tassia
+        maxy: davis after upstairs
+- Requirements.txt: explain those notes from dc10 in more detail and give explaination why this was bad.

@@ -1,0 +1,17 @@
+#! /usr/sbin/cfagent -f
+
+control:
+   any::
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+editfiles:
+   any::
+	{ ${target}/etc/pam.d/common-session
+	  AutoCreate
+	  AppendIfNoSuchLine "session optional        pam_mkhomedir.so skel=/etc/skel umask=0022"
+	}
+

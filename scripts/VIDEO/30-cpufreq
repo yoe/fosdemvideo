@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#
+#        (c) 2006-2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy -M /etc/default/cpufrequtils
+if [ -f /etc/init.d/cpufrequtils ] ; then
+	/etc/init.d/cpufrequtils reload
+fi

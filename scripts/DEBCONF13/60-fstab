@@ -1,0 +1,33 @@
+#! /usr/sbin/cfagent -f
+
+control:
+   any::
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+directories:
+   any::
+	${target}/video mode=0775 owner=1053 group=1008
+
+editfiles:
+  ENCODING::
+	{ ${target}/etc/fstab
+	AppendIfNoSuchLine "storage1:/video    /video      nfs     defaults,auto,rw 0       0"
+ 	} 
+  REVIEW::
+	{ ${target}/etc/fstab
+	AppendIfNoSuchLine "storage1:/video    /video      nfs     defaults,auto,ro 0       0"
+ 	} 
+  # goldberg is also storage server
+  goldberg::
+	{ ${target}/etc/fstab
+	CommentLinesStarting  "barney:/video"
+	}
+
+#   DVSWITCH::
+#	{ ${target}/etc/fstab
+#	AppendIfNoSuchLine "barney:/video    /video      nfs     defaults,auto,ro 0       0"
+#	}    

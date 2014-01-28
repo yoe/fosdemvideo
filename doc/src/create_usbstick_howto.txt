@@ -1,0 +1,61 @@
+creating a d-i usbstick howto
+-----------------------------
+
+sudo apt-get install syslinux
+
+sudo dd if=/usr/lib/syslinux/mbr.bin of=/dev/sdb
+(mbr_c.bin for the debconf videoteam HP laptops)
+
+sudo fdisk /dev/sdb
+-> create a WIN32 VFAT partition (type t and then b in fdisk)
+-> Make sure to mark it bootable (type a in fdisk)
+
+sudo mkfs.vfat /dev/sdb1
+sudo mount /dev/sdb1 /mnt
+
+copy the following files to /mnt:
+
+sudo cp vmlinuz initrd.gz syslinux.cfg firmware-7.1.0-amd64-netinst.iso preseed.cfg final_setup.sh ac583520.asc /mnt
+
+vmlinuz				# see current directory (taken from http://ftp.nl.debian.org/debian/dists/wheezy/main/installer-amd64/current/images/hd-media/ )
+initrd.gz   			# see current directory (taken from from http://ftp.nl.debian.org/debian/dists/wheezy/main/installer-amd64/current/images/hd-media/ )
+syslinux.cfg   			# see current directory :) defines language and preseed file url
+firmware-7.1.0-amd64-netinst.iso 	# take it from http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/
+preseed.cfg  			# see current directory
+final_setup.sh  		# see current directory
+ac583520.asc			# h01gers public key
+README.source			# GPL compliance... tel about the source
+
+sudo umount /dev/sdb1
+sudo syslinux /dev/sdb1		# the t60 needed 3.51 from sid/holgers etch backports...
+
+usage notes
+-----------
+Execute the above commands, boot from the stick, enjoy.
+
+If the device does not boot, there are other mbr implementations in
+syslinux, to account for tiny differences between BIOS implementations
+(which can't be done in a boot sector). Just look for files with 'mbr'
+in their name in /usr/lib/syslinux.
+
+The installation is automatic, the root password will be set to "redPill". You just
+have to confirm partitioning and choose the right hostname.
+
+That should be all ;)
+
+After the installation is done, check /etc/motd and /etc/hosts if they look
+somewhat sensible for this ;-)
+
+
+Using pxeboot installer
+-----------------------
+-Adjust preseed.cfg to wget penultimate_setup.sh from git. There is an example in the
+comment at the end of that file. 
+-Make preseed.cfg available via http some.where.
+-Add a stanza such as the following to your pxeboot environment:
+
+label video
+        menu label ^VideoTeam install
+        kernel debian-installer/i386/linux
+        append auto=true priority=critical vga=normal initrd=debian-installer/i386/initrd.gz -- quiet url=http://some.where.tld/preseed.cfg
+

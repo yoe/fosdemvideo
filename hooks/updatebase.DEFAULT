@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# update sources.list first, in any case
+fcopy /etc/apt/sources.list 
+fcopy -r /etc/apt/sources.list.d
+
+apt-get update

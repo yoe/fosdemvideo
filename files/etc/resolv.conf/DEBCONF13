@@ -1,0 +1,4 @@
+search dc13.debconf.org debconf.org
+domain dc13.debconf.org
+nameserver 8.8.8.8
+

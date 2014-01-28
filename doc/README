@@ -1,0 +1,123 @@
+Howto setup a video infrastructure
+----------------------------------
+
+1. prepare the fai setup in git
+2. boot from usbstick
+3. do minor stufs manualy (mostly related to security)
+4. profit!
+
+Now these three little steps again, but in detail:
+
+
+preparing the fai setup in git
+------------------------------
+git clone git+ssh://$USERNAME@git.debian.org/git/debconf-video/config.git
+cd config
+
+cd class
+# take a look at an existing conference to learn how fai works 
+view 29-fosdem2009-classes
+view FOSDEM.var
+view patty.var
+
+cp 29-fosdem2009-classes   29-yourconf-classes
+cp FOSDEM.var	YOURCONF.var
+cp patty.var	a_hostname.var
+
+vi 29-yourconf-classes 	
+vi YOURCONF.var		# FOSDEM.var sets "EVENT=fosdem09" - you need 
+			# 	to set this to the name of the directory 
+			#	you create in the debconf-video package 
+			#	- see below
+# do hostname.var's later, they are mostly cosmetic to make FAI not display some warnings
+
+# optional step:
+#   take a look what software is installed in which class. ../class/29-yourconf-classes definis the classes the host is in
+cd ../package_config
+view *
+
+# also optional step:
+cd ../scripts
+# each class also has scripts associated with them
+
+# there are two more directories: debconf/ and files/. The former has 
+# class based debconf preseeding files and the second files which can
+# be copied with the fcopy command from fai. grep in the scripts dir
+# for "fcopy" and then look at that script and the corresponding 
+# _directory_ with class files in files/
+
+
+initial install
+---------------
+# create an usbstick as described in ./src/create_usbstick_howto.txt 
+# boot from usbstick, choose the right hostname per machine as set in ./class/29-yourconf-classes
+
+
+doing changes later / debug installations
+-----------------------------------------
+run "softupdate" as root to update the configuration (this is basically a around "/usr/sbin/fai -N softupdate")
+/var/log/fai/$hostname/last/FAI_CLASSES lists the classes a host is in
+/var/log/fai/$hostname/last/ is generally useful to look at
+
+
+Second configuration area
+-------------------------
+
+Sadly not all configuration is in FAIs config space, some is in the debconf-video package. (This is a todo item for DebConf9 or better, for before DebConf9.) FAI is used/useful there too, as it takes care of putting the (once) manually entered video passwds into the right config files.
+
+Preparing the package
+^^^^^^^^^^^^^^^^^^^^^
+git clone git+ssh://$USERNAME@git.debian.org/git/debconf-video/package.git
+# there is a doc/README too, read it.
+
+Create a directory inside the conf/ directory named after your conference. This needs to match EVENT defined in $fai-config-dir/classes/YOURCONF.var
+Base it on an existing conf.
+
+Then build as usual with git-buildpackage.
+
+Uploading the package
+^^^^^^^^^^^^^^^^^^^^^
+Then you need to upload the package to the debconf-apt-repository. Choose "wheezy" as distribution.
+
+This is the relevant section from my ~/.dupload.conf:
+
+$cfg{'dc'} = {
+        fqdn => "cmburns.debconf.org",
+        incoming => "/var/www/db/dc-admin/archive/mini-dinstall/incoming/",
+        # files pass on to dinstall on ftp-master which sends emails itself
+        method => "scpb",
+        login => "holger",
+};
+
+
+
+Put the passwords on each machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+edit /etc/default/debconf-video.passwd on each machine once, then run softupdate. the fai configuration will put the values in the right files.
+
+### begin /etc/default/debconf-video.passwd example:
+export ICECAST_PASS=fubar
+### end
+
+DATABASE_PASSWORD needs to be set the same way on the host of the PENTA class, currently thats barney. Ben and Holger know the password.
+
+Run softupdate once again. Voila, it's time for some cake now :-)
+
+Deploy dvswitch SSH key.
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+On one DVSWITCH machine, create an SSH key for dvswitch user:
+  ssh-keygen
+Then copy that private key on all the DVSWITCH machine (one per room!).
+(Use a USB key, because password authentication is disabled)
+
+Add the public key in FAI (in config.git). Edit the file:
+  scripts/DVSWITCHPUBKEY/10-authkeys
+
+
+2009-03-21 Holger Levsen
+2010-08-25 updated
+2013-08-06 Git migration. Frank lin Piat
+
+final words: also see http://wiki.debconf.org/wiki/Videoteam/Software
+

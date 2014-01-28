@@ -1,0 +1,37 @@
+127.0.0.1 localhost
+89.16.166.49    db.debconf.org db
+
+# janson
+151.216.112.11 dvswitch1 dvswitch1.video.fosdem.org
+151.216.112.12 twinpact1 twinpact1.video.fosdem.org
+# K-auditorium
+151.216.112.21 dvswitch2 dvswitch2.video.fosdem.org
+151.216.112.22 twinpact2 twinpact2.video.fosdem.org
+# ferrer
+151.216.112.31 dvswitch3 dvswitch3.video.fosdem.org
+151.216.112.32 twinpact3 twinpact3.video.fosdem.org
+# h1301
+151.216.112.41 dvswitch4 dvswitch4.video.fosdem.org
+151.216.112.42 twinpact4 twinpact4.video.fosdem.org
+# h1302
+151.216.112.51 dvswitch5 dvswitch5.video.fosdem.org
+151.216.112.52 twinpact5 twinpact5.video.fosdem.org
+
+# spares
+151.216.112.61 spare1 spare1.video.fosdem.org
+151.216.112.62 spare2 spare2.video.fosdem.org
+151.216.112.63 spare3 spare3.video.fosdem.org
+
+# infrastructure
+151.216.112.1  gateway gw gw..video.fosdem.org gateway.video.fosdem.org
+151.216.113.1  server server.video.fosdem.org encoder1 encoder1.video.fosdem.org
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+

@@ -1,0 +1,23 @@
+#! /bin/bash
+
+#
+#        (c) 2006-2009 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+USER=dvswitch
+$ROOTCMD adduser --quiet --disabled-password --gecos "" $USER
+$ROOTCMD addgroup --quiet --gid 1000 dvswitch || true
+$ROOTCMD adduser --quiet $USER dvswitch
+
+$ROOTCMD mkdir -p /home/$USER/.ssh
+$ROOTCMD touch /home/$USER/.ssh/authorized_keys
+$ROOTCMD chown -R $USER.$USER /home/$USER/.ssh
+$ROOTCMD chmod 700 /home/$USER/.ssh
+
+# we normally get this group from ldap
+addgroup --quiet --gid 1008 videoteam || true
+
+# the videoteam group which owns the raw1394 device etc
+for i in dialout cdrom floppy audio video plugdev powerdev nvram netdev videoteam ; do $ROOTCMD adduser --quiet $USER $i ; done
+  

@@ -1,0 +1,6 @@
+# Declined Intel Pro Wireless 2100 and 2200/2915 License
+firmware-ipw2x00	firmware-ipw2x00/license/error	error	
+# Intel Pro Wireless 2100 and 2200/2915 License
+firmware-ipw2x00	firmware-ipw2x00/license/present	note	
+# Do you agree with the Intel Pro Wireless 2100 and 2200/2915 License license terms?
+firmware-ipw2x00	firmware-ipw2x00/license/accepted	boolean	true

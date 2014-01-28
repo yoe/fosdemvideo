@@ -1,0 +1,19 @@
+#
+# some packages for _all_ hosts
+#
+PACKAGES install
+cfengine2
+cron debconf-utils discover file hdparm
+vim joe emacs23 jove less linuxlogo
+ssh strace
+time ntp ntpdate psmisc
+zsh mc tree screen 
+pciutils ethtool sudo
+molly-guard dnsutils
+apt-listchanges cron-apt
+firmware-linux-nonfree
+iperf vlan
+wipe 
+
+PACKAGES install IPW2X00
+firmware-ipw2x00 wireless-tools

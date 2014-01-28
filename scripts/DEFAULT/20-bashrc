@@ -1,0 +1,9 @@
+#! /bin/bash
+
+#
+#        (c) 2011 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+ 
+fcopy /etc/bash.bashrc
+fcopy /usr/local/bin/dsa-check-packages

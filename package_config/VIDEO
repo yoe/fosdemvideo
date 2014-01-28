@@ -1,0 +1,66 @@
+#
+# some packages for the video machines
+#
+PACKAGES install VIDEO
+munin-node smartmontools lm-sensors rsync
+mailutils postfix logcheck logcheck-database
+telnet lynx w3m screen
+userdir-ldap
+bzip2  nload dstat
+powertop
+locales-all
+debconf-video-common
+
+PACKAGES remove VIDEO
+cpufrequtils
+
+PACKAGES install XORG
+xorg elinks
+xfce4 xserver-xorg xterm hicolor-icon-theme
+xserver-xorg-video-intel
+iceweasel mozilla-noscript xul-ext-adblock-plus
+irssi xchat
+
+
+PACKAGES install DVSWITCH
+dvswitch nodm
+dvsink
+debconf-video-switch
+
+PACKAGES remove DVSWITCH
+xscreensaver kdm
+
+PACKAGES install REVIEW
+totem mplayer xine-ui vlc
+nodm 
+
+PACKAGES install CAPTURE
+dvgrab dvsource 
+debconf-video-capture
+
+PACKAGES install ENCODING
+ffmpeg ffmpeg2theora  
+dvsink
+debconf-video-encode
+oggshout
+
+PACKAGES install STORAGE
+dvsink
+nfs-kernel-server
+debian-keyring apache2
+ezstream
+debconf-video-store
+
+PACKAGES install ICECAST
+icecast2
+
+# accessable from the outside
+PACKAGES install lisa
+fail2ban
+
+
+#unused:
+PACKAGES install BRIDGE
+bridge-utils
+
+

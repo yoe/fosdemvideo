@@ -1,0 +1,11 @@
+#! /bin/bash
+
+#
+#        (c) 2006-2010 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+fcopy -M /etc/hosts
+fcopy -M /etc/resolv.conf
+fcopy -M -i /etc/network/interfaces
+fcopy -m root,root,0755 -i /etc/network/if-up.d/firewall

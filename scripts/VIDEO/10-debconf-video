@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#
+#        (c) 2006-2013 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+mkdir -p /home/dvswitch /video
+if ifclass FOSDEM ; then
+	chown dvswitch.dvswitch /home/dvswitch
+	chown dvswitch.dvswitch /video
+else
+	# bloody debconf hell
+	chown 1053.1008 /home/dvswitch
+	chown 1053.1008 /video
+fi
+
+
+fcopy /etc/default/locale
+
+HOSTNAME=`hostname`
+
+# $EVENT  is definied in class/*var
+[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME ] || exit 0
+
+. /etc/default/debconf-video.passwd || exit 1
+
+cp /usr/share/doc/debconf-video-common/conf/$EVENT/default-$HOSTNAME /etc/default/debconf-video 
+
+# #HOSTNAME# gets replaced by $HOSTNAME and so on...
+sed -i "s/#ICECAST_PASS#/$ICECAST_PASS/" /etc/default/debconf-video
+sed -i "s/#DATABASE_PASSWORD#/$DATABASE_PASSWORD/" /etc/default/debconf-video
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fcopy -m dvswitch,dc-video,755 /home/dvswitch/.Xsession

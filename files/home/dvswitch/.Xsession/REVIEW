@@ -1,0 +1,9 @@
+# run vlc on login
+setxkbmap -option terminate:ctrl_alt_bksp
+
+vlc "http://video.debconf.org:8000/Upper_talkroom.ogv.m3u" &
+vlc "http://video.debconf.org:8000/Lower_talkroom.ogv.m3u"&
+
+# last command
+xfce4-session
+

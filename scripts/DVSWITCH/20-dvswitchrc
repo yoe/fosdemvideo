@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#
+#        (c) 2006,2008 Holger Levsen         holger@layer-acht.org
+#        GPL2 licenced
+#
+
+HOSTNAME=`hostname`
+
+# $EVENT  is definied in class/*var
+#[ -f /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME ] || exit 0
+
+#cp /usr/share/doc/debconf-video-common/conf/$EVENT/dvswitchrc-$HOSTNAME /etc/dvswitchrc
+
+fcopy -M /etc/default/nodm /etc/dvswitchrc
