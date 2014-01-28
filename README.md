@@ -3,9 +3,10 @@ ToDo
 ====
 * security starts to become an issue - think about it. 
 * wouter: finish fosdem-loop.dv
-* wouter: find 2 other cameras - contacted two companies
-* wouter: order/confirm 5 more laptops - confirmed
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
+* sorted, in progress:
+ * wouter: find 2 other cameras - contacted two companies
+ * wouter: order/confirm 5 more laptops - confirmed
 * mail devroom managers and/or volunteers:
  * mail them now, tell them we mail updated infos on friday
  * mail them again on friday
@@ -13,7 +14,8 @@ ToDo
  * include info when+where to get tshirts
  * include rsync howto in room cheatsheets(?)
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
-* h01ger: faiify servers
+ * review login url: "https://penta.fosdem.org/user/new account/"
+* h01ger: faiify server
  * faiifxy bonding: 
   * /etc/modprobe.d/bonding.conf
   * /etc/network/interfaces
@@ -21,7 +23,10 @@ ToDo
  * save laptop+all logs on the server
 * print: 
  * building maps
-* label everything from: carl + wouter + debconf
+* everything is labeled, except: 
+ * check: wouter
+ * debconf tripods?
+ * whatever aint here
 * Build a list of serial numbers (for insurance)
  * 4 twinpacts from KDE
  * cameras from debconf
