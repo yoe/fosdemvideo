@@ -48,6 +48,7 @@ ToDo
   * or debconf.org servers ?
 * at ULB:
  * enable bonding again, see files/etc/network/interfaces/video?
+* Boot dvswitch at commit 75dda59bd2a74ffe842154a0f2d7a1d0c94fea00
 
 Basic setup
 ====
