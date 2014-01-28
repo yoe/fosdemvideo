@@ -28,10 +28,10 @@ ToDo
 * print: 
  * building maps
 * everything is labeled, except: 
- * debconf tripods?
+ * 4 twinpacts from KDE [Added, but need room numbers when they arrive]
  * whatever aint here
 * Build a list of serial numbers (for insurance)
- * cameras from debconf
+ * whatever aint here
 * document in on github: review workflow
 * test on penta: review workflow
  * forget streaming, REVIEW ALL THE THINGS
