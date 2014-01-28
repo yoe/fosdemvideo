@@ -19,5 +19,8 @@ case $HOSTNAME in
    r*master) 	echo "CAPTURE STORAGE XORG DVSWITCH";;
    r*slave) 	echo "CAPTURE";;
 esac
+case $HOSTNAME in
+   video1)	echo "XORG";;
+esac
 #unused CLASSES: ENCODING ICECAST
 

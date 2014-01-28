@@ -1,0 +1,6 @@
+#
+# some packages specific for FOSDEM machines
+#
+PACKAGES install video1
+munin apache2
+
