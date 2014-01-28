@@ -1,6 +1,7 @@
 
 ToDo
 ====
+* buy gaffa-tape - lots of
 * security starts to become an issue - think about it. 
 * wouter: finish fosdem-loop.dv
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
