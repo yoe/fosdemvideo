@@ -1,6 +1,7 @@
 
 ToDo
 ====
+* jen: include: if speakers insist not to be recorded, dont
 * wouter: buy gaffa-tape - 10 rolls
  * ask Gerry
 * organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
@@ -28,7 +29,7 @@ ToDo
 * print: 
  * building maps
 * everything is labeled, except: 
- * 4 twinpacts from KDE [Added, but need room numbers when they arrive]
+ * 4 twinpacts from KDE  
  * whatever aint here
 * Build a list of serial numbers (for insurance)
  * whatever aint here
@@ -73,15 +74,10 @@ open questions / random stati
 ----
 * how many cameras with tripods ordered? any backups?
   19 cameras have been ordered, all come with tripods.
- * do they come with firewire cables?
-   - No idea. Probably not all of them.
 * wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure? 
   - which version / branch is that?
     It's in [git](http://anonscm.debian.org/gitweb/?p=dvswitch/dvswitch.git;a=commit;h=75dda59bd2a74ffe842154a0f2d7a1d0c94fea00)
-* we need room cheat sheets, best written in asciidoca
- * include: if speakers insist not to be recorded, dont
-* penta integration - whats the status?
 * do we want 23 small switches to have uplink connectivity to get the data of the latops easily at night?
   - The plan is to record to the server during the event, and copy to
     local hard disk _only_ as a backup. As such, we don't necessarily
@@ -132,20 +128,17 @@ Gear arrivals
 
 From Videohouse:
 ----------------
-
-9 cameras plus tripods: we can pick these up on Wednesday (need to drive to
+8 cameras plus tripods: we can pick these up on Wednesday (need to drive to
 Vilvoorde, 10')
 
 From Stake5:
 ------------
-
-10 cameras: will be delivered on wednesday
+10 cameras: will be delivered on thursday
 
 
 From IRILL/DebConf:
 -------------------
-
-h01ger will bring from Paris:
+h01ger brought from Paris:
 
 - 1 pelicase
 - 2 twinpacts
@@ -154,28 +147,22 @@ h01ger will bring from Paris:
 
 From Python:
 ------------
-
-CarlFK will bring:
+CarlFK brought:
 
 - 10 twinpacts
 - 5 more bought with FOSDEM money
 - Loads of firewire cables
 
-
 From hackman:
 ---------
-
 - 1 camera will be brought by him on friday
-
 
 From easy2rent:
 ---------------
-
 3 servers and 45 laptops will be delivered on monday
 
 From KDE:
 ---------
-
 Kenny Duffus will bring 4 twinpacts to the infodesk on friday.
 
 Planning
