@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #
-# Copyright 2006-2010 Holger Levsen 
+# Copyright 2006-2014 Holger Levsen 
 # released under the GPLv=2
 #
 
@@ -17,7 +17,7 @@ echo "y" | apt-get -y dist-upgrade
 apt-get -y install fai-client git
 
 # configure fai
-echo 'FAI_CONFIG_SRC="git://anonscm.debian.org/debconf-video/config.git"' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
+echo 'FAI_CONFIG_SRC=git://github.com/yoe/fosdemvideo' >> /etc/fai/fai.conf  # crude hack - last entry has precedence :)
 
 # run first softupdate, after that you can use /usr/local/sbin/softupdate 
 fai -N softupdate
