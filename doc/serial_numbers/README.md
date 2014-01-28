@@ -8,3 +8,4 @@ As far as values go:
 - Servers: need to check
 - Cameras: various, need to check. We won't have serial numbers for
   these before thursday though, so I'm not sure it matters.
+- hard disks: brand new, €75 apiece
