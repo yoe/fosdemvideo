@@ -1,13 +1,8 @@
-Go Shopping
+Go fetching
 ====
 * wouter home:
  * null modem cable
  * tea table
-* wouter media markt:
- * noka 113(?) phone for 29e
- * 3x label printer cartridges 
-* other store
- * buy printer cartridges (wouter knows which)
 
 ToDo
 ====
@@ -16,13 +11,17 @@ ToDo
 * label everything from: carl + wouter + debconf
 * print: 
  * building maps
- * enable carl to print
 * decide how to use storage, 2.5 tb each. 3 servers.. need config.
 * test+configure installation on two laptops (only)
 * wouter: order/confirm 5 more laptops
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * Build a list of serial numbers (for insurance)
- * for all 45 laptops and twinpacts and cameras and the 3 servers and everything with a serial number 
+ * for all 45 laptops 
+ * twinpacts 
+ * cameras
+ * 3 servers 
+ * wouters monitor
+ * what else has a serial number 
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
  * or mithros solution
 * document in wiki: review workflow
