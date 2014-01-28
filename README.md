@@ -1,7 +1,6 @@
 
 ToDo
 ====
-* jen: include: if speakers insist not to be recorded, dont
 * wouter: buy gaffa-tape - 10 rolls
  * ask Gerry
 * organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
@@ -29,7 +28,7 @@ ToDo
 * print: 
  * building maps
 * everything is labeled, except: 
- * 4 twinpacts from KDE  
+ * 4 twinpacts from KDE (need to assign room numbers in serial_numbers file) 
  * whatever aint here
 * Build a list of serial numbers (for insurance)
  * whatever aint here
