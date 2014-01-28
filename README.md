@@ -28,7 +28,7 @@ ToDo
  * debconf tripods?
  * whatever aint here
 * Build a list of serial numbers (for insurance)
- * 4 twinpacts from KDE
+ * 4 twinpacts from KDE [Added, but need room numbers when they arrive]
  * cameras from debconf
  * wouters monitor
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
