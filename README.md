@@ -14,7 +14,6 @@ ToDo
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
 * h01ger: move fai from debconf to git..
  * h01ger: faiify servers
-  * decide how to use storage, 2.5 tb each. 3 servers.. need config.
   * faiifxy bonding: 
    * /etc/modprobe.d/bonding.conf
    * /etc/network/interfaces
