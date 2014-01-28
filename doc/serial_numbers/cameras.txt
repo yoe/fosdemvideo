@@ -1,0 +1,4 @@
+Room#:Serial#:Brand:Owner
+?:D1TCB0015:Panasonic:debconf
+?:063112002253:Canon:debconf
+?:063112001669:Canon:debconf
