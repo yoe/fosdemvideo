@@ -5,15 +5,23 @@ Go fetching
 
 ToDo
 ====
-* move fai from debconf to git..
-* configure (reset) switches
+* wouter: finish fosdem-loop.dv
+* wouter: find 2 other cameras
+* wouter: configure (reset) switches
+* wouter: order/confirm 5 more laptops
+* wouter: build a list of contacts per devroom so we can update the rooms sheet
+* mail devroom managers and/or volunteers:
+ * mail them now, tell them we mail updated infos on friday
+ * mail them again on friday
+ * repeat infos, point out cheat sheets (attach them now?)
+ * include info when+where to get tshirts
+* h01ger: move fai from debconf to git..
 * label everything from: carl + wouter + debconf
 * print: 
  * building maps
 * decide how to use storage, 2.5 tb each. 3 servers.. need config.
 * test+configure installation on two laptops (only)
-* wouter: order/confirm 5 more laptops
-* wouter: build a list of contacts per devroom so we can update the rooms sheet
+
 * Build a list of serial numbers (for insurance)
  * for all 45 laptops 
  * twinpacts 
