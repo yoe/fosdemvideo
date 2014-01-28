@@ -15,6 +15,7 @@ ToDo
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
  * include info when+where to get tshirts
+ * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
 * h01ger: move fai from debconf to git..
 * label everything from: carl + wouter + debconf
 * print: 
