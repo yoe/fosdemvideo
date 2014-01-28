@@ -1,7 +1,3 @@
-Go fetching
-====
-* wouter home:
- * tea table
 
 ToDo
 ====
@@ -17,12 +13,16 @@ ToDo
  * include info when+where to get tshirts
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
 * h01ger: move fai from debconf to git..
-* label everything from: carl + wouter + debconf
+ * h01ger: faiify servers
+  * decide how to use storage, 2.5 tb each. 3 servers.. need config.
+  * faiifxy bonding: 
+   * /etc/modprobe.de/bonding.conf
+   * /etc/network/interfaces
+   * apt-get install ifenslave-2.6
+ * wouter: pxe laptops
 * print: 
  * building maps
-* decide how to use storage, 2.5 tb each. 3 servers.. need config.
-* test+configure installation on two laptops (only)
-
+* label everything from: carl + wouter + debconf
 * Build a list of serial numbers (for insurance)
  * for all 45 laptops 
  * twinpacts 
@@ -40,10 +40,6 @@ ToDo
  * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
 * sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
-* faiifxy bonding: 
- * /etc/modprobe.de/bonding.conf
- * /etc/network/interfaces
- * apt-get install ifenslave-2.6
 
 Basic setup
 ====
