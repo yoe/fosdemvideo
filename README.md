@@ -1,15 +1,28 @@
+Go Shopping
+====
+* wouter home:
+ * null modem cable
+ * tea table
+* wouter media markt:
+ * noka 113(?) phone for 29e
+ * 3x label printer cartridges 
+* other store
+ * buy printer cartridges (wouter knows which)
+
 ToDo
 ====
 * move fai from debconf to git..
+* configure (reset) switches
 * label everything from: carl + wouter + debconf
- * buy label tape
+* print: 
+ * building maps
+ * enable carl to print
 * decide how to use storage, 2.5 tb each. 3 servers.. need config.
 * test+configure installation on two laptops (only)
-* buy printer cartridges (wouter knows which)
 * wouter: order/confirm 5 more laptops
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * Build a list of serial numbers (for insurance)
- * h01ger wonders whether for all 45 laptops and twinpacts and cameras... oh my...
+ * for all 45 laptops and twinpacts and cameras and the 3 servers and everything with a serial number 
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
  * or mithros solution
 * document in wiki: review workflow
@@ -17,6 +30,7 @@ ToDo
  * forget streaming, REVIEW ALL THE THINGS
 * java room: confirm they want recordings, ask mario torre
 * missing tripod for hackmans camera
+ * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
 * sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
 
@@ -24,13 +38,13 @@ Basic setup
 ====
 
 * 2 main talk rooms (janson, K auditorium)
- *  streamed (the main talk rooms), if Flumotion deal works out
+ *  streamed (the main talk rooms)
  *  audio entirely done by ULB
  *  1 camera, 1 twinpact
  *  2 laptops
 
 * Lightning talks room
- * Streamed, if Flumotion deal works out
+ * Streamed
  * audio, appearantly done by ULB
  * 1 camera, 1 twinpact
  * 2 laptops
@@ -43,24 +57,16 @@ Basic setup
 Check the rooms at https://fosdem.org/2014/schedule/rooms/ 
 and https://fit.fosdem.org/wiki/Fosdem2014Devrooms 
 
-
 open questions / random stati
 ----
 * how many cameras with tripods ordered? any backups?
- 
-  19 cameras have been ordered, all come with tripods. I had been
-  planning to borrow three from IRILL (for one we'd have to use a D-I
-  box), but apparently there's been a bit of a mixup.
-  - TODO: perhaps borrow three from CCC?
+  19 cameras have been ordered, all come with tripods.
  * do they come with firewire cables?
    - No idea. Probably not all of them.
-* 45 laptops ordered. hopefully with firewire... small or big firewire?
-  - small
 * wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure? 
   - which version / branch is that?
     It's in [git](http://anonscm.debian.org/gitweb/?p=dvswitch/dvswitch.git;a=commit;h=75dda59bd2a74ffe842154a0f2d7a1d0c94fea00)
-* we need 100 power sockets for setup, status?
 * we need room cheat sheets, best written in asciidoca
  * include: if speakers insist not to be recorded, dont
 * penta integration - whats the status?
