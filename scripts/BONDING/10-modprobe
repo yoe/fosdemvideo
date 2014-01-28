@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ -e /etc/modprobe.d/bonding.conf ] && exit 0
+echo options bonding mode=4 > /etc/modprobe.d/bonding.conf
+

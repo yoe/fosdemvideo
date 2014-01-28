@@ -15,18 +15,9 @@ case $HOSTNAME in
 esac
 
 case $HOSTNAME in
-   r*master) 	echo "XORG DVSWITCH CAPTURE";;
+   video?)	echo "BONDING";;
+   r*master) 	echo "CAPTURE STORAGE XORG DVSWITCH";;
    r*slave) 	echo "CAPTURE";;
 esac
 #unused CLASSES: ENCODING ICECAST
-
-case $HOSTNAME in
-   r*master) 	echo "STORAGE";;
-esac
-
-case $HOSTNAME in 
-   r*master|r*slave)
-   		echo "DVSWITCHPUBKEY";;
-esac
-
 

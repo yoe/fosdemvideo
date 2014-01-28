@@ -54,6 +54,9 @@ debconf-video-store
 PACKAGES install ICECAST
 icecast2
 
+PACKAGES install BONDING
+ifenslave-2.6
+
 # accessable from the outside
 PACKAGES install lisa
 fail2ban

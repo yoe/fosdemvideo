@@ -12,35 +12,28 @@ ToDo
  * mail them now, tell them we mail updated infos on friday
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
- * include info when+where to get tshirts
- * include rsync howto in room cheatsheets(?)
+ * decide first: and then: include rsync howto in room cheatsheets(?)
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
  * review login url: "https://penta.fosdem.org/user/new account/"
+  * currently the cheat sheet has the github repo url instead... :/
 * h01ger: faiify server
- * faiifxy bonding: 
-  * /etc/modprobe.d/bonding.conf
-  * /etc/network/interfaces
-  * apt-get install ifenslave-2.6
  * save laptop+all logs on the server
 * print: 
  * building maps
 * everything is labeled, except: 
- * check: wouter
  * debconf tripods?
  * whatever aint here
 * Build a list of serial numbers (for insurance)
- * 4 twinpacts from KDE
  * cameras from debconf
- * wouters monitor
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
  * or mithros solution
  * add notes from talk with sesse to this very readme
  * ask trouble / jimmy about google code engine sponsoring
   * or debconf.org servers ?
-* document in wiki: review workflow
+* document in on github: review workflow
 * test on penta: review workflow
  * forget streaming, REVIEW ALL THE THINGS
-* java room: confirm they want recordings, ask mario torre
+* java room: doesnt want recordings, maybe put this on the cheatsheet - or maybe not (without a note that this will lead to rejects next year...)
 * missing tripod for hackmans camera
  * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
