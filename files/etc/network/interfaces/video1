@@ -5,7 +5,9 @@ auto lo
 iface lo inet loopback
 
 # The primary network interface
-auto bond0
+auto eth0
+# FIXME it should really be the next line but this doesnt work with the switch here 
+# auto bond0
 iface bond0 inet static
 	address 151.216.40.1
 	netmask 255.255.255.0

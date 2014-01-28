@@ -19,6 +19,7 @@ ToDo
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
  * review login url: "https://penta.fosdem.org/user/new account/"
   * currently the cheat sheet has the github repo url instead... :/
+* h01ger: put netdongle in bag
 * h01ger: faiify server
  * save laptop+all logs on the server
   * just do it
@@ -45,6 +46,8 @@ ToDo
  * add notes from talk with sesse to this very readme
  * ask trouble / jimmy about google code engine sponsoring
   * or debconf.org servers ?
+* at ULB:
+ * enable bonding again, see files/etc/network/interfaces/video?
 
 Basic setup
 ====
