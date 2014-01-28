@@ -1,11 +1,14 @@
 
 ToDo
 ====
-* buy gaffa-tape - lots of
+* wouter: buy gaffa-tape - 10 rolls
+ * ask Gerry
+* organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
 * security starts to become an issue - think about it. 
 * wouter: finish fosdem-loop.dv
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
+ * boxes?!?
  * wouter: find 2 other cameras - contacted two companies
  * wouter: order/confirm 5 more laptops - confirmed
 * mail devroom managers and/or volunteers:
@@ -18,6 +21,10 @@ ToDo
   * currently the cheat sheet has the github repo url instead... :/
 * h01ger: faiify server
  * save laptop+all logs on the server
+  * just do it
+ * make video1 central munin + nagios server
+  * setup nagios
+  * setup munin
 * print: 
  * building maps
 * everything is labeled, except: 
@@ -25,11 +32,6 @@ ToDo
  * whatever aint here
 * Build a list of serial numbers (for insurance)
  * cameras from debconf
-* streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
- * or mithros solution
- * add notes from talk with sesse to this very readme
- * ask trouble / jimmy about google code engine sponsoring
-  * or debconf.org servers ?
 * document in on github: review workflow
 * test on penta: review workflow
  * forget streaming, REVIEW ALL THE THINGS
@@ -38,6 +40,11 @@ ToDo
  * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
 * sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
+* streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
+ * or mithros solution
+ * add notes from talk with sesse to this very readme
+ * ask trouble / jimmy about google code engine sponsoring
+  * or debconf.org servers ?
 
 Basic setup
 ====
