@@ -18,6 +18,7 @@ ToDo
    * /etc/modprobe.d/bonding.conf
    * /etc/network/interfaces
    * apt-get install ifenslave-2.6
+  * save laptop+all logs on the server
  * wouter: pxe laptops
 * print: 
  * building maps
