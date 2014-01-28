@@ -16,7 +16,7 @@ ToDo
  * h01ger: faiify servers
   * decide how to use storage, 2.5 tb each. 3 servers.. need config.
   * faiifxy bonding: 
-   * /etc/modprobe.de/bonding.conf
+   * /etc/modprobe.d/bonding.conf
    * /etc/network/interfaces
    * apt-get install ifenslave-2.6
  * wouter: pxe laptops
