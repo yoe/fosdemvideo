@@ -3,4 +3,8 @@
 #
 PACKAGES install video1
 munin apache2
+nodm
+
+PACKAGES remove video1
+xscreensaver kdm
 
