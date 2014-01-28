@@ -1,0 +1,32 @@
+#! /bin/bash
+
+# assign classes for hosts at fosdem 2014
+# `hostname -f` doesnt return proper results (before running fai :)
+
+#
+#
+
+case $HOSTNAME in
+  video?|r*master|r*slave)
+		# FOSDEM is kinda debconf...
+		echo "FAIBASE DEBCONF VIDEO FOSDEM" 
+   		echo "DVSWITCHPUBKEY"
+		;;
+esac
+
+case $HOSTNAME in
+   r*master) 	echo "XORG DVSWITCH CAPTURE";;
+   r*slave) 	echo "CAPTURE";;
+esac
+#unused CLASSES: ENCODING ICECAST
+
+case $HOSTNAME in
+   r*master) 	echo "STORAGE";;
+esac
+
+case $HOSTNAME in 
+   r*master|r*slave)
+   		echo "DVSWITCHPUBKEY";;
+esac
+
+

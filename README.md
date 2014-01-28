@@ -1,6 +1,8 @@
 
 ToDo
 ====
+* security starts to become an issue - think about it. 
+* include rsync howto in room cheatsheets
 * wouter: finish fosdem-loop.dv
 * wouter: find 2 other cameras
 * wouter: configure (reset) switches
@@ -32,6 +34,9 @@ ToDo
  * what else has a serial number 
 * streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
  * or mithros solution
+ * add notes from talk with sesse to this very readme
+ * ask trouble / jimmy about google code engine sponsoring
+  * or debconf.org servers ?
 * document in wiki: review workflow
 * test on penta: review workflow
  * forget streaming, REVIEW ALL THE THINGS
