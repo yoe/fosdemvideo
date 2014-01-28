@@ -1,7 +1,6 @@
 Go fetching
 ====
 * wouter home:
- * null modem cable
  * tea table
 
 ToDo
@@ -32,6 +31,10 @@ ToDo
  * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
 * sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
+* faiifxy bonding: 
+ * /etc/modprobe.de/bonding.conf
+ * /etc/network/interfaces
+ * apt-get install ifenslave-2.6
 
 Basic setup
 ====
