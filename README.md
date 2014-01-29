@@ -6,7 +6,6 @@ ToDo
  * ask Gerry
 * organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
 * security starts to become an issue - think about it. 
-* wouter: finish fosdem-loop.dv
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
  * boxes?!?
