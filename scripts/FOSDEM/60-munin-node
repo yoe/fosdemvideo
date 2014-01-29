@@ -12,4 +12,4 @@ editfiles:
    any::
 	{ /etc/munin/munin-node.conf
 	  AppendIfNoSuchLine 'allow ^151\.216\.40\.1$'
-
+	}
