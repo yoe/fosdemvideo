@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# only run this on video1
+ifclass video1 || exit 0
+
+fcopy /etc/munin/munin.conf
