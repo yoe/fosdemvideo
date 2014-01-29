@@ -4,7 +4,7 @@
 NODM_ENABLED=true
 
 # User to autologin for
-NODM_USER=fosdemuser
+NODM_USER=dvswitch
 
 # xinit program
 NODM_XINIT=/usr/bin/xinit

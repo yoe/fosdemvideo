@@ -1,10 +1,8 @@
 
 ToDo
 ====
-* http://barbershop.grep.be/~wouter/fosdem.dv
 * wouter: buy gaffa-tape - 10 rolls
- * ask Gerry
-* organize transportation, leaving mechelen at 1100 on friday, for arrival at ULB at 1200
+* wouter: buy a working switch
 * security starts to become an issue - think about it. 
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
@@ -23,9 +21,11 @@ ToDo
 * h01ger: faiify server
  * save laptop+all logs on the server
   * just do it
+ * http://barbershop.grep.be/~wouter/fosdem.dv
  * make video1 central munin + nagios server
   * setup nagios
   * setup munin
+* h01ger: build dvswitch at from 75dda59bd2a74ffe842154a0f2d7a1d0c94fea00
 * print: 
  * building maps
 * everything is labeled, except: 
@@ -47,7 +47,6 @@ ToDo
   * or debconf.org servers ?
 * at ULB:
  * enable bonding again, see files/etc/network/interfaces/video?
-* Boot dvswitch at commit 75dda59bd2a74ffe842154a0f2d7a1d0c94fea00
 
 Basic setup
 ====

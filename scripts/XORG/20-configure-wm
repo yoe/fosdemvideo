@@ -1,4 +1,5 @@
 #!/bin/bash
 
 fcopy -M /etc/kde3/kdm/kdmrc
+fcopy -M /etc/default/nodm
 update-alternatives --set x-session-manager /usr/bin/xfce4-session
