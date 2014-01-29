@@ -1,30 +1,54 @@
 127.0.0.1 localhost
 89.16.166.49    db.debconf.org db
 
-# janson
-151.216.112.11 dvswitch1 dvswitch1.video.fosdem.org
-151.216.112.12 twinpact1 twinpact1.video.fosdem.org
-# K-auditorium
-151.216.112.21 dvswitch2 dvswitch2.video.fosdem.org
-151.216.112.22 twinpact2 twinpact2.video.fosdem.org
-# ferrer
-151.216.112.31 dvswitch3 dvswitch3.video.fosdem.org
-151.216.112.32 twinpact3 twinpact3.video.fosdem.org
-# h1301
-151.216.112.41 dvswitch4 dvswitch4.video.fosdem.org
-151.216.112.42 twinpact4 twinpact4.video.fosdem.org
-# h1302
-151.216.112.51 dvswitch5 dvswitch5.video.fosdem.org
-151.216.112.52 twinpact5 twinpact5.video.fosdem.org
+151.216.40.1  video1   video1.video.fosdem.net
+151.216.40.2  video2   video2.video.fosdem.net
+151.216.40.3  video3   video3.video.fosdem.net
 
-# spares
-151.216.112.61 spare1 spare1.video.fosdem.org
-151.216.112.62 spare2 spare2.video.fosdem.org
-151.216.112.63 spare3 spare3.video.fosdem.org
-
-# infrastructure
-151.216.112.1  gateway gw gw..video.fosdem.org gateway.video.fosdem.org
-151.216.113.1  server server.video.fosdem.org encoder1 encoder1.video.fosdem.org
+151.216.40.11 r1master r1master.video.fosdem.net
+151.216.40.12 r1slave  r1slave.video.fosdem.net
+151.216.40.21 r2master r2master.video.fosdem.net
+151.216.40.22 r2slave  r2slave.video.fosdem.net
+151.216.40.31 r3master r3master.video.fosdem.net
+151.216.40.32 r3slave  r3slave.video.fosdem.net
+151.216.40.41 r4master r4master.video.fosdem.net
+151.216.40.42 r4slave  r4slave.video.fosdem.net
+151.216.40.51 r5master r5master.video.fosdem.net
+151.216.40.52 r5slave  r5slave.video.fosdem.net
+151.216.40.61 r6master r6master.video.fosdem.net
+151.216.40.62 r6slave  r6slave.video.fosdem.net
+151.216.40.71 r7master r7master.video.fosdem.net
+151.216.40.72 r7slave  r7slave.video.fosdem.net
+151.216.40.81 r8master r8master.video.fosdem.net
+151.216.40.82 r8slave  r8slave.video.fosdem.net
+151.216.40.91 r9master r9master.video.fosdem.net
+151.216.40.92 r9slave  r9slave.video.fosdem.net
+151.216.40.101 r10master r10master.video.fosdem.net
+151.216.40.102 r10slave  r10slave.video.fosdem.net
+151.216.40.111 r11master r11master.video.fosdem.net
+151.216.40.112 r11slave  r11slave.video.fosdem.net
+151.216.40.121 r12master r12master.video.fosdem.net
+151.216.40.122 r12slave  r12slave.video.fosdem.net
+151.216.40.131 r13master r13master.video.fosdem.net
+151.216.40.132 r13slave  r13slave.video.fosdem.net
+151.216.40.141 r14master r14master.video.fosdem.net
+151.216.40.142 r14slave  r14slave.video.fosdem.net
+151.216.40.151 r15master r15master.video.fosdem.net
+151.216.40.152 r15slave  r15slave.video.fosdem.net
+151.216.40.161 r16master r16master.video.fosdem.net
+151.216.40.162 r16slave  r16slave.video.fosdem.net
+151.216.40.171 r17master r17master.video.fosdem.net
+151.216.40.172 r17slave  r17slave.video.fosdem.net
+151.216.40.181 r18master r18master.video.fosdem.net
+151.216.40.182 r18slave  r18slave.video.fosdem.net
+151.216.40.191 r19master r19master.video.fosdem.net
+151.216.40.192 r19slave  r19slave.video.fosdem.net
+151.216.40.201 r20master r20master.video.fosdem.net
+151.216.40.202 r20slave  r20slave.video.fosdem.net
+151.216.40.211 r21master r21master.video.fosdem.net
+151.216.40.212 r21slave  r21slave.video.fosdem.net
+151.216.40.221 r22master r22master.video.fosdem.net
+151.216.40.222 r22slave  r22slave.video.fosdem.net
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
