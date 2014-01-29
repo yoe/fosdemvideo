@@ -9,7 +9,7 @@
 case $HOSTNAME in
   video?|r*master|r*slave)
 		# FOSDEM is kinda debconf...
-		echo "FAIBASE DEBCONF VIDEO FOSDEM" 
+		echo "FAIBASE VIDEO FOSDEM" 
    		echo "DVSWITCHPUBKEY"
 		;;
 esac

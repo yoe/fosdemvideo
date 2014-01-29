@@ -1,11 +1,13 @@
 #
 # some packages for the video machines
 #
+PACKAGES install DEBCONF
+userdir-ldap
+
 PACKAGES install VIDEO
 munin-node smartmontools lm-sensors rsync
 mailutils postfix logcheck logcheck-database
 telnet lynx w3m screen
-userdir-ldap
 bzip2  nload dstat
 powertop
 locales-all
