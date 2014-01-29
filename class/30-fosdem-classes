@@ -7,7 +7,7 @@
 #
 
 case $HOSTNAME in
-  video?|r*master|r*slave)
+  video?|r*master|r*slave|spare*)
 		# FOSDEM is kinda debconf...
 		echo "FAIBASE VIDEO FOSDEM" 
    		echo "DVSWITCHPUBKEY"
@@ -17,7 +17,7 @@ esac
 case $HOSTNAME in
    video?)	echo "BONDING";;
    r*master) 	echo "CAPTURE STORAGE XORG DVSWITCH";;
-   r*slave) 	echo "CAPTURE XORG";;
+   r*slave|spare) 	echo "CAPTURE DVSWITCH XORG";;
 esac
 case $HOSTNAME in
    video1)	echo "XORG";;
