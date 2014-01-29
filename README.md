@@ -2,7 +2,7 @@
 ToDo
 ====
 * h01ger: rented 50e to buy gaffa tape some day before fosdem2014
-* wouter: buy gaffa-tape - 10 rolls
+* WoDaN: buys gaffa-tape - 10 rolls
 * h01ger: security starts to become an issue - think about it. 
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
