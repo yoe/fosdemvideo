@@ -23,13 +23,14 @@ room	master	slave
 22	5CB1502V36	4CZ1310K5P
 		
 spare	4CZ1330MYN	
+
+The above are all HP ProBook 6560b laptops
+
+sneak1	(hard disk) na75k8b5	
+sneak2	(hard disk) na75683m	
 		
-		
-sneak1	na75k8b5	
-sneak2	na75683m	
-		
-video1	cz232904jm	
-video2	cz232901h4	
-video3	cz232901hj	
-		
-Screen from Wouter	96LMTF047580	
+video1 	(server) cz232904jm
+video2	(server) cz232901h4
+video3	(server) cz232901hj
+
+Screen from Wouter	96LMTF047580
