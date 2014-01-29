@@ -1,4 +1,12 @@
-Room#:Serial#:Brand:Owner
-?:D1TCB0015:Panasonic:debconf
-?:063112002253:Canon:debconf
-?:063112001669:Canon:debconf
+Room#:Serial#:Brand:Owner:OtherData
+?:D1TCB0015:Panasonic:debconf:
+?:063112002253:Canon:debconf:
+?:063112001669:Canon:debconf:
+?:1007958:Sony:VideoHouse:MINI-DVCAM PD-150 NR1
+?:1006994:Sony:VideoHouse:PD-150 NR2
+?:1221690:Sony:VideoHouse:MINI-DVCAM PD170 NR 3
+?:1223754:Sony:VideoHouse:MINI-DVCAM PD170 NR1
+?:1213665:Sony:VideoHouse:SONY HVR-Z1E NR01
+?:1221678:Sony:VideoHouse:PD170 NR04
+?:400177:Sony:VideoHouse:PMW-100 NR 01
+?:1004497:Sony:VideoHouse:DVCAM DSR-PD100AP
