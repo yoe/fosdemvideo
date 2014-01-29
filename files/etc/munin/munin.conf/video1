@@ -141,3 +141,147 @@ includedir /etc/munin/munin-conf.d
 # [foo.com;]
 #       node_order Totals fii.foo.com fay.foo.com
 #
+[video1.video.fosdem.net]
+   address 151.216.40.1
+   use_node_name yes
+[video2.video.fosdem.net]
+   address 151.216.40.2
+   use_node_name yes
+[video3.video.fosdem.net]
+   address 151.216.40.3
+   use_node_name yes
+
+[r1master.video.fosdem.net]
+   address 151.216.40.11
+   use_node_name yes
+[r2master.video.fosdem.net]
+   address 151.216.40.21
+   use_node_name yes
+[r3master.video.fosdem.net]
+   address 151.216.40.31
+   use_node_name yes
+[r4master.video.fosdem.net]
+   address 151.216.40.41
+   use_node_name yes
+[r5master.video.fosdem.net]
+   address 151.216.40.51
+   use_node_name yes
+[r6master.video.fosdem.net]
+   address 151.216.40.61
+   use_node_name yes
+[r7master.video.fosdem.net]
+   address 151.216.40.71
+   use_node_name yes
+[r8master.video.fosdem.net]
+   address 151.216.40.81
+   use_node_name yes
+[r9master.video.fosdem.net]
+   address 151.216.40.91
+   use_node_name yes
+[r10master.video.fosdem.net]
+   address 151.216.40.101
+   use_node_name yes
+[r11master.video.fosdem.net]
+   address 151.216.40.111
+   use_node_name yes
+[r12master.video.fosdem.net]
+   address 151.216.40.121
+   use_node_name yes
+[r13master.video.fosdem.net]
+   address 151.216.40.131
+   use_node_name yes
+[r14master.video.fosdem.net]
+   address 151.216.40.141
+   use_node_name yes
+[r15master.video.fosdem.net]
+   address 151.216.40.151
+   use_node_name yes
+[r16master.video.fosdem.net]
+   address 151.216.40.161
+   use_node_name yes
+[r17master.video.fosdem.net]
+   address 151.216.40.171
+   use_node_name yes
+[r18master.video.fosdem.net]
+   address 151.216.40.181
+   use_node_name yes
+[r19master.video.fosdem.net]
+   address 151.216.40.191
+   use_node_name yes
+[r20master.video.fosdem.net]
+   address 151.216.40.201
+   use_node_name yes
+[r21master.video.fosdem.net]
+   address 151.216.40.211
+   use_node_name yes
+[r22master.video.fosdem.net]
+   address 151.216.40.221
+   use_node_name yes
+
+[r1slave.video.fosdem.net]
+   address 151.216.40.12
+   use_node_name yes
+[r2slave.video.fosdem.net]
+   address 151.216.40.22
+   use_node_name yes
+[r3slave.video.fosdem.net]
+   address 151.216.40.32
+   use_node_name yes
+[r4slave.video.fosdem.net]
+   address 151.216.40.42
+   use_node_name yes
+[r5slave.video.fosdem.net]
+   address 151.216.40.52
+   use_node_name yes
+[r6slave.video.fosdem.net]
+   address 151.216.40.62
+   use_node_name yes
+[r7slave.video.fosdem.net]
+   address 151.216.40.72
+   use_node_name yes
+[r8slave.video.fosdem.net]
+   address 151.216.40.82
+   use_node_name yes
+[r9slave.video.fosdem.net]
+   address 151.216.40.92
+   use_node_name yes
+[r10slave.video.fosdem.net]
+   address 151.216.40.102
+   use_node_name yes
+[r11slave.video.fosdem.net]
+   address 151.216.40.112
+   use_node_name yes
+[r12slave.video.fosdem.net]
+   address 151.216.40.122
+   use_node_name yes
+[r13slave.video.fosdem.net]
+   address 151.216.40.132
+   use_node_name yes
+[r14slave.video.fosdem.net]
+   address 151.216.40.142
+   use_node_name yes
+[r15slave.video.fosdem.net]
+   address 151.216.40.152
+   use_node_name yes
+[r16slave.video.fosdem.net]
+   address 151.216.40.162
+   use_node_name yes
+[r17slave.video.fosdem.net]
+   address 151.216.40.172
+   use_node_name yes
+[r18slave.video.fosdem.net]
+   address 151.216.40.182
+   use_node_name yes
+[r19slave.video.fosdem.net]
+   address 151.216.40.192
+   use_node_name yes
+[r20slave.video.fosdem.net]
+   address 151.216.40.202
+   use_node_name yes
+[r21slave.video.fosdem.net]
+   address 151.216.40.212
+   use_node_name yes
+[r22slave.video.fosdem.net]
+   address 151.216.40.222
+   use_node_name yes
+
