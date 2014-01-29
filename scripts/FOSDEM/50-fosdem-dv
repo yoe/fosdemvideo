@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# get the loop
+[ -f /home/dvswitch/fosdem.dv ] && exit 0
+[ -d /home/dvswitch ] || exit 0
+cd /home/dvswitch
+wget http://barbershop.grep.be/~wouter/fosdem.dv
