@@ -12,7 +12,7 @@ xset -dpms
 xset s off
 
 # run a webbrowser
-dillo http://video1.video.fosdem.net/munin &
+dillo -geometry 1275x1000 http://video1.video.fosdem.net/munin &
 
 # last command
 xfce4-session
