@@ -4,21 +4,19 @@ ToDo
 * h01ger: rented 50e to buy gaffa tape some day before fosdem2014
 * WoDaN: buys gaffa-tape - 10 rolls
 * h01ger: security starts to become an issue - think about it. 
-* wouter: build a list of contacts per devroom so we can update the rooms sheet
+* wouter: built a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
  * boxes?! friday hopefully.
  * wouter: found 2 other cameras and 4 tripods, delivered thursday around 1800
  * wouter: order/confirm 5 more laptops - confirmed
   * FIXME: needs infodesk to receive+pick them up here
-* mail devroom managers and/or volunteers on wednesday:
- * tell them the basics, include cheatcheet.pdf, tell them we mail updated infos on friday
-* mail devroom managers and/or volunteers on friday again:
- * tell them to sms us if they oversleep
- * mail them again on friday
- * repeat infos, point out cheat sheets (attach them now?)
+* mail devroom managers and/or volunteers on friday again
+ * tell them the basics, include cheatcheet.pdf
+ * reuse old mail
+ * repeat infos, point out cheat sheets (attach them now!)
  * decide first: and then: create separate cheat sheet for rsync
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
-* h01ger: faiify server
+* h01ger: fai
  * save laptop+all logs on the server
   * just do it
  * make video1 central munin + nagios server
@@ -72,13 +70,10 @@ and https://fit.fosdem.org/wiki/Fosdem2014Devrooms
 
 open questions / random stati
 ----
-* how many cameras with tripods ordered? any backups?
-  19 cameras have been ordered, all come with tripods.
-* wheezy + which dvswitch version?
+ wheezy + which dvswitch version?
   - debconf + bugfix for manual fade state machine failure? 
   - which version / branch is that?
     It's in [git](http://anonscm.debian.org/gitweb/?p=dvswitch/dvswitch.git;a=commit;h=75dda59bd2a74ffe842154a0f2d7a1d0c94fea00)
-* do we want 23 small switches to have uplink connectivity to get the data of the latops easily at night?
   - The plan is to record to the server during the event, and copy to
     local hard disk _only_ as a backup. As such, we don't necessarily
     need 23 small switches (a few would be necessary, to deal with the
@@ -114,7 +109,7 @@ disk space issues
 * 4 from Kenny (KDE)
 * 5 newly bought on eBay (no power supplies or remotes) testing now.
 
-Thats 24 in total.
+Thats 24 in total. 1 broke on Wednesday at pre-setup.
 
 People (core team)
 ----
@@ -128,7 +123,7 @@ Gear arrivals
 
 From Videohouse:
 ----------------
-8 cameras plus tripods: we can pick these up on Wednesday (need to drive to
+8 cameras but only 6 tripods: we can pick these up on Wednesday (need to drive to
 Vilvoorde, 10')
 
 From Stake5:
@@ -150,7 +145,7 @@ From Python:
 CarlFK brought:
 
 - 10 twinpacts
-- 5 more bought with FOSDEM money
+- plus 5 more bought with FOSDEM money
 - Loads of firewire cables
 
 From hackman:
