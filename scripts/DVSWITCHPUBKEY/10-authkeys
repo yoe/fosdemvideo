@@ -5,8 +5,9 @@
 #        GPL2 licenced
 #
 
-	mkdir -p /home/dvswitch/.ssh
-	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZu8SSb4W5lPwKHhbRVr0MJmlCSho5Q/lK5Sja2exqeMRtVhq0bP3jBNLZRIhs+Xg2kzfylRcCYaDJUOorTB20O3VNI9VhWSBzj+ZtzWJOuwq4o+XX4ELOi+LjZ5Yi5O6ukqlDaSZwGKvKrsD7WuuQfIIX7NhGiZQn+OGhpz3JYLgpGxnay+1qrqq3/YcCKMlIvTR0fxC7vbw6gE0uKvsSwncLHpUIE4PI5tlPuZ0J3dObDAF6UnvOl6QzTrSCP/8b/2kau4J4EGzYrg+jlK/59/9EQipffcB7B0Ev/tlZOj6WAsdsVJ9zzIjCmFOX15QEVO0INt1lWfQVVjGML2SX dvswitch@rXmaster" > /home/dvswitch/.ssh/authorized_keys
+	mkdir -m 700 -p /home/dvswitch/.ssh
+	cat > authorized_keys <<- "__EOF__"
+		ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZu8SSb4W5lPwKHhbRVr0MJmlCSho5Q/lK5Sja2exqeMRtVhq0bP3jBNLZRIhs+Xg2kzfylRcCYaDJUOorTB20O3VNI9VhWSBzj+ZtzWJOuwq4o+XX4ELOi+LjZ5Yi5O6ukqlDaSZwGKvKrsD7WuuQfIIX7NhGiZQn+OGhpz3JYLgpGxnay+1qrqq3/YcCKMlIvTR0fxC7vbw6gE0uKvsSwncLHpUIE4PI5tlPuZ0J3dObDAF6UnvOl6QzTrSCP/8b/2kau4J4EGzYrg+jlK/59/9EQipffcB7B0Ev/tlZOj6WAsdsVJ9zzIjCmFOX15QEVO0INt1lWfQVVjGML2SX dvswitch@rXmaster
+		__EOF__
 	chown dvswitch.dvswitch -R /home/dvswitch/.ssh/authorized_keys
-	chmod 700 /home/dvswitch/.ssh
 	chmod 600 /home/dvswitch/.ssh/authorized_keys
