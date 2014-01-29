@@ -110,7 +110,7 @@
           <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="13s" before="clamped" after="clamped">
-          <real guid="2880305EEAB7B53E2FBFC608A0A09A88" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -128,7 +128,7 @@
     </param>
     <param name="canvas">
       <canvas end-time="20s">
-        <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="Sponsors">
+        <layer type="import" active="true" exclude_from_rendering="false" version="0.1" desc="sponsors.pdf">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -138,79 +138,29 @@
           <param name="blend_method">
             <integer value="0" static="true"/>
           </param>
-          <param name="origin">
+          <param name="tl">
             <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
+              <x>-3.5000000000</x>
+              <y>2.4833333492</y>
             </vector>
           </param>
-          <param name="canvas">
-            <canvas>
-              <layer type="import" active="true" exclude_from_rendering="false" version="0.1" desc="sponsors.png">
-                <param name="z_depth">
-                  <real value="0.0000000000"/>
-                </param>
-                <param name="amount">
-                  <real value="1.0000000000"/>
-                </param>
-                <param name="blend_method">
-                  <integer value="0" static="true"/>
-                </param>
-                <param name="tl">
-                  <vector>
-                    <x>-7.9416666031</x>
-                    <y>4.9416666031</y>
-                  </vector>
-                </param>
-                <param name="br">
-                  <vector>
-                    <x>7.9416666031</x>
-                    <y>-4.9416666031</y>
-                  </vector>
-                </param>
-                <param name="c">
-                  <integer value="1" static="true"/>
-                </param>
-                <param name="gamma_adjust">
-                  <real value="1.0000000000"/>
-                </param>
-                <param name="filename">
-                  <string>sponsors.png</string>
-                </param>
-                <param name="time_offset">
-                  <time value="0s"/>
-                </param>
-              </layer>
-              <layer type="zoom" active="true" exclude_from_rendering="false" version="0.1">
-                <param name="amount">
-                  <real value="0.0000000000"/>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-            </canvas>
+          <param name="br">
+            <vector>
+              <x>3.5000000000</x>
+              <y>-2.4833333492</y>
+            </vector>
           </param>
-          <param name="zoom">
-            <real value="-0.9717728754"/>
+          <param name="c">
+            <integer value="1" static="true"/>
+          </param>
+          <param name="gamma_adjust">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="filename">
+            <string>sponsors.pdf</string>
           </param>
           <param name="time_offset">
             <time value="0s"/>
-          </param>
-          <param name="children_lock">
-            <bool value="false" static="true"/>
-          </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
-          <param name="outline_grow">
-            <real value="0.0000000000"/>
           </param>
         </layer>
         <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="gear">
@@ -414,13 +364,13 @@
           <param name="amount">
             <animated type="real">
               <waypoint time="10s" before="clamped" after="clamped">
-                <real guid="8CD2CABBAE3266BF28734EE8CB4CD530" value="0.0000000000"/>
+                <real value="0.0000000000"/>
               </waypoint>
               <waypoint time="13s" before="clamped" after="clamped">
-                <real guid="4B516028A97B0C05C3023B1DDF50E754" value="0.0000000000"/>
+                <real value="0.0000000000"/>
               </waypoint>
               <waypoint time="15s" before="clamped" after="clamped">
-                <real guid="65F8DA793A90E87D464B52458A15BBB8" value="1.0000000000"/>
+                <real value="1.0000000000"/>
               </waypoint>
             </animated>
           </param>
@@ -485,7 +435,7 @@
           <real value="2.0000000000"/>
         </waypoint>
         <waypoint time="13s" before="clamped" after="clamped">
-          <real guid="694343FAB9F64982485D029A3947F8A6" value="2.0000000000"/>
+          <real value="2.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -564,10 +514,10 @@
                       <real value="1.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="FCE55D442A27AD7273B951CCD6D0C5F3" value="1.0000000000"/>
+                      <real value="1.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="F8AA7124125329CA9B29D08885ACE869" value="1.0000000000"/>
+                      <real value="1.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -703,10 +653,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="DF16604AD7F4D7A6894E968D525974DB" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="FBD1578BE4A29E7FBFAF21E3FE4B7D45" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -754,13 +704,13 @@
                       </vector>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <vector guid="A81F9C40A90737A32253ED4E0CD68401">
+                      <vector>
                         <x>-0.6715722084</x>
                         <y>0.9975289106</y>
                       </vector>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <vector guid="E1621DC32EE210C228B320DC2C00FB53">
+                      <vector>
                         <x>-0.6715722084</x>
                         <y>0.9975289106</y>
                       </vector>
@@ -823,10 +773,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="B3BC31155C05886BBDBAFA6AC3E5BCBA" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="8216C8DB7C5E19815344E403DD80A321" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -903,10 +853,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="1716479CE4C985C678AFE48103BDDC43" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="1CFEB6A4558C4A5CFCB5020ED097CCA7" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -983,10 +933,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="703E4724048AFA3EF01C067C2F2A7694" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="1A3EC51090316DC3669178027D44DD02" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1063,10 +1013,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="59965E8029AC7518B3BA1F79980E8070" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="DEE80A707762C5D5BBA7811F5762196C" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1143,10 +1093,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="FAB58E60EFC5D75C1CE4C2DB97B5B8EF" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="ACB079D4035BD57A25F9C4E7502CD1BA" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1223,10 +1173,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="27A653F46FB919D0FED56439587187ED" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="2A49F14D99A3AF5C0461011B08B92047" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1303,10 +1253,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="B1D5C62F9FC517FDCB7A3180384912C0" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="66B24C8DCD0561E2096A29B8503032A2" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1395,10 +1345,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="ADEC740173367D27AE7716CF1CC90DDD" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="6DA4692505774E322B5AA30B289CAEE0" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>
@@ -1559,13 +1509,13 @@
                           </vector>
                         </waypoint>
                         <waypoint time="10s" before="clamped" after="clamped">
-                          <vector guid="E626A43A92B2A454FF3E547D3D7F52DD">
+                          <vector>
                             <x>0.3436284065</x>
                             <y>-1.6203585863</y>
                           </vector>
                         </waypoint>
                         <waypoint time="13s" before="clamped" after="clamped">
-                          <vector guid="7DDE2205F046A93291C24784D74BCEF1">
+                          <vector>
                             <x>0.3436284065</x>
                             <y>-1.6203585863</y>
                           </vector>
@@ -1623,13 +1573,13 @@
                           </vector>
                         </waypoint>
                         <waypoint time="10s" before="clamped" after="clamped">
-                          <vector guid="1B52538D2435F351D77BF13AF38F0999">
+                          <vector>
                             <x>0.3560306430</x>
                             <y>-0.4537416697</y>
                           </vector>
                         </waypoint>
                         <waypoint time="13s" before="clamped" after="clamped">
-                          <vector guid="FD377C7F87F7D28A676FC5F1F822F40E">
+                          <vector>
                             <x>0.3560306430</x>
                             <y>-0.4537416697</y>
                           </vector>
@@ -1751,10 +1701,10 @@
                       <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="10s" before="clamped" after="clamped">
-                      <real guid="FBC450AA52CDBF9E159BA7D8D967719E" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="13s" before="clamped" after="clamped">
-                      <real guid="85AD11A36C4EB5A30C6E39536CEE97E5" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                   </animated>
                 </param>

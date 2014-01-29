@@ -2,25 +2,25 @@
 ToDo
 ====
 * h01ger: rented 50e to buy gaffa tape some day before fosdem2014
-* wouter: buy gaffa-tape - 10 rolls
+* WoDaN: buys gaffa-tape - 10 rolls
 * h01ger: security starts to become an issue - think about it. 
 * wouter: build a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
- * boxes?!?
- * wouter: find 2 other cameras - contacted two companies
+ * boxes?! friday hopefully.
+ * wouter: found 2 other cameras and 4 tripods, delivered thursday around 1800
  * wouter: order/confirm 5 more laptops - confirmed
+  * FIXME: needs infodesk to receive+pick them up here
 * mail devroom managers and/or volunteers on wednesday:
  * tell them the basics, include cheatcheet.pdf, tell them we mail updated infos on friday
 * mail devroom managers and/or volunteers on friday again:
+ * tell them to sms us if they oversleep
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
  * decide first: and then: create separate cheat sheet for rsync
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
-* h01ger: put netdongle in bag
 * h01ger: faiify server
  * save laptop+all logs on the server
   * just do it
- * http://barbershop.grep.be/~wouter/fosdem.dv
  * make video1 central munin + nagios server
   * setup nagios
   * setup munin
