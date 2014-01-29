@@ -19,7 +19,6 @@ ToDo
  * decide first: and then: create separate cheat sheet for rsync
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
  * review login url: "https://penta.fosdem.org/user/new account/"
-  * currently the cheat sheet has the github repo url instead... :/
 * h01ger: put netdongle in bag
 * h01ger: faiify server
  * save laptop+all logs on the server
