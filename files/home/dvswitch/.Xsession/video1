@@ -1,0 +1,18 @@
+#
+# manual edits will be lost
+# use file $hostname in http://anonscm.debian.org/gitweb/?p=debconf-video/config.git;a=tree;f=files/home/dvswitch/.Xsession/
+#
+
+export DISPLAY=":0.0"
+
+setxkbmap -option terminate:ctrl_alt_bksp &
+
+# disable screensaver
+xset -dpms
+xset s off
+
+# run a webbrowser
+dillo http://video1.video.fosdem.net/munin &
+
+# last command
+xfce4-session

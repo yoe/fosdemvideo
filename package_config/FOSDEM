@@ -2,9 +2,9 @@
 # some packages specific for FOSDEM machines
 #
 PACKAGES install video1
+xserver-xorg-video-mga
 munin apache2
-nodm
+nodm dillo
 
 PACKAGES remove video1
 xscreensaver kdm
-
