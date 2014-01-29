@@ -1,6 +1,9 @@
 #
 # some packages specific for FOSDEM machines
 #
+PACKAGES install
+firmware-linux-free firmware-linux-nonfree
+
 PACKAGES install video1
 xserver-xorg-video-mga
 munin apache2
