@@ -9,6 +9,7 @@ As far as values go:
 - Servers: HP ProLiant DL380p Gen8, €3500 new (w/o disks), model doesn't
   exist for a year yet.
 - Cameras: various.
-  - The total current value of the VideoHouse ones (alltogether) is €6000
+  - The total current value of the VideoHouse ones (alltogether): €6000
+  - Total current value of the debconf ones (alltogether): €5000
 - hard disks: brand new, €75 apiece
 - Screen: €50 (€250 a few years ago)
