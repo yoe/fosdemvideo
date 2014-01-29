@@ -17,7 +17,7 @@ ToDo
 * mail devroom managers and/or volunteers on friday again:
  * mail them again on friday
  * repeat infos, point out cheat sheets (attach them now?)
- * decide first: and then: include rsync howto in room cheatsheets(?)
+ * decide first: and then: create separate cheat sheet for rsync
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
  * review login url: "https://penta.fosdem.org/user/new account/"
   * currently the cheat sheet has the github repo url instead... :/
@@ -38,7 +38,6 @@ ToDo
 * document in on github: review workflow
 * test on penta: review workflow
  * forget streaming, REVIEW ALL THE THINGS
-* java room: doesnt want recordings, maybe put this on the cheatsheet - or maybe not (without a note that this will lead to rejects next year...)
 * missing tripod for hackmans camera
  * hackman will bring something
 * hackman arriving friday 1930 BRU, then beer event? :-/
