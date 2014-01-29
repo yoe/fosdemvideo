@@ -1,5 +1,5 @@
 # unfortunatly...
-FAI_ALLOW_UNSIGNED="true"
+#FAI_ALLOW_UNSIGNED="true"
 
 hosterrorpatterns="XXXXX"
 hostignorepatterns="XXXXX
