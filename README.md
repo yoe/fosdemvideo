@@ -1,6 +1,7 @@
 
 ToDo
 ====
+* h01ger: rented 200e to buy gaffa tape some day before fosdem2014
 * wouter: buy gaffa-tape - 10 rolls
 * wouter: buy a working switch
 * security starts to become an issue - think about it. 
