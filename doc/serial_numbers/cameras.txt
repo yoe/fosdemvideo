@@ -10,3 +10,5 @@ Room#:Serial#:Brand:Owner:OtherData
 ?:1221678:Sony:VideoHouse:PD170 NR04
 ?:400177:Sony:VideoHouse:PMW-100 NR 01
 ?:1004497:Sony:VideoHouse:DVCAM DSR-PD100AP
+16:401000:Sony:Stake5:
+
