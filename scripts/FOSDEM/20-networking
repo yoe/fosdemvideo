@@ -7,3 +7,10 @@
 
 fcopy -M /etc/hosts 
 fcopy -M -i /etc/network/interfaces
+
+if $(pidof dhclient) ; then
+	echo Warning, killing dhclient
+	killall -9 dhclient
+	fcopy -M -i /etc/network/interfaces
+	/etc/init.d/networking restart
+fi
