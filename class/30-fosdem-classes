@@ -17,9 +17,10 @@ esac
 case $HOSTNAME in
    video?)		echo "BONDING"
 			;;
-   r*master) 		echo "CAPTURE STORAGE XORG DVSWITCH"
+   r*master) 		# ACTIVEX is only used to fire up nodm
+			echo "CAPTURE STORAGE XORG DVSWITCH"
 			;;
-   r*slave|spare) 	echo "CAPTURE DVSWITCH XORG"
+   r*slave|spare) 	echo "CAPTURE DVSWITCH XORG NOX"
 			;;
 esac
 case $HOSTNAME in
