@@ -58,7 +58,7 @@ if [ "$sink_scheme" != "$sink_loc" ]; then
 	    ;;
 	file)
 	    ssh $sink_host dvsink-files -h $MIXER_HOST -p $MIXER_PORT \
-		"'$FILE_BASE/dv/%Y-%m-%d/$ROOM_NAME/%H:%M:%S.dv'"     
+		"'$FILE_BASE/dv/$ROOM_NAME/%Y-%m-%d/%H_%M_%S.dv'"
 	    ;;
 	*)
 	    echo >&2 "WARN: Ignoring sink '$sink_loc' with unknown scheme"
