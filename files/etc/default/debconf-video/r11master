@@ -1,7 +1,7 @@
 # Name of the location from which we are recording
 CONFERENCE_NAME='FOSDEM'
 VENUE_NAME="Université Libre de Bruxelles"
-ROOM_NAME="UD2.218A"
+ROOM_NAME="UD2218A"
 # Publication details
 PUBLISH_AUTHOR='FOSDEM video team'
 PUBLISH_ORG='FOSDEM'
