@@ -1,0 +1,7 @@
+#!/bin/bash
+
+fcopy -m root,root,600 /etc/ssh/sshd_config
+/etc/init.d/ssh reload
+#fcopy -M /etc/nsswitch.conf
+#fcopy -m root,root,440 /etc/sudoers
+
