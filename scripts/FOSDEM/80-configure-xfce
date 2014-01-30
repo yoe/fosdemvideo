@@ -2,4 +2,4 @@
 
 [ -d /home/dvswitch/.config/xfce4/xfconf ] || exit 0 
 
-fcopy -M /home/dvswitch/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+fcopy -M -r /home/dvswitch/.config/xfce4/
