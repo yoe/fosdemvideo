@@ -1,0 +1,69 @@
+#!/bin/bash
+
+set -e
+
+# Read debconf-video configuration.
+VIDEO_STREAM_WIDTH=320
+VIDEO_STREAM_HEIGHT=240
+VIDEO_STREAM_KBPS=230
+VIDEO_STREAM_OPTS=
+AUDIO_STREAM_HZ=48000
+AUDIO_STREAM_KBPS=64
+ICECAST_PATH=
+source /etc/default/debconf-video
+
+# Optional variables
+if [ -z "$VIDEO_STREAM_OPTS" ]; then
+    VIDEO_STREAM_OPTS="-V $VIDEO_STREAM_KBPS --cropleft 8 --cropright 8 -x $VIDEO_STREAM_WIDTH -y $VIDEO_STREAM_HEIGHT --speedlevel 2"
+fi
+if [ -z "$ICECAST_PATH" ]; then
+    ICECAST_PATH="/${ROOM_NAME// /_}.ogv"
+fi
+
+# Read dvswitch configuration so that we don't depend on the sink
+# to be configured identically.
+source /etc/dvswitchrc
+
+# Check for the most obvious configuration errors.
+if [ -z "$MIXER_HOST" -o -z "$MIXER_PORT" ]; then
+    echo >&2 "ERROR: Mixer address not defined"
+    exit 2
+fi
+if [ -z "$FILE_BASE" ]; then
+    echo >&2 "ERROR: File store base directory not defined"
+    exit 2
+fi
+
+# Start sink via SSH.
+# Note double-escaping in some places - arguments passed to ssh are
+# joined with spaces to form a command line that is reinterpreted by
+# the remote shell.
+sink_loc="$1"
+sink_scheme="${sink_loc%%:*}"
+if [ "$sink_scheme" != "$sink_loc" ]; then
+    sink_host="${sink_loc#*:}"
+    case "$sink_scheme" in
+	icecast)
+	    ssh $sink_host dvsink-command -h $MIXER_HOST -p $MIXER_PORT \
+	        --                                                      \
+	        ffmpeg2theora -o - -f dv - $VIDEO_STREAM_OPTS		\
+ 	        -A $AUDIO_STREAM_KBPS -H $AUDIO_STREAM_HZ               \
+	        --artist "'DebConf video team'"                         \
+	        --date "'$(date +%Y-%m-%d)'"                            \
+	        --location "'$VENUE_NAME'"                              \
+	        --organization "'DebConf video team'"                   \
+	        --copyright "'DebConf video team'"                      \
+	        \| oggshout $ICECAST_ADDR $ICECAST_PORT                 \
+                "'$ICECAST_PASS'" "'$ICECAST_PATH'"            
+	    ;;
+	file)
+	    ssh $sink_host dvsink-files -h $MIXER_HOST -p $MIXER_PORT \
+		"'$FILE_BASE/dv/%Y-%m-%d/$ROOM_NAME/%H:%M:%S.dv'"     
+	    ;;
+	*)
+	    echo >&2 "WARN: Ignoring sink '$sink_loc' with unknown scheme"
+	    ;;
+    esac
+else
+    echo >&2 "WARN: Ignoring invalid sink location '$sink_loc'"
+fi
