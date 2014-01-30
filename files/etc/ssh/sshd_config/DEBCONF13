@@ -28,7 +28,8 @@ LogLevel INFO
 
 # Authentication:
 LoginGraceTime 120
-PermitRootLogin without-password   # = only with keys
+#PermitRootLogin without-password   # = only with keys
+PermitRootLogin yes   # = only with keys
 StrictModes yes
 
 RSAAuthentication yes

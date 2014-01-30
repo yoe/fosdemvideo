@@ -1,28 +1,24 @@
 
 ToDo
 ====
-* h01ger: borrowed 50e to buy boxes some day before fosdem2014
-* WoDaN: buys gaffa-tape - 10 rolls
- * RichiH: might add 5 more rolls
+* h01ger: recipts: 50+397
+* vyper needs this: ubuntu 13.04
+ * http://github.com/CarlFK/veyepar/raw/master/INSTALL.sh
+ * https://raw2.github.com/CarlFK/veyepar/master/setup/melt/mkmlt.sh
 * h01ger: security starts to become an issue - think about it. 
 * wouter: built a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
- * boxes?! friday hopefully.
  * wouter: found 2 other cameras and 4 tripods, delivered thursday around 1800
- * wouter: order/confirm 5 more laptops - confirmed
-  * FIXME: needs infodesk to receive+pick them up here
 * mail devroom managers and/or volunteers on friday again
- * tell them the basics, include cheatcheet.pdf
  * reuse old mail
+ * tell them the basics, include cheatcheet.pdf
  * repeat infos, point out cheat sheets (attach them now!)
  * decide first: and then: create separate cheat sheet for rsync
  * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
 * h01ger: fai
  * save laptop+all logs on the server
-  * just do it
  * make video1 central munin + nagios server
   * setup nagios
-  * setup munin
 * h01ger: build dvswitch at from 75dda59bd2a74ffe842154a0f2d7a1d0c94fea00
 * print: 
  * building maps
