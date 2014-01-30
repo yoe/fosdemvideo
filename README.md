@@ -178,5 +178,6 @@ This is an initial planning for what we'll do during the week before FOSDEM.
   for changes if necessary (and still possible...)
 - Saturday/Sunday, early-o-clock: go to ULB and be ready to hand out video gear
   to volunteers
-- Saturday/Sunday, 8:00 AM: yell at devrooms who've not shown up yet, go set up
-  gear there ourselves (and possibly send volunteers there as well)
+- Saturday/Sunday, one hour before start of schedule: yell at devrooms who've
+  not shown up yet, go set up gear there ourselves (and possibly send
+  volunteers there as well)
