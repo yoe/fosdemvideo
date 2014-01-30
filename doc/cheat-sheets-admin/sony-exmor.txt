@@ -1,0 +1,8 @@
+Settings required to work with TwinPact:
+
+Model HD422:
+  - MENU:
+    - VIDEO SET -> SDI/HDMI/i.LINK I/O Select: SD HDMI i & DVCAM
+    - VIDEO SET -> Down Converter: Edge Crop
+    - OTHERS -> System -> UDF/FAT: FAT
+    - OTHERS -> System -> HD/SD: HD 
