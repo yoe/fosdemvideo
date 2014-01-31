@@ -5,6 +5,8 @@ ToDo
 * vyper needs this: ubuntu 13.04
  * http://github.com/CarlFK/veyepar/raw/master/INSTALL.sh
  * https://raw2.github.com/CarlFK/veyepar/master/setup/melt/mkmlt.sh
+* setup
+ * find building coordinators
 * h01ger: security starts to become an issue - think about it. 
 * wouter: built a list of contacts per devroom so we can update the rooms sheet
 * sorted, in progress:
@@ -19,7 +21,7 @@ ToDo
  * save laptop+all logs on the server
  * make video1 central munin + nagios server
   * setup nagios
-* h01ger: build dvswitch at from 75dda59bd2a74ffe842154a0f2d7a1d0c94fea00
+* wouter: debug dvswitch from 7806db35b52028f9afc3a84bc790a13d046985d9
 * print: 
  * building maps
 * everything is labeled, except: 
@@ -64,18 +66,6 @@ Basic setup
 
 Check the rooms at https://fosdem.org/2014/schedule/rooms/ 
 and https://fit.fosdem.org/wiki/Fosdem2014Devrooms 
-
-open questions / random stati
-----
- wheezy + which dvswitch version?
-  - debconf + bugfix for manual fade state machine failure? 
-  - which version / branch is that?
-    It's in [git](http://anonscm.debian.org/gitweb/?p=dvswitch/dvswitch.git;a=commit;h=75dda59bd2a74ffe842154a0f2d7a1d0c94fea00)
-  - The plan is to record to the server during the event, and copy to
-    local hard disk _only_ as a backup. As such, we don't necessarily
-    need 23 small switches (a few would be necessary, to deal with the
-    laptops from U building; but I have some at the office, so that
-    shouldn't be a major issue)
 
 
 3 servers
