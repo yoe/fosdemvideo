@@ -1,14 +1,26 @@
 Room#:Serial#:Brand:Owner:OtherData
-?:D1TCB0015:Panasonic:debconf:
+21 (K.4.401):D1TCB0015:Panasonic:debconf:
+20 (K.4.201):?:Panasonic:debconf:
 ?:063112002253:Canon:debconf:
 ?:063112001669:Canon:debconf:
-?:1007958:Sony:VideoHouse:MINI-DVCAM PD-150 NR1
-?:1006994:Sony:VideoHouse:PD-150 NR2
-?:1221690:Sony:VideoHouse:MINI-DVCAM PD170 NR 3
-?:1223754:Sony:VideoHouse:MINI-DVCAM PD170 NR1
-?:1213665:Sony:VideoHouse:SONY HVR-Z1E NR01
-?:1221678:Sony:VideoHouse:PD170 NR04
-?:400177:Sony:VideoHouse:PMW-100 NR 01
+19 (K.3.401):1007958:Sony:VideoHouse:MINI-DVCAM PD-150 NR1
+13 (AW1.121):1006994:Sony:VideoHouse:PD-150 NR2
+14 (AW1.125):1221690:Sony:VideoHouse:MINI-DVCAM PD170 NR 3
+1 (H.1301):1223754:Sony:VideoHouse:MINI-DVCAM PD170 NR1
+18 (K.3.201):1213665:Sony:VideoHouse:SONY HVR-Z1E NR01
+12 (AW1.120):1221678:Sony:VideoHouse:PD170 NR04
+15 (AW1.126):400177:Sony:VideoHouse:PMW-100 NR 01
 ?:1004497:Sony:VideoHouse:DVCAM DSR-PD100AP
-16:401000:Sony:Stake5:
-
+16 (Janson):401000:Sony:Stake5:MPEG HD442
+17 (K.1.105):?:Sony:Stake5:MPEG HD442
+10 (UD2.120):?:Sony:Stake5:MPEG HD442
+11 (UD2.218A):?:Sony:Stake5:MPEG HD442
+7 (H.2215):?:Sony:Stake5:MPEG HD442
+8 (UA2.114):?:Sony:Stake5:EX-1R
+4 (H.1309):?:Sony:Stake5:MPEG HD442
+2 (H1302):?:JVC:Auvicom:CAM-017 GY-HM700E
+3 (H.1308):?:JVC:Auvicom:CAM-016 GY-HD 251e
+5 (H.2213):?:Sony:Auvicom:Sony DSP DVCAM
+6 (H.2214):1001189:Sony:Auvicom:PD-150 -- still need to configure!
+9 (UB2.252A):?:?:winfriedd:?
+22 (K.4.601):?:?:hackman:?
