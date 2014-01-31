@@ -2,3 +2,5 @@
 
 # carls cool bugfix he doesnt want to see upstream because he is more hostile than lennard p.
 fcopy -M /usr/bin/dc-start-sink
+chmod 755 /usr/bin/dc-start-sink
+
