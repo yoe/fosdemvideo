@@ -25,6 +25,7 @@ case $HOSTNAME in
 esac
 case $HOSTNAME in
    video1)	echo "XORG";;
+   *slave)	echo "SLAVE";;
 esac
 #unused CLASSES: ENCODING ICECAST
 

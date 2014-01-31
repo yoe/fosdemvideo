@@ -1,0 +1,22 @@
+#! /usr/sbin/cfagent -f
+
+control:
+   any::
+   actionsequence = ( files directories editfiles )
+   EditFileSize = ( 30000 )
+
+files:
+   any::
+
+directories:
+   any::
+	${target}/root/.ssh mode=0700 owner=0 group=0
+
+editfiles:
+   any::
+	{ ${target}/root/.ssh/authorized_keys
+	  AutoCreate
+	  AppendIfNoSuchLine "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8DaeLyrF6NRosUgq4MSqTr70RpFYJDea9/H0ZKtLRbeDN48yzCGN/6/9LJtSzcGmBisse5j33903TFRYpLcUmOipBmQC0cCYHJhosHngosK3rbi5KNgpwG+MvdgdUFyVh9WLjw8pTHfdg4XhNr8V5veEbqQfV/2dtSLnMAHrUMjUfMaUOrcozTTPMGOJ7i5RvutS1ryzo0SvcTuJLItINsvSC9GwVbTo1LwzKwkFGRJS9GxOAtMzSvnqq0FGVYNkgEubzOeKIAsnaMX3ecW9m5s9+b3urbPhz2A4lr9gAdLnK8SbVSGZSEqWqIIjTPVXTJJ3gcyl0uJh8GXkuwmbd sesse@pannekake.samfundet.no"
+	}
+
+
