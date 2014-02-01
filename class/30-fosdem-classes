@@ -20,8 +20,10 @@ case $HOSTNAME in
 			echo "CAPTURE STORAGE XORG DVSWITCH"
 	                echo "DVSWITCHPUBKEY"
 			;;
-   r*slave|spare) 	echo "CAPTURE DVSWITCH XORG NOX"
+   r*slave)	 	echo "CAPTURE DVSWITCH XORG NOX"
 	                echo "DVSWITCHPUBKEY"
+			;;
+   spare)		echo "XORG"
 			;;
 esac
 case $HOSTNAME in
