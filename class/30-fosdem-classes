@@ -10,7 +10,6 @@ case $HOSTNAME in
   video?|r*master|r*slave|spare*)
 		# FOSDEM is kinda debconf...
 		echo "FAIBASE VIDEO FOSDEM" 
-   		echo "DVSWITCHPUBKEY"
 		;;
 esac
 
@@ -19,8 +18,10 @@ case $HOSTNAME in
 			;;
    r*master) 		# ACTIVEX is only used to fire up nodm
 			echo "CAPTURE STORAGE XORG DVSWITCH"
+	                echo "DVSWITCHPUBKEY"
 			;;
    r*slave|spare) 	echo "CAPTURE DVSWITCH XORG NOX"
+	                echo "DVSWITCHPUBKEY"
 			;;
 esac
 case $HOSTNAME in
