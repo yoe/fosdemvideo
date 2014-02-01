@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# carls cool bugfix he doesnt want to see upstream because he is more hostile than lennard p.
+fcopy -M /etc/nagios/nrpe.cfg 
+/etc/init.d/nagios-nrpe-server  restart
+

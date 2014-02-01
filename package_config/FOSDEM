@@ -3,11 +3,15 @@
 #
 PACKAGES install
 firmware-linux-free firmware-linux-nonfree
+nagios-plugins nagios-nrpe-server
+
+
 
 PACKAGES install video1
 xserver-xorg-video-mga
 munin apache2
 nodm dillo
+nagios-nrpe-plugin icinga
 
 PACKAGES remove video1
 xscreensaver kdm
