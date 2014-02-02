@@ -5,6 +5,7 @@ Gear
 ----
 
 * Must have spare *everything*; cameras, laptops, cables, everything.
+* Add UPS for servers
 
 Orga
 ----
