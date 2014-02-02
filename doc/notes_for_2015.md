@@ -15,3 +15,4 @@ Orga
 * Make rounds when things should be up
 * Clarify to teams that we *might* be late at startup.
 * Clarify what cheat sheet is what (label one "setup", the other "operating" cheat sheet)
+* Assign a particular person to manage video volunteers (and *nothing* else)
