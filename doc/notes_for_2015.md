@@ -30,6 +30,7 @@ Orga
   - The office is not large enough to run 20+ laptops concurrently
   - It is quite a logistical effort to get everything from rental
     companies to Mechelen to ULB to Mechelen to rental companies again.
+
   The above combined mean we would need space which would ideally be:
   - Within walking distance of a hotel or other accomodation for video
     team members (so we don't need to worry about transportation and can
