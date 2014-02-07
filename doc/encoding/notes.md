@@ -7,3 +7,4 @@
   contains overlapping talks (from penta), so need to be manually
   reviewed.
 - minix on arm (Lameere) stars with ~10 minutes of speaker waiting
+- H1302_Depage/Saturday/Reproducible_Builds_for_Debian.webm: no audio
