@@ -1,48 +1,34 @@
 
-ToDo
+ToDo now
 ====
-* h01ger: recipts: 50+397
-* vyper needs this: ubuntu 13.04
- * http://github.com/CarlFK/veyepar/raw/master/INSTALL.sh
- * https://raw2.github.com/CarlFK/veyepar/master/setup/melt/mkmlt.sh
-* setup
- * find building coordinators
-* h01ger: security starts to become an issue - think about it. 
-* wouter: built a list of contacts per devroom so we can update the rooms sheet
-* sorted, in progress:
- * wouter: found 2 other cameras and 4 tripods, delivered thursday around 1800
-* mail devroom managers and/or volunteers on friday again
- * reuse old mail
- * tell them the basics, include cheatcheet.pdf
- * repeat infos, point out cheat sheets (attach them now!)
- * decide first: and then: create separate cheat sheet for rsync
- * give that info to markvandenborre too, so he can spam volunteers from volunteers.fosdem.org
-* h01ger: fai
- * save laptop+all logs on the server
- * make video1 central munin + nagios server
-  * setup nagios
-* wouter: debug dvswitch from 7806db35b52028f9afc3a84bc790a13d046985d9
-* print: 
- * building maps
-* everything is labeled, except: 
- * 4 twinpacts from KDE (need to assign room numbers in serial_numbers file) 
- * whatever aint here
-* Build a list of serial numbers (for insurance)
- * whatever aint here
-* document in on github: review workflow
-* test on penta: review workflow
- * forget streaming, REVIEW ALL THE THINGS
-* missing tripod for hackmans camera
- * hackman will bring something
-* hackman arriving friday 1930 BRU, then beer event? :-/
-* sylvestre/tobias IRILL camera arrives saturday 1000oish at ULB
-* streaming: use http://git.sesse.net/?p=videoredirector;a=summary and get sesse to join
- * or mithros solution
- * add notes from talk with sesse to this very readme
- * ask trouble / jimmy about google code engine sponsoring
-  * or debconf.org servers ?
-* at ULB:
- * enable bonding again, see files/etc/network/interfaces/video?
+
+* cleanup this very file
+* copy icinga.cfg und munin foo
+* document this:
+ * $ kinit holger@FOSDEM.ORG
+ * $ ssh -o 'GSSAPIAuthentication yes' holger@apeiron.fosdem.org
+* collect recipts and send them to trouble
+ * h01ger: recipts: 50+397
+* write down lists of things which can+should be improved
+
+ToDo later
+====
+* send debconf stuff to irill
+* build cubemap on wheezy
+* enhance
+ * building coordinatorsa
+ * print more
+  * building maps
+  * room / name 
+  * checklists
+ * wouter: built a list of contacts per devroom so we can update the rooms sheet
+ * mail devroom managers and/or volunteers on friday again
+ * 3 cheatsheets
+ * fai
+  * save laptop+all logs on the server
+  * remove BONDING
+ * prepare things better: label everything, put camera positions into maps(!)
+
 
 Basic setup
 ====
