@@ -31,4 +31,4 @@ xterm -e "dc-start-sink file:r8master" &
 #xterm -e "while true ; do dc-start-sink metacube:hiresencoder1 ; done" &
 
 # last command
-xfce4-session
+icewm-session

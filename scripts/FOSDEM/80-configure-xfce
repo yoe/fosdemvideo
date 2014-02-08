@@ -1,5 +1,0 @@
-#!/bin/bash
-
-[ -d /home/dvswitch/.config/xfce4/xfconf ] || exit 0 
-
-fcopy -M -r /home/dvswitch/.config/xfce4/
