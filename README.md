@@ -2,14 +2,13 @@
 ToDo now
 ====
 
-* cleanup this very file
-* copy icinga.cfg und munin foo
 * document this:
  * $ kinit holger@FOSDEM.ORG
  * $ ssh -o 'GSSAPIAuthentication yes' holger@apeiron.fosdem.org
 * collect recipts and send them to trouble
  * h01ger: recipts: 50+397
 * write down lists of things which can+should be improved
+ * 22 pairs of headphones
 
 ToDo later
 ====
