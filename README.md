@@ -52,7 +52,7 @@ ToDo later
     companies to Mechelen to ULB to Mechelen to rental companies again.
 
   The above combined mean we would need space which would ideally be:
-  - Within walking distance of a hotel or other accomodation for video
+  - Within walking distance of a hotel or other accommodation for video
     team members (so we don't need to worry about transportation and can
     work until the wee hours of the night if needs be),
   - Within a reasonable distance of the ULB (so moving gear from that
